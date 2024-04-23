@@ -1,0 +1,29 @@
+{
+  "id": "contracts/contracts/security",
+  "title": "Security",
+  "description": "",
+  "source": "@site/docs/contracts/contracts/security.md",
+  "sourceDirName": "contracts/contracts",
+  "slug": "/contracts/contracts/security",
+  "permalink": "/docs/contracts/contracts/security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/contracts/contracts/security.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "security",
+    "title": "Security"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Deployment Addresses",
+    "permalink": "/docs/contracts/contracts/deployment-addresses"
+  },
+  "next": {
+    "title": "Technical Reference",
+    "permalink": "/docs/contracts/contracts/technical-reference"
+  }
+}

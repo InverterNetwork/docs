@@ -1,0 +1,29 @@
+{
+  "id": "faq/general-faq",
+  "title": "General FAQ",
+  "description": "",
+  "source": "@site/docs/faq/general-faq.md",
+  "sourceDirName": "faq",
+  "slug": "/faq/general-faq",
+  "permalink": "/docs/faq/general-faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/faq/general-faq.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "general-faq",
+    "title": "General FAQ"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Control Room",
+    "permalink": "/docs/apps/control-room"
+  },
+  "next": {
+    "title": "Technical FAQ",
+    "permalink": "/docs/faq/technical-faq"
+  }
+}

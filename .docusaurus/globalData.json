@@ -1,0 +1,197 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting-started/intro",
+          "docs": [
+            {
+              "id": "apps/control-room",
+              "path": "/docs/apps/control-room",
+              "sidebar": "docs"
+            },
+            {
+              "id": "apps/overview",
+              "path": "/docs/apps/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/glossary",
+              "path": "/docs/concepts/glossary",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/governance",
+              "path": "/docs/concepts/governance",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/protocol-concepts",
+              "path": "/docs/concepts/protocol-concepts",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/use-cases",
+              "path": "/docs/concepts/use-cases",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/what-is-inverter-network",
+              "path": "/docs/concepts/what-is-inverter-network",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/build-contribute/development-workflow",
+              "path": "/docs/contracts/build-contribute/development-workflow",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/build-contribute/guides",
+              "path": "/docs/contracts/build-contribute/guides",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/build-contribute/overview",
+              "path": "/docs/contracts/build-contribute/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/build-contribute/quick-start",
+              "path": "/docs/contracts/build-contribute/quick-start",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/contracts/deployment-addresses",
+              "path": "/docs/contracts/contracts/deployment-addresses",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/contracts/overview",
+              "path": "/docs/contracts/contracts/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/contracts/security",
+              "path": "/docs/contracts/contracts/security",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/contracts/technical-reference",
+              "path": "/docs/contracts/contracts/technical-reference",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/overview",
+              "path": "/docs/contracts/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "contracts/SDK",
+              "path": "/docs/contracts/SDK",
+              "sidebar": "docs"
+            },
+            {
+              "id": "faq/general-faq",
+              "path": "/docs/faq/general-faq",
+              "sidebar": "docs"
+            },
+            {
+              "id": "faq/technical-faq",
+              "path": "/docs/faq/technical-faq",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/deploying-your-workflow",
+              "path": "/docs/getting-started/deploying-your-workflow",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/develop-a-module",
+              "path": "/docs/getting-started/develop-a-module",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/intro",
+              "path": "/docs/getting-started/intro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/start-learning",
+              "path": "/docs/getting-started/start-learning",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/understanding-architecture",
+              "path": "/docs/getting-started/understanding-architecture",
+              "sidebar": "docs"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro"
+            },
+            {
+              "id": "modules/bounty-manager",
+              "path": "/docs/modules/bounty-manager",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/kpi-rewarder",
+              "path": "/docs/modules/kpi-rewarder",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/list-based-authorizer",
+              "path": "/docs/modules/list-based-authorizer",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/rebasing-funding-manager",
+              "path": "/docs/modules/rebasing-funding-manager",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/recurring-payment-manager",
+              "path": "/docs/modules/recurring-payment-manager",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/simple-payment-processor",
+              "path": "/docs/modules/simple-payment-processor",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/single-vote-governance-module",
+              "path": "/docs/modules/single-vote-governance-module",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/streaming-payment-processor",
+              "path": "/docs/modules/streaming-payment-processor",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/token-gated-role-authorizer",
+              "path": "/docs/modules/token-gated-role-authorizer",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/docs/getting-started/intro",
+                "label": "getting-started/intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

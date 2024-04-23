@@ -1,0 +1,29 @@
+{
+  "id": "concepts/glossary",
+  "title": "Glossary",
+  "description": "",
+  "source": "@site/docs/concepts/glossary.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/glossary",
+  "permalink": "/docs/concepts/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/concepts/glossary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "id": "glossary",
+    "title": "Glossary"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Governance",
+    "permalink": "/docs/concepts/governance"
+  },
+  "next": {
+    "title": "Bounty Manager",
+    "permalink": "/docs/modules/bounty-manager"
+  }
+}

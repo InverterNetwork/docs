@@ -1,0 +1,1192 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://www.inverter.network/docs",
+          "editUrlLocalized": "https://www.inverter.network/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/bc/Inverter-Docs/sidebars.js",
+          "contentPath": "/Users/bc/Inverter-Docs/docs",
+          "contentPathLocalized": "/Users/bc/Inverter-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "apps/control-room",
+              "title": "Control Room",
+              "description": "",
+              "source": "@site/docs/apps/control-room.md",
+              "sourceDirName": "apps",
+              "slug": "/apps/control-room",
+              "permalink": "/docs/apps/control-room",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/apps/control-room.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "Id": "control-room",
+                "title": "Control Room"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/apps/overview"
+              },
+              "next": {
+                "title": "General FAQ",
+                "permalink": "/docs/faq/general-faq"
+              }
+            },
+            {
+              "id": "apps/overview",
+              "title": "Overview",
+              "description": "",
+              "source": "@site/docs/apps/overview.md",
+              "sourceDirName": "apps",
+              "slug": "/apps/overview",
+              "permalink": "/docs/apps/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/apps/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "Id": "overview",
+                "Title": "Overview"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Technical Reference",
+                "permalink": "/docs/contracts/contracts/technical-reference"
+              },
+              "next": {
+                "title": "Control Room",
+                "permalink": "/docs/apps/control-room"
+              }
+            },
+            {
+              "id": "concepts/glossary",
+              "title": "Glossary",
+              "description": "",
+              "source": "@site/docs/concepts/glossary.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/glossary",
+              "permalink": "/docs/concepts/glossary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/concepts/glossary.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "id": "glossary",
+                "title": "Glossary"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Governance",
+                "permalink": "/docs/concepts/governance"
+              },
+              "next": {
+                "title": "Bounty Manager",
+                "permalink": "/docs/modules/bounty-manager"
+              }
+            },
+            {
+              "id": "concepts/governance",
+              "title": "Governance",
+              "description": "",
+              "source": "@site/docs/concepts/governance.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/governance",
+              "permalink": "/docs/concepts/governance",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/concepts/governance.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "governance",
+                "title": "Governance"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Protocol Concepts",
+                "permalink": "/docs/concepts/protocol-concepts"
+              },
+              "next": {
+                "title": "Glossary",
+                "permalink": "/docs/concepts/glossary"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts",
+              "title": "Protocol Concepts",
+              "description": "",
+              "source": "@site/docs/concepts/protocol-concepts.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/protocol-concepts",
+              "permalink": "/docs/concepts/protocol-concepts",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/concepts/protocol-concepts.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "protocol-concepts",
+                "title": "Protocol Concepts"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Use Cases",
+                "permalink": "/docs/concepts/use-cases"
+              },
+              "next": {
+                "title": "Governance",
+                "permalink": "/docs/concepts/governance"
+              }
+            },
+            {
+              "id": "concepts/use-cases",
+              "title": "Use Cases",
+              "description": "Inverter workflows can enable a wide variety of use cases between multiple stakeholders, from conditioned payment streams to dynamic staking mechanisms, from investable workstreams to fully-fledged protocols, and many more novel use cases Inverter will unlock with its technology partners.",
+              "source": "@site/docs/concepts/use-cases.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/use-cases",
+              "permalink": "/docs/concepts/use-cases",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/concepts/use-cases.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "use-cases",
+                "title": "Use Cases"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "What is Inverter Network",
+                "permalink": "/docs/concepts/what-is-inverter-network"
+              },
+              "next": {
+                "title": "Protocol Concepts",
+                "permalink": "/docs/concepts/protocol-concepts"
+              }
+            },
+            {
+              "id": "concepts/what-is-inverter-network",
+              "title": "What is Inverter Network",
+              "description": "Inverter Network is a modular infrastructure for system design & protocol development. With a vision to simplify building on the blockchain, it offers the Inverter Open Library of Modules; reusable, upgradable, tested & audited repository of stand-alone smart contracts; that can be customized and composed into protocols and mechanisms. Its core operator contract, the Orchestrator, acts as the interoperability layer and connects enabled modules for managing asset flows, authorizations, and other logic functionalities. With this design, projects can immediately adapt and modify functionalities without additional development and auditing costs.",
+              "source": "@site/docs/concepts/what-is-inverter-network.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/what-is-inverter-network",
+              "permalink": "/docs/concepts/what-is-inverter-network",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/concepts/what-is-inverter-network.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "what-is-inverter-network",
+                "title": "What is Inverter Network"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Understanding The Architecture",
+                "permalink": "/docs/getting-started/understanding-architecture"
+              },
+              "next": {
+                "title": "Use Cases",
+                "permalink": "/docs/concepts/use-cases"
+              }
+            },
+            {
+              "id": "contracts/build-contribute/development-workflow",
+              "title": "Development Workflow",
+              "description": "",
+              "source": "@site/docs/contracts/build-contribute/development-workflow.md",
+              "sourceDirName": "contracts/build-contribute",
+              "slug": "/contracts/build-contribute/development-workflow",
+              "permalink": "/docs/contracts/build-contribute/development-workflow",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/development-workflow.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "development-workflow",
+                "title": "Development Workflow"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/contracts/build-contribute/overview"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/docs/contracts/build-contribute/guides"
+              }
+            },
+            {
+              "id": "contracts/build-contribute/guides",
+              "title": "Guides",
+              "description": "",
+              "source": "@site/docs/contracts/build-contribute/guides.md",
+              "sourceDirName": "contracts/build-contribute",
+              "slug": "/contracts/build-contribute/guides",
+              "permalink": "/docs/contracts/build-contribute/guides",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/guides.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "guides",
+                "title": "Guides"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Development Workflow",
+                "permalink": "/docs/contracts/build-contribute/development-workflow"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/contracts/contracts/overview"
+              }
+            },
+            {
+              "id": "contracts/build-contribute/overview",
+              "title": "Overview",
+              "description": "",
+              "source": "@site/docs/contracts/build-contribute/overview.md",
+              "sourceDirName": "contracts/build-contribute",
+              "slug": "/contracts/build-contribute/overview",
+              "permalink": "/docs/contracts/build-contribute/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "overview",
+                "title": "Overview"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Quick Start",
+                "permalink": "/docs/contracts/build-contribute/quick-start"
+              },
+              "next": {
+                "title": "Development Workflow",
+                "permalink": "/docs/contracts/build-contribute/development-workflow"
+              }
+            },
+            {
+              "id": "contracts/build-contribute/quick-start",
+              "title": "Quick Start",
+              "description": "",
+              "source": "@site/docs/contracts/build-contribute/quick-start.md",
+              "sourceDirName": "contracts/build-contribute",
+              "slug": "/contracts/build-contribute/quick-start",
+              "permalink": "/docs/contracts/build-contribute/quick-start",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/quick-start.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "quick-start",
+                "title": "Quick Start"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "SDK",
+                "permalink": "/docs/contracts/SDK"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/contracts/build-contribute/overview"
+              }
+            },
+            {
+              "id": "contracts/contracts/deployment-addresses",
+              "title": "Deployment Addresses",
+              "description": "",
+              "source": "@site/docs/contracts/contracts/deployment-addresses.md",
+              "sourceDirName": "contracts/contracts",
+              "slug": "/contracts/contracts/deployment-addresses",
+              "permalink": "/docs/contracts/contracts/deployment-addresses",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/contracts/deployment-addresses.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "deployment-addresses",
+                "title": "Deployment Addresses"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/contracts/contracts/overview"
+              },
+              "next": {
+                "title": "Security",
+                "permalink": "/docs/contracts/contracts/security"
+              }
+            },
+            {
+              "id": "contracts/contracts/overview",
+              "title": "Overview",
+              "description": "- Summary of sections:",
+              "source": "@site/docs/contracts/contracts/overview.md",
+              "sourceDirName": "contracts/contracts",
+              "slug": "/contracts/contracts/overview",
+              "permalink": "/docs/contracts/contracts/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/contracts/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "overview",
+                "title": "Overview"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Guides",
+                "permalink": "/docs/contracts/build-contribute/guides"
+              },
+              "next": {
+                "title": "Deployment Addresses",
+                "permalink": "/docs/contracts/contracts/deployment-addresses"
+              }
+            },
+            {
+              "id": "contracts/contracts/security",
+              "title": "Security",
+              "description": "",
+              "source": "@site/docs/contracts/contracts/security.md",
+              "sourceDirName": "contracts/contracts",
+              "slug": "/contracts/contracts/security",
+              "permalink": "/docs/contracts/contracts/security",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/contracts/security.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "security",
+                "title": "Security"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Deployment Addresses",
+                "permalink": "/docs/contracts/contracts/deployment-addresses"
+              },
+              "next": {
+                "title": "Technical Reference",
+                "permalink": "/docs/contracts/contracts/technical-reference"
+              }
+            },
+            {
+              "id": "contracts/contracts/technical-reference",
+              "title": "Technical Reference",
+              "description": "",
+              "source": "@site/docs/contracts/contracts/technical-reference.md",
+              "sourceDirName": "contracts/contracts",
+              "slug": "/contracts/contracts/technical-reference",
+              "permalink": "/docs/contracts/contracts/technical-reference",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/contracts/technical-reference.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "technical-reference",
+                "title": "Technical Reference"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Security",
+                "permalink": "/docs/contracts/contracts/security"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/apps/overview"
+              }
+            },
+            {
+              "id": "contracts/overview",
+              "title": "Overview",
+              "description": "- Summary of sections:",
+              "source": "@site/docs/contracts/overview.md",
+              "sourceDirName": "contracts",
+              "slug": "/contracts/overview",
+              "permalink": "/docs/contracts/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "overview",
+                "title": "Overview"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Streaming Payment Processor",
+                "permalink": "/docs/modules/streaming-payment-processor"
+              },
+              "next": {
+                "title": "SDK",
+                "permalink": "/docs/contracts/SDK"
+              }
+            },
+            {
+              "id": "contracts/SDK",
+              "title": "SDK",
+              "description": "Certainly! Here's the full documentation content for integrating the Inverter Network SDK into your project, formatted as a single markdown section suitable for Docusaurus:",
+              "source": "@site/docs/contracts/SDK.md",
+              "sourceDirName": "contracts",
+              "slug": "/contracts/SDK",
+              "permalink": "/docs/contracts/SDK",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/contracts/SDK.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/contracts/overview"
+              },
+              "next": {
+                "title": "Quick Start",
+                "permalink": "/docs/contracts/build-contribute/quick-start"
+              }
+            },
+            {
+              "id": "faq/general-faq",
+              "title": "General FAQ",
+              "description": "",
+              "source": "@site/docs/faq/general-faq.md",
+              "sourceDirName": "faq",
+              "slug": "/faq/general-faq",
+              "permalink": "/docs/faq/general-faq",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/faq/general-faq.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "general-faq",
+                "title": "General FAQ"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Control Room",
+                "permalink": "/docs/apps/control-room"
+              },
+              "next": {
+                "title": "Technical FAQ",
+                "permalink": "/docs/faq/technical-faq"
+              }
+            },
+            {
+              "id": "faq/technical-faq",
+              "title": "Technical FAQ",
+              "description": "",
+              "source": "@site/docs/faq/technical-faq.md",
+              "sourceDirName": "faq",
+              "slug": "/faq/technical-faq",
+              "permalink": "/docs/faq/technical-faq",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/faq/technical-faq.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "technical-faq",
+                "title": "Technical FAQ"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "General FAQ",
+                "permalink": "/docs/faq/general-faq"
+              }
+            },
+            {
+              "id": "getting-started/deploying-your-workflow",
+              "title": "Deploying Your Workflow",
+              "description": "",
+              "source": "@site/docs/getting-started/deploying-your-workflow.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/deploying-your-workflow",
+              "permalink": "/docs/getting-started/deploying-your-workflow",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/getting-started/deploying-your-workflow.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "deploying-your-workflow",
+                "title": "Deploying Your Workflow"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/getting-started/intro"
+              },
+              "next": {
+                "title": "Develop a module",
+                "permalink": "/docs/getting-started/develop-a-module"
+              }
+            },
+            {
+              "id": "getting-started/develop-a-module",
+              "title": "Develop a module",
+              "description": "",
+              "source": "@site/docs/getting-started/develop-a-module.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/develop-a-module",
+              "permalink": "/docs/getting-started/develop-a-module",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/getting-started/develop-a-module.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "develop-a-module",
+                "title": "Develop a module"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Deploying Your Workflow",
+                "permalink": "/docs/getting-started/deploying-your-workflow"
+              },
+              "next": {
+                "title": "Start Learning",
+                "permalink": "/docs/getting-started/start-learning"
+              }
+            },
+            {
+              "id": "getting-started/intro",
+              "title": "Getting Started",
+              "description": "Inverter is a modular infrastructure protocol that enables programmable smart contract workflows. Simply put, it offers the Inverter Open Library of Smart Contract Modules that can be customized and composed into automated workflows (in this context workflows refer to user journeys or use cases) that are executed on the Orchestrator Contract. Each module acts as a specialized tool like in a carpenter’s kit that can be combined with others to build more extensive and more complex structures.",
+              "source": "@site/docs/getting-started/intro.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/intro",
+              "permalink": "/docs/getting-started/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/getting-started/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "intro",
+                "title": "Getting Started"
+              },
+              "sidebar": "docs",
+              "next": {
+                "title": "Deploying Your Workflow",
+                "permalink": "/docs/getting-started/deploying-your-workflow"
+              }
+            },
+            {
+              "id": "getting-started/start-learning",
+              "title": "Start Learning",
+              "description": "Inverter’s protocol architecture subdivides a smart contract into smaller modules, allowing you to design full-fledged protocols seamlessly by assembling modules, switch in and out custom logics, and operate your business without manual development.",
+              "source": "@site/docs/getting-started/start-learning.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/start-learning",
+              "permalink": "/docs/getting-started/start-learning",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/getting-started/start-learning.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "start-learning",
+                "title": "Start Learning"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Develop a module",
+                "permalink": "/docs/getting-started/develop-a-module"
+              },
+              "next": {
+                "title": "Understanding The Architecture",
+                "permalink": "/docs/getting-started/understanding-architecture"
+              }
+            },
+            {
+              "id": "getting-started/understanding-architecture",
+              "title": "Understanding The Architecture",
+              "description": "In this section, we describe the various smart contracts and their functionalities. Together with the general architecture and main interfaces, we also present the structure designed to accommodate future extensions of the overall architecture.",
+              "source": "@site/docs/getting-started/understanding-architecture.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/understanding-architecture",
+              "permalink": "/docs/getting-started/understanding-architecture",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/getting-started/understanding-architecture.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "id": "understanding-architecture",
+                "title": "Understanding The Architecture"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Start Learning",
+                "permalink": "/docs/getting-started/start-learning"
+              },
+              "next": {
+                "title": "What is Inverter Network",
+                "permalink": "/docs/concepts/what-is-inverter-network"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Tutorial Intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              }
+            },
+            {
+              "id": "modules/bounty-manager",
+              "title": "Bounty Manager",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/modules/bounty-manager.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/bounty-manager",
+              "permalink": "/docs/modules/bounty-manager",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/bounty-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Glossary",
+                "permalink": "/docs/concepts/glossary"
+              },
+              "next": {
+                "title": "KPI Rewarder",
+                "permalink": "/docs/modules/kpi-rewarder"
+              }
+            },
+            {
+              "id": "modules/kpi-rewarder",
+              "title": "KPI Rewarder",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/modules/kpi-rewarder.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/kpi-rewarder",
+              "permalink": "/docs/modules/kpi-rewarder",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/kpi-rewarder.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bounty Manager",
+                "permalink": "/docs/modules/bounty-manager"
+              },
+              "next": {
+                "title": "List-based Role Authorizer",
+                "permalink": "/docs/modules/list-based-authorizer"
+              }
+            },
+            {
+              "id": "modules/list-based-authorizer",
+              "title": "List-based Role Authorizer",
+              "description": "Module Category: Authorizer",
+              "source": "@site/docs/modules/list-based-authorizer.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/list-based-authorizer",
+              "permalink": "/docs/modules/list-based-authorizer",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/list-based-authorizer.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "KPI Rewarder",
+                "permalink": "/docs/modules/kpi-rewarder"
+              },
+              "next": {
+                "title": "Token Gated Role Authorizer",
+                "permalink": "/docs/modules/token-gated-role-authorizer"
+              }
+            },
+            {
+              "id": "modules/rebasing-funding-manager",
+              "title": "Rebasing Funding Manager",
+              "description": "Module Category: Funding Manager",
+              "source": "@site/docs/modules/rebasing-funding-manager.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/rebasing-funding-manager",
+              "permalink": "/docs/modules/rebasing-funding-manager",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/rebasing-funding-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Token Gated Role Authorizer",
+                "permalink": "/docs/modules/token-gated-role-authorizer"
+              },
+              "next": {
+                "title": "Recurring Payment Manager",
+                "permalink": "/docs/modules/recurring-payment-manager"
+              }
+            },
+            {
+              "id": "modules/recurring-payment-manager",
+              "title": "Recurring Payment Manager",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/modules/recurring-payment-manager.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/recurring-payment-manager",
+              "permalink": "/docs/modules/recurring-payment-manager",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/recurring-payment-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Rebasing Funding Manager",
+                "permalink": "/docs/modules/rebasing-funding-manager"
+              },
+              "next": {
+                "title": "Simple Payment Processor",
+                "permalink": "/docs/modules/simple-payment-processor"
+              }
+            },
+            {
+              "id": "modules/simple-payment-processor",
+              "title": "Simple Payment Processor",
+              "description": "Module Category: Payment Processor",
+              "source": "@site/docs/modules/simple-payment-processor.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/simple-payment-processor",
+              "permalink": "/docs/modules/simple-payment-processor",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/simple-payment-processor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Recurring Payment Manager",
+                "permalink": "/docs/modules/recurring-payment-manager"
+              },
+              "next": {
+                "title": "Single Vote Governance Module",
+                "permalink": "/docs/modules/single-vote-governance-module"
+              }
+            },
+            {
+              "id": "modules/single-vote-governance-module",
+              "title": "Single Vote Governance Module",
+              "description": "Module Category: Governance",
+              "source": "@site/docs/modules/single-vote-governance-module.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/single-vote-governance-module",
+              "permalink": "/docs/modules/single-vote-governance-module",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/single-vote-governance-module.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Simple Payment Processor",
+                "permalink": "/docs/modules/simple-payment-processor"
+              },
+              "next": {
+                "title": "Streaming Payment Processor",
+                "permalink": "/docs/modules/streaming-payment-processor"
+              }
+            },
+            {
+              "id": "modules/streaming-payment-processor",
+              "title": "Streaming Payment Processor",
+              "description": "Module Category: Payment Processor",
+              "source": "@site/docs/modules/streaming-payment-processor.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/streaming-payment-processor",
+              "permalink": "/docs/modules/streaming-payment-processor",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/streaming-payment-processor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Single Vote Governance Module",
+                "permalink": "/docs/modules/single-vote-governance-module"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/contracts/overview"
+              }
+            },
+            {
+              "id": "modules/token-gated-role-authorizer",
+              "title": "Token Gated Role Authorizer",
+              "description": "Module Category: Authorizer",
+              "source": "@site/docs/modules/token-gated-role-authorizer.md",
+              "sourceDirName": "modules",
+              "slug": "/modules/token-gated-role-authorizer",
+              "permalink": "/docs/modules/token-gated-role-authorizer",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/token-gated-role-authorizer.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "List-based Role Authorizer",
+                "permalink": "/docs/modules/list-based-authorizer"
+              },
+              "next": {
+                "title": "Rebasing Funding Manager",
+                "permalink": "/docs/modules/rebasing-funding-manager"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docs": [
+              {
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/deploying-your-workflow"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/develop-a-module"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/start-learning"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/understanding-architecture"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Concepts",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "concepts/what-is-inverter-network"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/use-cases"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/protocol-concepts"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/governance"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/glossary"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Modules",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/bounty-manager"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/kpi-rewarder"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/list-based-authorizer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/token-gated-role-authorizer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/rebasing-funding-manager"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/recurring-payment-manager"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/simple-payment-processor"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/single-vote-governance-module"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/streaming-payment-processor"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Contracts",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "contracts/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "contracts/SDK"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Build/Contribute",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "contracts/build-contribute/quick-start"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "contracts/build-contribute/overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "contracts/build-contribute/development-workflow"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "contracts/build-contribute/guides"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Contracts",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "contracts/contracts/overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "contracts/contracts/deployment-addresses"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "contracts/contracts/security"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "contracts/contracts/technical-reference"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Apps",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "apps/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "apps/control-room"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "FAQ",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "faq/general-faq"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "faq/technical-faq"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

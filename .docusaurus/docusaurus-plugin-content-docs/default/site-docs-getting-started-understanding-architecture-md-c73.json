@@ -1,0 +1,29 @@
+{
+  "id": "getting-started/understanding-architecture",
+  "title": "Understanding The Architecture",
+  "description": "In this section, we describe the various smart contracts and their functionalities. Together with the general architecture and main interfaces, we also present the structure designed to accommodate future extensions of the overall architecture.",
+  "source": "@site/docs/getting-started/understanding-architecture.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/understanding-architecture",
+  "permalink": "/docs/getting-started/understanding-architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/getting-started/understanding-architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "id": "understanding-architecture",
+    "title": "Understanding The Architecture"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Start Learning",
+    "permalink": "/docs/getting-started/start-learning"
+  },
+  "next": {
+    "title": "What is Inverter Network",
+    "permalink": "/docs/concepts/what-is-inverter-network"
+  }
+}

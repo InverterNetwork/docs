@@ -1,0 +1,29 @@
+{
+  "id": "apps/control-room",
+  "title": "Control Room",
+  "description": "",
+  "source": "@site/docs/apps/control-room.md",
+  "sourceDirName": "apps",
+  "slug": "/apps/control-room",
+  "permalink": "/docs/apps/control-room",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/apps/control-room.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "Id": "control-room",
+    "title": "Control Room"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/apps/overview"
+  },
+  "next": {
+    "title": "General FAQ",
+    "permalink": "/docs/faq/general-faq"
+  }
+}

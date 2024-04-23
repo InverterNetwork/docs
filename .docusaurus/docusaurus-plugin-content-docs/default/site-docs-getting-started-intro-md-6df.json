@@ -1,0 +1,25 @@
+{
+  "id": "getting-started/intro",
+  "title": "Getting Started",
+  "description": "Inverter is a modular infrastructure protocol that enables programmable smart contract workflows. Simply put, it offers the Inverter Open Library of Smart Contract Modules that can be customized and composed into automated workflows (in this context workflows refer to user journeys or use cases) that are executed on the Orchestrator Contract. Each module acts as a specialized tool like in a carpenter’s kit that can be combined with others to build more extensive and more complex structures.",
+  "source": "@site/docs/getting-started/intro.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/intro",
+  "permalink": "/docs/getting-started/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/getting-started/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "intro",
+    "title": "Getting Started"
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Deploying Your Workflow",
+    "permalink": "/docs/getting-started/deploying-your-workflow"
+  }
+}

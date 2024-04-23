@@ -1,0 +1,25 @@
+{
+  "id": "faq/technical-faq",
+  "title": "Technical FAQ",
+  "description": "",
+  "source": "@site/docs/faq/technical-faq.md",
+  "sourceDirName": "faq",
+  "slug": "/faq/technical-faq",
+  "permalink": "/docs/faq/technical-faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/faq/technical-faq.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "technical-faq",
+    "title": "Technical FAQ"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "General FAQ",
+    "permalink": "/docs/faq/general-faq"
+  }
+}

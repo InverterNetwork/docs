@@ -1,0 +1,29 @@
+{
+  "id": "concepts/protocol-concepts",
+  "title": "Protocol Concepts",
+  "description": "",
+  "source": "@site/docs/concepts/protocol-concepts.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/protocol-concepts",
+  "permalink": "/docs/concepts/protocol-concepts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/concepts/protocol-concepts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "protocol-concepts",
+    "title": "Protocol Concepts"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Use Cases",
+    "permalink": "/docs/concepts/use-cases"
+  },
+  "next": {
+    "title": "Governance",
+    "permalink": "/docs/concepts/governance"
+  }
+}

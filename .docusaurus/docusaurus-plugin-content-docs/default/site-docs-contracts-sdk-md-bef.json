@@ -1,0 +1,27 @@
+{
+  "id": "contracts/SDK",
+  "title": "SDK",
+  "description": "Certainly! Here's the full documentation content for integrating the Inverter Network SDK into your project, formatted as a single markdown section suitable for Docusaurus:",
+  "source": "@site/docs/contracts/SDK.md",
+  "sourceDirName": "contracts",
+  "slug": "/contracts/SDK",
+  "permalink": "/docs/contracts/SDK",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/contracts/SDK.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/contracts/overview"
+  },
+  "next": {
+    "title": "Quick Start",
+    "permalink": "/docs/contracts/build-contribute/quick-start"
+  }
+}

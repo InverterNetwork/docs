@@ -1,0 +1,27 @@
+{
+  "id": "modules/rebasing-funding-manager",
+  "title": "Rebasing Funding Manager",
+  "description": "Module Category: Funding Manager",
+  "source": "@site/docs/modules/rebasing-funding-manager.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/rebasing-funding-manager",
+  "permalink": "/docs/modules/rebasing-funding-manager",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/rebasing-funding-manager.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Token Gated Role Authorizer",
+    "permalink": "/docs/modules/token-gated-role-authorizer"
+  },
+  "next": {
+    "title": "Recurring Payment Manager",
+    "permalink": "/docs/modules/recurring-payment-manager"
+  }
+}

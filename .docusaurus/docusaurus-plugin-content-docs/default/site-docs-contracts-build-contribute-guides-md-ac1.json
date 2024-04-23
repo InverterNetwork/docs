@@ -1,0 +1,29 @@
+{
+  "id": "contracts/build-contribute/guides",
+  "title": "Guides",
+  "description": "",
+  "source": "@site/docs/contracts/build-contribute/guides.md",
+  "sourceDirName": "contracts/build-contribute",
+  "slug": "/contracts/build-contribute/guides",
+  "permalink": "/docs/contracts/build-contribute/guides",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/guides.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "guides",
+    "title": "Guides"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Development Workflow",
+    "permalink": "/docs/contracts/build-contribute/development-workflow"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/contracts/contracts/overview"
+  }
+}

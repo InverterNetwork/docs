@@ -1,0 +1,29 @@
+{
+  "id": "getting-started/start-learning",
+  "title": "Start Learning",
+  "description": "Inverter’s protocol architecture subdivides a smart contract into smaller modules, allowing you to design full-fledged protocols seamlessly by assembling modules, switch in and out custom logics, and operate your business without manual development.",
+  "source": "@site/docs/getting-started/start-learning.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/start-learning",
+  "permalink": "/docs/getting-started/start-learning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/getting-started/start-learning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "start-learning",
+    "title": "Start Learning"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Develop a module",
+    "permalink": "/docs/getting-started/develop-a-module"
+  },
+  "next": {
+    "title": "Understanding The Architecture",
+    "permalink": "/docs/getting-started/understanding-architecture"
+  }
+}

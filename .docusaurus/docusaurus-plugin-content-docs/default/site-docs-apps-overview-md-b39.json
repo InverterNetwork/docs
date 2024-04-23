@@ -1,0 +1,29 @@
+{
+  "id": "apps/overview",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/docs/apps/overview.md",
+  "sourceDirName": "apps",
+  "slug": "/apps/overview",
+  "permalink": "/docs/apps/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/apps/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "Id": "overview",
+    "Title": "Overview"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Technical Reference",
+    "permalink": "/docs/contracts/contracts/technical-reference"
+  },
+  "next": {
+    "title": "Control Room",
+    "permalink": "/docs/apps/control-room"
+  }
+}

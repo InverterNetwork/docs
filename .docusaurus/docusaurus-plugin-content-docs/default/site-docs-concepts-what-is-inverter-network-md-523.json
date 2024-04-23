@@ -1,0 +1,29 @@
+{
+  "id": "concepts/what-is-inverter-network",
+  "title": "What is Inverter Network",
+  "description": "Inverter Network is a modular infrastructure for system design & protocol development. With a vision to simplify building on the blockchain, it offers the Inverter Open Library of Modules; reusable, upgradable, tested & audited repository of stand-alone smart contracts; that can be customized and composed into protocols and mechanisms. Its core operator contract, the Orchestrator, acts as the interoperability layer and connects enabled modules for managing asset flows, authorizations, and other logic functionalities. With this design, projects can immediately adapt and modify functionalities without additional development and auditing costs.",
+  "source": "@site/docs/concepts/what-is-inverter-network.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/what-is-inverter-network",
+  "permalink": "/docs/concepts/what-is-inverter-network",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/concepts/what-is-inverter-network.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "what-is-inverter-network",
+    "title": "What is Inverter Network"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Understanding The Architecture",
+    "permalink": "/docs/getting-started/understanding-architecture"
+  },
+  "next": {
+    "title": "Use Cases",
+    "permalink": "/docs/concepts/use-cases"
+  }
+}

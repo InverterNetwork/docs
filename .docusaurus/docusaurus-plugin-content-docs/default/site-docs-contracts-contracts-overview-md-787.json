@@ -1,0 +1,29 @@
+{
+  "id": "contracts/contracts/overview",
+  "title": "Overview",
+  "description": "- Summary of sections:",
+  "source": "@site/docs/contracts/contracts/overview.md",
+  "sourceDirName": "contracts/contracts",
+  "slug": "/contracts/contracts/overview",
+  "permalink": "/docs/contracts/contracts/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/contracts/contracts/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "overview",
+    "title": "Overview"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Guides",
+    "permalink": "/docs/contracts/build-contribute/guides"
+  },
+  "next": {
+    "title": "Deployment Addresses",
+    "permalink": "/docs/contracts/contracts/deployment-addresses"
+  }
+}

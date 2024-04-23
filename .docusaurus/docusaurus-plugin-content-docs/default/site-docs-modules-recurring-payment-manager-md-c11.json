@@ -1,0 +1,27 @@
+{
+  "id": "modules/recurring-payment-manager",
+  "title": "Recurring Payment Manager",
+  "description": "Module Category: Logic Module",
+  "source": "@site/docs/modules/recurring-payment-manager.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/recurring-payment-manager",
+  "permalink": "/docs/modules/recurring-payment-manager",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/recurring-payment-manager.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Rebasing Funding Manager",
+    "permalink": "/docs/modules/rebasing-funding-manager"
+  },
+  "next": {
+    "title": "Simple Payment Processor",
+    "permalink": "/docs/modules/simple-payment-processor"
+  }
+}
