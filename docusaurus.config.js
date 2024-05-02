@@ -7,11 +7,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Adjusted to point to the GitHub pages domain you should use for Inverter
-  url: 'https://inverter-protocol.github.io',
+  url: 'https://inverternetwork.github.io',
   baseUrl: '/inverter-documentation/',
 
   // Adjusted organizationName to match your GitHub organization and projectName to your repository
-  organizationName: 'inverter-protocol',
+  organizationName: 'inverter-network',
   projectName: 'inverter-documentation',
 
   onBrokenLinks: 'throw',
@@ -29,7 +29,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Adjusted to provide the correct link for editing documents
-          editUrl: 'https://github.com/inverter-protocol/inverter-documentation/edit/main/',
+          editUrl: 'https://github.com/inverternetwork/inverter-documentation/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
