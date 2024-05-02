@@ -28,7 +28,6 @@ This specific user journey needs to consist of the following Inverter Open Libra
 
 ![Use Case](/img/use-case.png)
 
-
 # Inverter Open Library Modules
 
 **Role Authorizer Module** - Authorizes payments and permissions for different stakeholder roles.

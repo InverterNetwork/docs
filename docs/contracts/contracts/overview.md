@@ -7,5 +7,5 @@ title: Overview
 # Overview
 
 - Summary of sections:
-    - SDK
-    - Technical Reference
+  - SDK
+  - Technical Reference

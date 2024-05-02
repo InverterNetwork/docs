@@ -5,5 +5,3 @@ title: Control Room
 ---
 
 # Control Room
-
-

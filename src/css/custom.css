@@ -6,9 +6,9 @@
   --ifm-color-primary-dark: #1949d0; /* primary-focus */
   --ifm-color-primary-darker: #1949d0; /* similar to primary-focus for consistency */
   --ifm-color-primary-darkest: #1949d0; /* similar to primary-focus for depth */
-  --ifm-color-primary-light: #547EFF; /* slightly lighter shade for variety */
-  --ifm-color-primary-lighter: #547EFF; /* slightly lighter shade for more variety */
-  --ifm-color-primary-lightest: #547EFF; /* lightest shade for subtle effects */
+  --ifm-color-primary-light: #547eff; /* slightly lighter shade for variety */
+  --ifm-color-primary-lighter: #547eff; /* slightly lighter shade for more variety */
+  --ifm-color-primary-lightest: #547eff; /* lightest shade for subtle effects */
   --ifm-color-secondary: #ffd139; /* secondary */
   --ifm-color-secondary-dark: #ffbb1f; /* secondary-focus */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -16,10 +16,10 @@
 
 /* Dark Theme */
 [data-theme='dark'] {
-  --ifm-color-primary: #547EFF; /* primary in dark base */
-  --ifm-color-primary-dark: #2E5CE8; /* primary-focus in dark base */
-  --ifm-color-primary-darker: #2E5CE8; /* similar to primary-focus for consistency */
-  --ifm-color-primary-darkest: #2E5CE8; /* similar to primary-focus for depth */
+  --ifm-color-primary: #547eff; /* primary in dark base */
+  --ifm-color-primary-dark: #2e5ce8; /* primary-focus in dark base */
+  --ifm-color-primary-darker: #2e5ce8; /* similar to primary-focus for consistency */
+  --ifm-color-primary-darkest: #2e5ce8; /* similar to primary-focus for depth */
   --ifm-color-primary-light: #667acc; /* light primary for variety */
   --ifm-color-primary-lighter: #7d8ed4; /* lighter primary for variety */
   --ifm-color-primary-lightest: #8898d7; /* lightest primary for subtle effects */
@@ -29,15 +29,15 @@
 }
 
 html[data-theme='dark'] {
-    --ifm-background-color: #1a171b; /* base-100 in dark base */
-    --ifm-background-surface-color: #1a171b; /* base-200 in dark base */
-    --ifm-navbar-shadow: 0;
+  --ifm-background-color: #1a171b; /* base-100 in dark base */
+  --ifm-background-surface-color: #1a171b; /* base-200 in dark base */
+  --ifm-navbar-shadow: 0;
 }
 
 html[data-theme='dark'] pre code {
-    background-color: var(--ifm-code-background);
+  background-color: var(--ifm-code-background);
 }
 
 html[data-theme='dark'] footer {
-    --ifm-footer-background-color: #18191b;
+  --ifm-footer-background-color: #18191b;
 }

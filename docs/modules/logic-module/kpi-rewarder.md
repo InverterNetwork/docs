@@ -2,27 +2,25 @@
 sidebar_position: 3
 ---
 
-# KPI Rewarder 
+# KPI Rewarder
+
 ### Module Category: Logic Module
 
+KPI Rewarder allows dynamic payments based on on/off-chain KPIs set by the project. It leverages UMA’s Optimistic Oracle to verify the KPI data.
 
-KPI Rewarder allows dynamic payments based on on/off-chain KPIs set by the project. It leverages UMA’s Optimistic Oracle to verify the KPI data. 
-
-KPI Rewarder checks and validates KPIs, generates payment orders, and manages the distribution of those payments. It enables the distribution of payments or rewards according to defined performance outcomes. 
-
+KPI Rewarder checks and validates KPIs, generates payment orders, and manages the distribution of those payments. It enables the distribution of payments or rewards according to defined performance outcomes.
 
 # Modules Functionalities
-## Parameters to set: 
+
+## Parameters to set:
 
 ### KPI-Based Payment Parameters
 
 **Reward Structure:** Supports various reward structures, including proportional payouts and tiered rewards. These structures can be adjusted based on total value locked or specific performance metrics, allowing for flexibility in reward distribution.
 
-
 **Maximum Payout:** Sets the upper limit on rewards for a given period.
 
 **Recurring Query Periods:** Defines the recurring period for the KPIs to be checked with the Oracle.
-
 
 ### UMA Oracle Parameters
 
@@ -31,7 +29,6 @@ KPI Rewarder checks and validates KPIs, generates payment orders, and manages th
 **Recurring Query Periods:** Specifies the intervals at which the system will automatically ask the UMA Oracle for KPI evaluations.
 
 **Maximum Payout:** Sets the maximum payout limit for each period, which helps control the disbursement of rewards.
-
 
 ### Automated Module Interactions:
 

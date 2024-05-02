@@ -24,7 +24,6 @@ Inverter Network is built on a foundation of modular infrastructure. This design
 
 The Orchestrator is essential for the protocol, acting as the interoperability layer that connects different modules. It manages asset flows, authorizations, and the execution of logic functionalities, enhancing the protocol's flexibility and operational efficiency.
 
-
 # Inverter Open Library of Modules
 
 At the core of Inverter's ecosystem is the Open Library of Modules, a repository of smart contracts that are reusable, upgradable, and have been thoroughly tested. This library serves as a crucial resource for building interoperable solutions and is maintained by a community committed to the protocol’s growth and innovation.

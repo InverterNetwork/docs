@@ -3,6 +3,7 @@ sidebar_position: 6
 ---
 
 # Simple Payment Processor
+
 ### Module Category: Payment Processor
 
 Simple Payment Processor facilitates direct, one-time payments to designated recipients. Once initiated, payments are final and irreversible.
