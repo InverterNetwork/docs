@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "Overview",
-    "permalink": "/docs/contracts/overview"
-  },
-  "next": {
-    "title": "Quick Start",
-    "permalink": "/docs/contracts/build-contribute/quick-start"
   }
 }

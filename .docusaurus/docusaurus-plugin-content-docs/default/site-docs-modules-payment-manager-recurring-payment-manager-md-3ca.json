@@ -1,0 +1,27 @@
+{
+  "id": "modules/payment-manager/recurring-payment-manager",
+  "title": "Recurring Payment Manager",
+  "description": "Module Category: Logic Module",
+  "source": "@site/docs/modules/payment-manager/recurring-payment-manager.md",
+  "sourceDirName": "modules/payment-manager",
+  "slug": "/modules/payment-manager/recurring-payment-manager",
+  "permalink": "/docs/modules/payment-manager/recurring-payment-manager",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/payment-manager/recurring-payment-manager.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "KPI Rewarder",
+    "permalink": "/docs/modules/logic-module/kpi-rewarder"
+  },
+  "next": {
+    "title": "Simple Payment Processor",
+    "permalink": "/docs/modules/payment-processor/simple-payment-processor"
+  }
+}

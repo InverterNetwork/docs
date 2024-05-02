@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 # Single Vote Governance Module
-### Module Category: Governance
+### Module Category: Authorizer
 
 Single Vote Governance Module implements a threshold-based voting system for authorizing smart contract functions. It holds a list of authorized addresses that can initiate votes. Other addresses can support or reject these votes, which remain open for a specified period. 
 

@@ -14,23 +14,53 @@ module.exports = {
       'concepts/governance',
       'concepts/glossary',
     ],
-
-     'Modules': [
-      'modules/bounty-manager',
-      'modules/kpi-rewarder',
-      'modules/list-based-authorizer',
-      'modules/token-gated-role-authorizer',
-      'modules/rebasing-funding-manager',
-      'modules/recurring-payment-manager',
-      'modules/simple-payment-processor',
-      'modules/single-vote-governance-module',
-      'modules/streaming-payment-processor',
+    'Modules': [
+      {
+        type: 'category',
+        label: 'Authorizer',
+        items: [
+          'modules/authorizer/overview',
+          'modules/authorizer/role-authorizer',
+          'modules/authorizer/token-gated-role-authorizer',
+          'modules/authorizer/single-vote-governance-module',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Funding Manager',
+        items: [
+          'modules/funding-manager/overview',
+          'modules/funding-manager/bonding-curve',
+          'modules/funding-manager/rebasing-funding-manager',
+          'modules/funding-manager/staking-manager',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Logic Module',
+        items: [
+          'modules/logic-module/overview',
+          'modules/logic-module/bounty-manager',
+          'modules/logic-module/kpi-rewarder',
+        ],
+      },
+      
+      {
+        type: 'category',
+        label: 'Payment Processor',
+        items: [
+          'modules/payment-processor/overview',
+          'modules/payment-processor/simple-payment-processor',
+          'modules/payment-processor/recurring-payment-manager',
+          'modules/payment-processor/streaming-payment-processor',
+        ],
+      },
     ],
-
+    'SDK': [
+      'SDK/control-room',
+    ],
     'Contracts': [
       'contracts/overview',
-      'contracts/SDK',
-  
       {
         type: 'category',
         label: 'Build/Contribute',
@@ -56,6 +86,17 @@ module.exports = {
       'apps/overview',
       'apps/control-room',
     ],
-    'FAQ': ['faq/general-faq', 'faq/technical-faq'],
+    'Security Standard': [  // Corrected spelling from "Standart" to "Standard"
+      'Security/security-guideline',
+      'Security/protocol-architecture',
+      'Security/testing',
+      'Security/audits',
+      'Security/intervention',
+      'Security/access-control',
+    ],
+    'FAQ': [
+      'faq/general-faq',
+      'faq/technical-faq',
+    ],
   },
 };

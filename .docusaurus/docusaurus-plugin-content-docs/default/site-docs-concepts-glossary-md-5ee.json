@@ -23,7 +23,7 @@
     "permalink": "/docs/concepts/governance"
   },
   "next": {
-    "title": "Bounty Manager",
-    "permalink": "/docs/modules/bounty-manager"
+    "title": "About Authorizer Modules",
+    "permalink": "/docs/modules/authorizer/overview"
   }
 }

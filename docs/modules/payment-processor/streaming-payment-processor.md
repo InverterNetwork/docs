@@ -16,15 +16,17 @@ It provides a vested payment option for modules that facilitate the transfer of 
 
 **Vesting Duration:** Sets the exact date and time for vesting. This determines when tokens can be fully claimed.
 
-### Module Interactions: 
+# Module Interactions: 
 
-**Claim Vests:** Enables users to claim vested assets for all the recipients, or to claim vested assets for a specific recipient.
+### For Administrators
+
+**Remove Payment:** Cancels payment for a specific recipient, transferring any unlocked funds to the recipient before removal.
 
 **Cancel Running Payments:** Cancels all payments associated with a particular payment client, affecting all recipients.
 
-**Remove Payments:** Clears payments for a specific recipient linked to a designated payment client, transferring any unlocked funds to the recipient before removal.
+### For Claimers
 
-
+**Claim Vests:** Enables users to claim vested assets for all the recipients, or to claim vested assets for a specific recipient.
 
 
 

@@ -1,0 +1,27 @@
+{
+  "id": "modules/funding-manager/bonding-curve",
+  "title": "Bonding Curve Bancor Funding Manager",
+  "description": "Module Category: Funding Manager",
+  "source": "@site/docs/modules/funding-manager/bonding-curve.md",
+  "sourceDirName": "modules/funding-manager",
+  "slug": "/modules/funding-manager/bonding-curve",
+  "permalink": "/docs/modules/funding-manager/bonding-curve",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/funding-manager/bonding-curve.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "About Funding Manager Modules",
+    "permalink": "/docs/modules/funding-manager/overview"
+  },
+  "next": {
+    "title": "Rebasing Funding Manager",
+    "permalink": "/docs/modules/funding-manager/rebasing-funding-manager"
+  }
+}

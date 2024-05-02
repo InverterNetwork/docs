@@ -1,0 +1,27 @@
+{
+  "id": "Security/access-control",
+  "title": "Access Control and Permissions",
+  "description": "5.1 Governance and Protocol Upgrades",
+  "source": "@site/docs/Security/access-control.md",
+  "sourceDirName": "Security",
+  "slug": "/Security/access-control",
+  "permalink": "/docs/Security/access-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/Security/access-control.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Intervention Mechanisms",
+    "permalink": "/docs/Security/intervention"
+  },
+  "next": {
+    "title": "General FAQ",
+    "permalink": "/docs/faq/general-faq"
+  }
+}

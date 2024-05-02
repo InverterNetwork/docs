@@ -1,0 +1,27 @@
+{
+  "id": "modules/authorizer/role-authorizer",
+  "title": "Role Authorizer",
+  "description": "Module Category: Authorizer",
+  "source": "@site/docs/modules/authorizer/role-authorizer.md",
+  "sourceDirName": "modules/authorizer",
+  "slug": "/modules/authorizer/role-authorizer",
+  "permalink": "/docs/modules/authorizer/role-authorizer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/authorizer/role-authorizer.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "About Authorizer Modules",
+    "permalink": "/docs/modules/authorizer/overview"
+  },
+  "next": {
+    "title": "Token Gated Role Authorizer",
+    "permalink": "/docs/modules/authorizer/token-gated-role-authorizer"
+  }
+}

@@ -44,8 +44,8 @@
                 "permalink": "/docs/apps/overview"
               },
               "next": {
-                "title": "General FAQ",
-                "permalink": "/docs/faq/general-faq"
+                "title": "Inverter Security Guideline",
+                "permalink": "/docs/Security/security-guideline"
               }
             },
             {
@@ -102,8 +102,8 @@
                 "permalink": "/docs/concepts/governance"
               },
               "next": {
-                "title": "Bounty Manager",
-                "permalink": "/docs/modules/bounty-manager"
+                "title": "About Authorizer Modules",
+                "permalink": "/docs/modules/authorizer/overview"
               }
             },
             {
@@ -330,8 +330,8 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "SDK",
-                "permalink": "/docs/contracts/SDK"
+                "title": "Overview",
+                "permalink": "/docs/contracts/overview"
               },
               "next": {
                 "title": "Overview",
@@ -475,12 +475,12 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Streaming Payment Processor",
-                "permalink": "/docs/modules/streaming-payment-processor"
+                "title": "Tutorial Intro",
+                "permalink": "/docs/SDK/control-room"
               },
               "next": {
-                "title": "SDK",
-                "permalink": "/docs/contracts/SDK"
+                "title": "Quick Start",
+                "permalink": "/docs/contracts/build-contribute/quick-start"
               }
             },
             {
@@ -499,15 +499,6 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/docs/contracts/overview"
-              },
-              "next": {
-                "title": "Quick Start",
-                "permalink": "/docs/contracts/build-contribute/quick-start"
               }
             },
             {
@@ -531,8 +522,8 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Control Room",
-                "permalink": "/docs/apps/control-room"
+                "title": "Access Control and Permissions",
+                "permalink": "/docs/Security/access-control"
               },
               "next": {
                 "title": "Technical FAQ",
@@ -724,16 +715,16 @@
               }
             },
             {
-              "id": "modules/bounty-manager",
-              "title": "Bounty Manager",
-              "description": "Module Category: Logic Module",
-              "source": "@site/docs/modules/bounty-manager.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/bounty-manager",
-              "permalink": "/docs/modules/bounty-manager",
+              "id": "modules/authorizer/overview",
+              "title": "About Authorizer Modules",
+              "description": "This module defines and enforces the permission structure of the system. It specifies the different stakeholder roles within the protocol and the actions each stakeholder is allowed to execute. Stakeholders can be users or other modules.",
+              "source": "@site/docs/modules/authorizer/overview.md",
+              "sourceDirName": "modules/authorizer",
+              "slug": "/modules/authorizer/overview",
+              "permalink": "/docs/modules/authorizer/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/bounty-manager.md",
+              "editUrl": "https://www.inverter.network/docs/modules/authorizer/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -746,48 +737,21 @@
                 "permalink": "/docs/concepts/glossary"
               },
               "next": {
-                "title": "KPI Rewarder",
-                "permalink": "/docs/modules/kpi-rewarder"
+                "title": "Role Authorizer",
+                "permalink": "/docs/modules/authorizer/role-authorizer"
               }
             },
             {
-              "id": "modules/kpi-rewarder",
-              "title": "KPI Rewarder",
-              "description": "Module Category: Logic Module",
-              "source": "@site/docs/modules/kpi-rewarder.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/kpi-rewarder",
-              "permalink": "/docs/modules/kpi-rewarder",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/kpi-rewarder.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Bounty Manager",
-                "permalink": "/docs/modules/bounty-manager"
-              },
-              "next": {
-                "title": "List-based Role Authorizer",
-                "permalink": "/docs/modules/list-based-authorizer"
-              }
-            },
-            {
-              "id": "modules/list-based-authorizer",
-              "title": "List-based Role Authorizer",
+              "id": "modules/authorizer/role-authorizer",
+              "title": "Role Authorizer",
               "description": "Module Category: Authorizer",
-              "source": "@site/docs/modules/list-based-authorizer.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/list-based-authorizer",
-              "permalink": "/docs/modules/list-based-authorizer",
+              "source": "@site/docs/modules/authorizer/role-authorizer.md",
+              "sourceDirName": "modules/authorizer",
+              "slug": "/modules/authorizer/role-authorizer",
+              "permalink": "/docs/modules/authorizer/role-authorizer",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/list-based-authorizer.md",
+              "editUrl": "https://www.inverter.network/docs/modules/authorizer/role-authorizer.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -796,106 +760,25 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "KPI Rewarder",
-                "permalink": "/docs/modules/kpi-rewarder"
+                "title": "About Authorizer Modules",
+                "permalink": "/docs/modules/authorizer/overview"
               },
               "next": {
                 "title": "Token Gated Role Authorizer",
-                "permalink": "/docs/modules/token-gated-role-authorizer"
+                "permalink": "/docs/modules/authorizer/token-gated-role-authorizer"
               }
             },
             {
-              "id": "modules/rebasing-funding-manager",
-              "title": "Rebasing Funding Manager",
-              "description": "Module Category: Funding Manager",
-              "source": "@site/docs/modules/rebasing-funding-manager.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/rebasing-funding-manager",
-              "permalink": "/docs/modules/rebasing-funding-manager",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/rebasing-funding-manager.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Token Gated Role Authorizer",
-                "permalink": "/docs/modules/token-gated-role-authorizer"
-              },
-              "next": {
-                "title": "Recurring Payment Manager",
-                "permalink": "/docs/modules/recurring-payment-manager"
-              }
-            },
-            {
-              "id": "modules/recurring-payment-manager",
-              "title": "Recurring Payment Manager",
-              "description": "Module Category: Logic Module",
-              "source": "@site/docs/modules/recurring-payment-manager.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/recurring-payment-manager",
-              "permalink": "/docs/modules/recurring-payment-manager",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/recurring-payment-manager.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Rebasing Funding Manager",
-                "permalink": "/docs/modules/rebasing-funding-manager"
-              },
-              "next": {
-                "title": "Simple Payment Processor",
-                "permalink": "/docs/modules/simple-payment-processor"
-              }
-            },
-            {
-              "id": "modules/simple-payment-processor",
-              "title": "Simple Payment Processor",
-              "description": "Module Category: Payment Processor",
-              "source": "@site/docs/modules/simple-payment-processor.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/simple-payment-processor",
-              "permalink": "/docs/modules/simple-payment-processor",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/simple-payment-processor.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Recurring Payment Manager",
-                "permalink": "/docs/modules/recurring-payment-manager"
-              },
-              "next": {
-                "title": "Single Vote Governance Module",
-                "permalink": "/docs/modules/single-vote-governance-module"
-              }
-            },
-            {
-              "id": "modules/single-vote-governance-module",
+              "id": "modules/authorizer/single-vote-governance-module",
               "title": "Single Vote Governance Module",
-              "description": "Module Category: Governance",
-              "source": "@site/docs/modules/single-vote-governance-module.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/single-vote-governance-module",
-              "permalink": "/docs/modules/single-vote-governance-module",
+              "description": "Module Category: Authorizer",
+              "source": "@site/docs/modules/authorizer/single-vote-governance-module.md",
+              "sourceDirName": "modules/authorizer",
+              "slug": "/modules/authorizer/single-vote-governance-module",
+              "permalink": "/docs/modules/authorizer/single-vote-governance-module",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/single-vote-governance-module.md",
+              "editUrl": "https://www.inverter.network/docs/modules/authorizer/single-vote-governance-module.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -904,52 +787,25 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Simple Payment Processor",
-                "permalink": "/docs/modules/simple-payment-processor"
+                "title": "Token Gated Role Authorizer",
+                "permalink": "/docs/modules/authorizer/token-gated-role-authorizer"
               },
               "next": {
-                "title": "Streaming Payment Processor",
-                "permalink": "/docs/modules/streaming-payment-processor"
+                "title": "About Funding Manager Modules",
+                "permalink": "/docs/modules/funding-manager/overview"
               }
             },
             {
-              "id": "modules/streaming-payment-processor",
-              "title": "Streaming Payment Processor",
-              "description": "Module Category: Payment Processor",
-              "source": "@site/docs/modules/streaming-payment-processor.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/streaming-payment-processor",
-              "permalink": "/docs/modules/streaming-payment-processor",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/streaming-payment-processor.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Single Vote Governance Module",
-                "permalink": "/docs/modules/single-vote-governance-module"
-              },
-              "next": {
-                "title": "Overview",
-                "permalink": "/docs/contracts/overview"
-              }
-            },
-            {
-              "id": "modules/token-gated-role-authorizer",
+              "id": "modules/authorizer/token-gated-role-authorizer",
               "title": "Token Gated Role Authorizer",
               "description": "Module Category: Authorizer",
-              "source": "@site/docs/modules/token-gated-role-authorizer.md",
-              "sourceDirName": "modules",
-              "slug": "/modules/token-gated-role-authorizer",
-              "permalink": "/docs/modules/token-gated-role-authorizer",
+              "source": "@site/docs/modules/authorizer/token-gated-role-authorizer.md",
+              "sourceDirName": "modules/authorizer",
+              "slug": "/modules/authorizer/token-gated-role-authorizer",
+              "permalink": "/docs/modules/authorizer/token-gated-role-authorizer",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/token-gated-role-authorizer.md",
+              "editUrl": "https://www.inverter.network/docs/modules/authorizer/token-gated-role-authorizer.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -958,12 +814,498 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "List-based Role Authorizer",
-                "permalink": "/docs/modules/list-based-authorizer"
+                "title": "Role Authorizer",
+                "permalink": "/docs/modules/authorizer/role-authorizer"
+              },
+              "next": {
+                "title": "Single Vote Governance Module",
+                "permalink": "/docs/modules/authorizer/single-vote-governance-module"
+              }
+            },
+            {
+              "id": "modules/funding-manager/bonding-curve",
+              "title": "Bonding Curve Bancor Funding Manager",
+              "description": "Module Category: Funding Manager",
+              "source": "@site/docs/modules/funding-manager/bonding-curve.md",
+              "sourceDirName": "modules/funding-manager",
+              "slug": "/modules/funding-manager/bonding-curve",
+              "permalink": "/docs/modules/funding-manager/bonding-curve",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/funding-manager/bonding-curve.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "About Funding Manager Modules",
+                "permalink": "/docs/modules/funding-manager/overview"
               },
               "next": {
                 "title": "Rebasing Funding Manager",
-                "permalink": "/docs/modules/rebasing-funding-manager"
+                "permalink": "/docs/modules/funding-manager/rebasing-funding-manager"
+              }
+            },
+            {
+              "id": "modules/funding-manager/overview",
+              "title": "About Funding Manager Modules",
+              "description": "Funding Manager modules are primary issuance markets that process fund inflows into the workflow and dynamic token issuance against a collateral.",
+              "source": "@site/docs/modules/funding-manager/overview.md",
+              "sourceDirName": "modules/funding-manager",
+              "slug": "/modules/funding-manager/overview",
+              "permalink": "/docs/modules/funding-manager/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/funding-manager/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Single Vote Governance Module",
+                "permalink": "/docs/modules/authorizer/single-vote-governance-module"
+              },
+              "next": {
+                "title": "Bonding Curve Bancor Funding Manager",
+                "permalink": "/docs/modules/funding-manager/bonding-curve"
+              }
+            },
+            {
+              "id": "modules/funding-manager/rebasing-funding-manager",
+              "title": "Rebasing Funding Manager",
+              "description": "Module Category: Funding Manager",
+              "source": "@site/docs/modules/funding-manager/rebasing-funding-manager.md",
+              "sourceDirName": "modules/funding-manager",
+              "slug": "/modules/funding-manager/rebasing-funding-manager",
+              "permalink": "/docs/modules/funding-manager/rebasing-funding-manager",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/funding-manager/rebasing-funding-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bonding Curve Bancor Funding Manager",
+                "permalink": "/docs/modules/funding-manager/bonding-curve"
+              },
+              "next": {
+                "title": "Staking Manager",
+                "permalink": "/docs/modules/funding-manager/staking-manager"
+              }
+            },
+            {
+              "id": "modules/funding-manager/staking-manager",
+              "title": "Staking Manager",
+              "description": "Module category: Funding Manager",
+              "source": "@site/docs/modules/funding-manager/staking-manager.md",
+              "sourceDirName": "modules/funding-manager",
+              "slug": "/modules/funding-manager/staking-manager",
+              "permalink": "/docs/modules/funding-manager/staking-manager",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/funding-manager/staking-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Rebasing Funding Manager",
+                "permalink": "/docs/modules/funding-manager/rebasing-funding-manager"
+              },
+              "next": {
+                "title": "About Logic Modules",
+                "permalink": "/docs/modules/logic-module/overview"
+              }
+            },
+            {
+              "id": "modules/logic-module/bounty-manager",
+              "title": "Bounty Manager",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/modules/logic-module/bounty-manager.md",
+              "sourceDirName": "modules/logic-module",
+              "slug": "/modules/logic-module/bounty-manager",
+              "permalink": "/docs/modules/logic-module/bounty-manager",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/logic-module/bounty-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "About Logic Modules",
+                "permalink": "/docs/modules/logic-module/overview"
+              },
+              "next": {
+                "title": "KPI Rewarder",
+                "permalink": "/docs/modules/logic-module/kpi-rewarder"
+              }
+            },
+            {
+              "id": "modules/logic-module/kpi-rewarder",
+              "title": "KPI Rewarder",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/modules/logic-module/kpi-rewarder.md",
+              "sourceDirName": "modules/logic-module",
+              "slug": "/modules/logic-module/kpi-rewarder",
+              "permalink": "/docs/modules/logic-module/kpi-rewarder",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/logic-module/kpi-rewarder.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bounty Manager",
+                "permalink": "/docs/modules/logic-module/bounty-manager"
+              },
+              "next": {
+                "title": "About Payment Processor Modules",
+                "permalink": "/docs/modules/payment-processor/overview"
+              }
+            },
+            {
+              "id": "modules/logic-module/overview",
+              "title": "About Logic Modules",
+              "description": "Logic modules implement the specific system logic or set the issuance conditions.",
+              "source": "@site/docs/modules/logic-module/overview.md",
+              "sourceDirName": "modules/logic-module",
+              "slug": "/modules/logic-module/overview",
+              "permalink": "/docs/modules/logic-module/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/logic-module/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Staking Manager",
+                "permalink": "/docs/modules/funding-manager/staking-manager"
+              },
+              "next": {
+                "title": "Bounty Manager",
+                "permalink": "/docs/modules/logic-module/bounty-manager"
+              }
+            },
+            {
+              "id": "modules/payment-processor/overview",
+              "title": "About Payment Processor Modules",
+              "description": "These modules allow for different ways for how the token distributions are processed. Projects can set up various vesting and unlock conditions that can be based on time or KPIs.",
+              "source": "@site/docs/modules/payment-processor/overview.md",
+              "sourceDirName": "modules/payment-processor",
+              "slug": "/modules/payment-processor/overview",
+              "permalink": "/docs/modules/payment-processor/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/payment-processor/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "KPI Rewarder",
+                "permalink": "/docs/modules/logic-module/kpi-rewarder"
+              },
+              "next": {
+                "title": "Simple Payment Processor",
+                "permalink": "/docs/modules/payment-processor/simple-payment-processor"
+              }
+            },
+            {
+              "id": "modules/payment-processor/recurring-payment-manager",
+              "title": "Recurring Payment Manager",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/modules/payment-processor/recurring-payment-manager.md",
+              "sourceDirName": "modules/payment-processor",
+              "slug": "/modules/payment-processor/recurring-payment-manager",
+              "permalink": "/docs/modules/payment-processor/recurring-payment-manager",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/payment-processor/recurring-payment-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Simple Payment Processor",
+                "permalink": "/docs/modules/payment-processor/simple-payment-processor"
+              },
+              "next": {
+                "title": "Streaming Payment Processor",
+                "permalink": "/docs/modules/payment-processor/streaming-payment-processor"
+              }
+            },
+            {
+              "id": "modules/payment-processor/simple-payment-processor",
+              "title": "Simple Payment Processor",
+              "description": "Module Category: Payment Processor",
+              "source": "@site/docs/modules/payment-processor/simple-payment-processor.md",
+              "sourceDirName": "modules/payment-processor",
+              "slug": "/modules/payment-processor/simple-payment-processor",
+              "permalink": "/docs/modules/payment-processor/simple-payment-processor",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/payment-processor/simple-payment-processor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "About Payment Processor Modules",
+                "permalink": "/docs/modules/payment-processor/overview"
+              },
+              "next": {
+                "title": "Recurring Payment Manager",
+                "permalink": "/docs/modules/payment-processor/recurring-payment-manager"
+              }
+            },
+            {
+              "id": "modules/payment-processor/streaming-payment-processor",
+              "title": "Streaming Payment Processor",
+              "description": "Module Category: Payment Processor",
+              "source": "@site/docs/modules/payment-processor/streaming-payment-processor.md",
+              "sourceDirName": "modules/payment-processor",
+              "slug": "/modules/payment-processor/streaming-payment-processor",
+              "permalink": "/docs/modules/payment-processor/streaming-payment-processor",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/modules/payment-processor/streaming-payment-processor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Recurring Payment Manager",
+                "permalink": "/docs/modules/payment-processor/recurring-payment-manager"
+              },
+              "next": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/SDK/control-room"
+              }
+            },
+            {
+              "id": "SDK/control-room",
+              "title": "Tutorial Intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/SDK/control-room.md",
+              "sourceDirName": "SDK",
+              "slug": "/SDK/control-room",
+              "permalink": "/docs/SDK/control-room",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/SDK/control-room.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Streaming Payment Processor",
+                "permalink": "/docs/modules/payment-processor/streaming-payment-processor"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/contracts/overview"
+              }
+            },
+            {
+              "id": "Security/access-control",
+              "title": "Access Control and Permissions",
+              "description": "5.1 Governance and Protocol Upgrades",
+              "source": "@site/docs/Security/access-control.md",
+              "sourceDirName": "Security",
+              "slug": "/Security/access-control",
+              "permalink": "/docs/Security/access-control",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/Security/access-control.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Intervention Mechanisms",
+                "permalink": "/docs/Security/intervention"
+              },
+              "next": {
+                "title": "General FAQ",
+                "permalink": "/docs/faq/general-faq"
+              }
+            },
+            {
+              "id": "Security/audits",
+              "title": "Audits",
+              "description": "Audits serve as a critical checkpoint for blockchain projects, providing external validation of the protocol's security and functionality. At Inverter Protocol, we view audits not as a mere formality but as an essential component of our commitment to transparency and security.",
+              "source": "@site/docs/Security/audits.md",
+              "sourceDirName": "Security",
+              "slug": "/Security/audits",
+              "permalink": "/docs/Security/audits",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/Security/audits.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Testing",
+                "permalink": "/docs/Security/testing"
+              },
+              "next": {
+                "title": "Intervention Mechanisms",
+                "permalink": "/docs/Security/intervention"
+              }
+            },
+            {
+              "id": "Security/intervention",
+              "title": "Intervention Mechanisms",
+              "description": "In the dynamic landscape of blockchain-based projects, the ability to swiftly respond to emerging threats is crucial. Our protocol is equipped with mechanisms that allow:",
+              "source": "@site/docs/Security/intervention.md",
+              "sourceDirName": "Security",
+              "slug": "/Security/intervention",
+              "permalink": "/docs/Security/intervention",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/Security/intervention.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Audits",
+                "permalink": "/docs/Security/audits"
+              },
+              "next": {
+                "title": "Access Control and Permissions",
+                "permalink": "/docs/Security/access-control"
+              }
+            },
+            {
+              "id": "Security/protocol-architecture",
+              "title": "Protocol Architecture",
+              "description": "Simplicity and Straightforwardness",
+              "source": "@site/docs/Security/protocol-architecture.md",
+              "sourceDirName": "Security",
+              "slug": "/Security/protocol-architecture",
+              "permalink": "/docs/Security/protocol-architecture",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/Security/protocol-architecture.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Inverter Security Guideline",
+                "permalink": "/docs/Security/security-guideline"
+              },
+              "next": {
+                "title": "Testing",
+                "permalink": "/docs/Security/testing"
+              }
+            },
+            {
+              "id": "Security/security-guideline",
+              "title": "Inverter Security Guideline",
+              "description": "In the rapidly evolving world of Blockchain-based projects, security remains paramount. The Inverter Protocol, recognizing the significance of robust security measures, is committed to setting the gold standard in this domain. Our approach to security is not just about preventing vulnerabilities; it's about building a culture of continuous vigilance, learning, and improvement.",
+              "source": "@site/docs/Security/security-guideline.md",
+              "sourceDirName": "Security",
+              "slug": "/Security/security-guideline",
+              "permalink": "/docs/Security/security-guideline",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/Security/security-guideline.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Control Room",
+                "permalink": "/docs/apps/control-room"
+              },
+              "next": {
+                "title": "Protocol Architecture",
+                "permalink": "/docs/Security/protocol-architecture"
+              }
+            },
+            {
+              "id": "Security/testing",
+              "title": "Testing",
+              "description": "We follow a rigorous testing standard for our code base and Module Library, including:",
+              "source": "@site/docs/Security/testing.md",
+              "sourceDirName": "Security",
+              "slug": "/Security/testing",
+              "permalink": "/docs/Security/testing",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://www.inverter.network/docs/Security/testing.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Protocol Architecture",
+                "permalink": "/docs/Security/protocol-architecture"
+              },
+              "next": {
+                "title": "Audits",
+                "permalink": "/docs/Security/audits"
               }
             }
           ],
@@ -1031,40 +1373,108 @@
                 "label": "Modules",
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "modules/bounty-manager"
+                    "type": "category",
+                    "label": "Authorizer",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "modules/authorizer/overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/authorizer/role-authorizer"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/authorizer/token-gated-role-authorizer"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/authorizer/single-vote-governance-module"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
                   },
                   {
-                    "type": "doc",
-                    "id": "modules/kpi-rewarder"
+                    "type": "category",
+                    "label": "Funding Manager",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "modules/funding-manager/overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/funding-manager/bonding-curve"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/funding-manager/rebasing-funding-manager"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/funding-manager/staking-manager"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
                   },
                   {
-                    "type": "doc",
-                    "id": "modules/list-based-authorizer"
+                    "type": "category",
+                    "label": "Logic Module",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "modules/logic-module/overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/logic-module/bounty-manager"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/logic-module/kpi-rewarder"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
                   },
                   {
-                    "type": "doc",
-                    "id": "modules/token-gated-role-authorizer"
-                  },
+                    "type": "category",
+                    "label": "Payment Processor",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "modules/payment-processor/overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/payment-processor/simple-payment-processor"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/payment-processor/recurring-payment-manager"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/payment-processor/streaming-payment-processor"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "SDK",
+                "items": [
                   {
                     "type": "doc",
-                    "id": "modules/rebasing-funding-manager"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "modules/recurring-payment-manager"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "modules/simple-payment-processor"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "modules/single-vote-governance-module"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "modules/streaming-payment-processor"
+                    "id": "SDK/control-room"
                   }
                 ],
                 "collapsed": true,
@@ -1077,10 +1487,6 @@
                   {
                     "type": "doc",
                     "id": "contracts/overview"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "contracts/SDK"
                   },
                   {
                     "type": "category",
@@ -1145,6 +1551,38 @@
                   {
                     "type": "doc",
                     "id": "apps/control-room"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Security Standard",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Security/security-guideline"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Security/protocol-architecture"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Security/testing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Security/audits"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Security/intervention"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Security/access-control"
                   }
                 ],
                 "collapsed": true,

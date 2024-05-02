@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debuge-07-5cd"
     }
   },
-  "/docs-01b": {
+  "/docs-079": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsdf-0-ab2"
     }
   },
-  "/docs-a0b": {
+  "/docs-8f9": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-c2c": {
+  "/docs-77b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/apps/control-room-520": {
@@ -119,7 +119,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-contracts-overview-08-f-71a"
   },
-  "/docs/contracts/SDK-9f8": {
+  "/docs/contracts/SDK-c19": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-contracts-sd-kbef-0f1"
   },
@@ -155,40 +155,92 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/modules/bounty-manager-55c": {
+  "/docs/modules/authorizer/overview-689": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-bounty-manageref-1-703"
+    "content": "content---docs-modules-authorizer-overviewbe-3-3aa"
   },
-  "/docs/modules/kpi-rewarder-e99": {
+  "/docs/modules/authorizer/role-authorizer-ffe": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-kpi-rewarderc-9-e-2da"
+    "content": "content---docs-modules-authorizer-role-authorizerd-97-2fc"
   },
-  "/docs/modules/list-based-authorizer-107": {
+  "/docs/modules/authorizer/single-vote-governance-module-3e4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-list-based-authorizere-1-a-8d3"
+    "content": "content---docs-modules-authorizer-single-vote-governance-module-142-e5e"
   },
-  "/docs/modules/rebasing-funding-manager-aa3": {
+  "/docs/modules/authorizer/token-gated-role-authorizer-1df": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-rebasing-funding-manager-45-f-744"
+    "content": "content---docs-modules-authorizer-token-gated-role-authorizer-9-d-5-817"
   },
-  "/docs/modules/recurring-payment-manager-d62": {
+  "/docs/modules/funding-manager/bonding-curve-47a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-recurring-payment-managerc-11-1d0"
+    "content": "content---docs-modules-funding-manager-bonding-curveaeb-fd7"
   },
-  "/docs/modules/simple-payment-processor-ed1": {
+  "/docs/modules/funding-manager/overview-e1c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-simple-payment-processor-35-e-584"
+    "content": "content---docs-modules-funding-manager-overview-19-b-59e"
   },
-  "/docs/modules/single-vote-governance-module-17a": {
+  "/docs/modules/funding-manager/rebasing-funding-manager-eda": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-single-vote-governance-modulef-87-cc4"
+    "content": "content---docs-modules-funding-manager-rebasing-funding-manager-614-9e6"
   },
-  "/docs/modules/streaming-payment-processor-d48": {
+  "/docs/modules/funding-manager/staking-manager-726": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-streaming-payment-processor-20-f-95a"
+    "content": "content---docs-modules-funding-manager-staking-managerf-4-c-e17"
   },
-  "/docs/modules/token-gated-role-authorizer-b40": {
+  "/docs/modules/logic-module/bounty-manager-680": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-token-gated-role-authorizer-21-d-a12"
+    "content": "content---docs-modules-logic-module-bounty-manager-381-c1d"
+  },
+  "/docs/modules/logic-module/kpi-rewarder-52d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-logic-module-kpi-rewarder-6-e-0-4a7"
+  },
+  "/docs/modules/logic-module/overview-ee6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-logic-module-overviewca-2-ac0"
+  },
+  "/docs/modules/payment-processor/overview-2b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-payment-processor-overviewea-9-6e2"
+  },
+  "/docs/modules/payment-processor/recurring-payment-manager-a4a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-payment-processor-recurring-payment-manager-0-a-2-aab"
+  },
+  "/docs/modules/payment-processor/simple-payment-processor-afe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-payment-processor-simple-payment-processore-71-e51"
+  },
+  "/docs/modules/payment-processor/streaming-payment-processor-96f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-payment-processor-streaming-payment-processor-107-d1a"
+  },
+  "/docs/SDK/control-room-250": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdk-control-rooma-55-7ea"
+  },
+  "/docs/Security/access-control-46e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-security-access-control-6-d-4-c19"
+  },
+  "/docs/Security/audits-ff2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-security-audits-6-ff-b4d"
+  },
+  "/docs/Security/intervention-af2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-security-interventiona-01-d18"
+  },
+  "/docs/Security/protocol-architecture-53a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-security-protocol-architecture-9-ae-65c"
+  },
+  "/docs/Security/security-guideline-81d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-security-security-guideline-5-c-1-fa1"
+  },
+  "/docs/Security/testing-836": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-security-testing-015-24c"
   }
 }

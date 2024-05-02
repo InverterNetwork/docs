@@ -1,0 +1,27 @@
+{
+  "id": "Security/testing",
+  "title": "Testing",
+  "description": "We follow a rigorous testing standard for our code base and Module Library, including:",
+  "source": "@site/docs/Security/testing.md",
+  "sourceDirName": "Security",
+  "slug": "/Security/testing",
+  "permalink": "/docs/Security/testing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/Security/testing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Protocol Architecture",
+    "permalink": "/docs/Security/protocol-architecture"
+  },
+  "next": {
+    "title": "Audits",
+    "permalink": "/docs/Security/audits"
+  }
+}

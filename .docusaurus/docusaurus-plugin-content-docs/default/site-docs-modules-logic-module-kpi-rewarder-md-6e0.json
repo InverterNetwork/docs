@@ -1,0 +1,27 @@
+{
+  "id": "modules/logic-module/kpi-rewarder",
+  "title": "KPI Rewarder",
+  "description": "Module Category: Logic Module",
+  "source": "@site/docs/modules/logic-module/kpi-rewarder.md",
+  "sourceDirName": "modules/logic-module",
+  "slug": "/modules/logic-module/kpi-rewarder",
+  "permalink": "/docs/modules/logic-module/kpi-rewarder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/logic-module/kpi-rewarder.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Bounty Manager",
+    "permalink": "/docs/modules/logic-module/bounty-manager"
+  },
+  "next": {
+    "title": "About Payment Processor Modules",
+    "permalink": "/docs/modules/payment-processor/overview"
+  }
+}

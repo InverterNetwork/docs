@@ -1,0 +1,27 @@
+{
+  "id": "modules/authorizer/single-vote-governance-module",
+  "title": "Single Vote Governance Module",
+  "description": "Module Category: Authorizer",
+  "source": "@site/docs/modules/authorizer/single-vote-governance-module.md",
+  "sourceDirName": "modules/authorizer",
+  "slug": "/modules/authorizer/single-vote-governance-module",
+  "permalink": "/docs/modules/authorizer/single-vote-governance-module",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/authorizer/single-vote-governance-module.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Token Gated Role Authorizer",
+    "permalink": "/docs/modules/authorizer/token-gated-role-authorizer"
+  },
+  "next": {
+    "title": "About Funding Manager Modules",
+    "permalink": "/docs/modules/funding-manager/overview"
+  }
+}

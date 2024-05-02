@@ -19,11 +19,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Streaming Payment Processor",
-    "permalink": "/docs/modules/streaming-payment-processor"
+    "title": "Tutorial Intro",
+    "permalink": "/docs/SDK/control-room"
   },
   "next": {
-    "title": "SDK",
-    "permalink": "/docs/contracts/SDK"
+    "title": "Quick Start",
+    "permalink": "/docs/contracts/build-contribute/quick-start"
   }
 }

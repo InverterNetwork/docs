@@ -1,0 +1,27 @@
+{
+  "id": "modules/funding-manager/staking-manager",
+  "title": "Staking Manager",
+  "description": "Module category: Funding Manager",
+  "source": "@site/docs/modules/funding-manager/staking-manager.md",
+  "sourceDirName": "modules/funding-manager",
+  "slug": "/modules/funding-manager/staking-manager",
+  "permalink": "/docs/modules/funding-manager/staking-manager",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/funding-manager/staking-manager.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Rebasing Funding Manager",
+    "permalink": "/docs/modules/funding-manager/rebasing-funding-manager"
+  },
+  "next": {
+    "title": "About Logic Modules",
+    "permalink": "/docs/modules/logic-module/overview"
+  }
+}

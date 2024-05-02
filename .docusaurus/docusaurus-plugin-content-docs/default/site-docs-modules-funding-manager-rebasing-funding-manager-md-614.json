@@ -1,0 +1,27 @@
+{
+  "id": "modules/funding-manager/rebasing-funding-manager",
+  "title": "Rebasing Funding Manager",
+  "description": "Module Category: Funding Manager",
+  "source": "@site/docs/modules/funding-manager/rebasing-funding-manager.md",
+  "sourceDirName": "modules/funding-manager",
+  "slug": "/modules/funding-manager/rebasing-funding-manager",
+  "permalink": "/docs/modules/funding-manager/rebasing-funding-manager",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/funding-manager/rebasing-funding-manager.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Bonding Curve Bancor Funding Manager",
+    "permalink": "/docs/modules/funding-manager/bonding-curve"
+  },
+  "next": {
+    "title": "Staking Manager",
+    "permalink": "/docs/modules/funding-manager/staking-manager"
+  }
+}

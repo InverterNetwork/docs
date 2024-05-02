@@ -1,0 +1,27 @@
+{
+  "id": "modules/funding-manager/overview",
+  "title": "About Funding Manager Modules",
+  "description": "Funding Manager modules are primary issuance markets that process fund inflows into the workflow and dynamic token issuance against a collateral.",
+  "source": "@site/docs/modules/funding-manager/overview.md",
+  "sourceDirName": "modules/funding-manager",
+  "slug": "/modules/funding-manager/overview",
+  "permalink": "/docs/modules/funding-manager/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/funding-manager/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Single Vote Governance Module",
+    "permalink": "/docs/modules/authorizer/single-vote-governance-module"
+  },
+  "next": {
+    "title": "Bonding Curve Bancor Funding Manager",
+    "permalink": "/docs/modules/funding-manager/bonding-curve"
+  }
+}

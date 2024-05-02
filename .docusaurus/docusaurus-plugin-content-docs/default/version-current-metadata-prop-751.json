@@ -100,66 +100,155 @@
         "label": "Modules",
         "items": [
           {
-            "type": "link",
-            "label": "Bounty Manager",
-            "href": "/docs/modules/bounty-manager",
-            "docId": "modules/bounty-manager",
-            "unlisted": false
+            "type": "category",
+            "label": "Authorizer",
+            "items": [
+              {
+                "type": "link",
+                "label": "About Authorizer Modules",
+                "href": "/docs/modules/authorizer/overview",
+                "docId": "modules/authorizer/overview",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Role Authorizer",
+                "href": "/docs/modules/authorizer/role-authorizer",
+                "docId": "modules/authorizer/role-authorizer",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Token Gated Role Authorizer",
+                "href": "/docs/modules/authorizer/token-gated-role-authorizer",
+                "docId": "modules/authorizer/token-gated-role-authorizer",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Single Vote Governance Module",
+                "href": "/docs/modules/authorizer/single-vote-governance-module",
+                "docId": "modules/authorizer/single-vote-governance-module",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
           },
           {
-            "type": "link",
-            "label": "KPI Rewarder",
-            "href": "/docs/modules/kpi-rewarder",
-            "docId": "modules/kpi-rewarder",
-            "unlisted": false
+            "type": "category",
+            "label": "Funding Manager",
+            "items": [
+              {
+                "type": "link",
+                "label": "About Funding Manager Modules",
+                "href": "/docs/modules/funding-manager/overview",
+                "docId": "modules/funding-manager/overview",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Bonding Curve Bancor Funding Manager",
+                "href": "/docs/modules/funding-manager/bonding-curve",
+                "docId": "modules/funding-manager/bonding-curve",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Rebasing Funding Manager",
+                "href": "/docs/modules/funding-manager/rebasing-funding-manager",
+                "docId": "modules/funding-manager/rebasing-funding-manager",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Staking Manager",
+                "href": "/docs/modules/funding-manager/staking-manager",
+                "docId": "modules/funding-manager/staking-manager",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
           },
           {
-            "type": "link",
-            "label": "List-based Role Authorizer",
-            "href": "/docs/modules/list-based-authorizer",
-            "docId": "modules/list-based-authorizer",
-            "unlisted": false
+            "type": "category",
+            "label": "Logic Module",
+            "items": [
+              {
+                "type": "link",
+                "label": "About Logic Modules",
+                "href": "/docs/modules/logic-module/overview",
+                "docId": "modules/logic-module/overview",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Bounty Manager",
+                "href": "/docs/modules/logic-module/bounty-manager",
+                "docId": "modules/logic-module/bounty-manager",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "KPI Rewarder",
+                "href": "/docs/modules/logic-module/kpi-rewarder",
+                "docId": "modules/logic-module/kpi-rewarder",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
           },
           {
-            "type": "link",
-            "label": "Token Gated Role Authorizer",
-            "href": "/docs/modules/token-gated-role-authorizer",
-            "docId": "modules/token-gated-role-authorizer",
-            "unlisted": false
-          },
+            "type": "category",
+            "label": "Payment Processor",
+            "items": [
+              {
+                "type": "link",
+                "label": "About Payment Processor Modules",
+                "href": "/docs/modules/payment-processor/overview",
+                "docId": "modules/payment-processor/overview",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Simple Payment Processor",
+                "href": "/docs/modules/payment-processor/simple-payment-processor",
+                "docId": "modules/payment-processor/simple-payment-processor",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Recurring Payment Manager",
+                "href": "/docs/modules/payment-processor/recurring-payment-manager",
+                "docId": "modules/payment-processor/recurring-payment-manager",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Streaming Payment Processor",
+                "href": "/docs/modules/payment-processor/streaming-payment-processor",
+                "docId": "modules/payment-processor/streaming-payment-processor",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "SDK",
+        "items": [
           {
             "type": "link",
-            "label": "Rebasing Funding Manager",
-            "href": "/docs/modules/rebasing-funding-manager",
-            "docId": "modules/rebasing-funding-manager",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Recurring Payment Manager",
-            "href": "/docs/modules/recurring-payment-manager",
-            "docId": "modules/recurring-payment-manager",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Simple Payment Processor",
-            "href": "/docs/modules/simple-payment-processor",
-            "docId": "modules/simple-payment-processor",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Single Vote Governance Module",
-            "href": "/docs/modules/single-vote-governance-module",
-            "docId": "modules/single-vote-governance-module",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Streaming Payment Processor",
-            "href": "/docs/modules/streaming-payment-processor",
-            "docId": "modules/streaming-payment-processor",
+            "label": "Tutorial Intro",
+            "href": "/docs/SDK/control-room",
+            "docId": "SDK/control-room",
             "unlisted": false
           }
         ],
@@ -175,13 +264,6 @@
             "label": "Overview",
             "href": "/docs/contracts/overview",
             "docId": "contracts/overview",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "SDK",
-            "href": "/docs/contracts/SDK",
-            "docId": "contracts/SDK",
             "unlisted": false
           },
           {
@@ -276,6 +358,56 @@
             "label": "Control Room",
             "href": "/docs/apps/control-room",
             "docId": "apps/control-room",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Security Standard",
+        "items": [
+          {
+            "type": "link",
+            "label": "Inverter Security Guideline",
+            "href": "/docs/Security/security-guideline",
+            "docId": "Security/security-guideline",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Protocol Architecture",
+            "href": "/docs/Security/protocol-architecture",
+            "docId": "Security/protocol-architecture",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Testing",
+            "href": "/docs/Security/testing",
+            "docId": "Security/testing",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Audits",
+            "href": "/docs/Security/audits",
+            "docId": "Security/audits",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Intervention Mechanisms",
+            "href": "/docs/Security/intervention",
+            "docId": "Security/intervention",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Access Control and Permissions",
+            "href": "/docs/Security/access-control",
+            "docId": "Security/access-control",
             "unlisted": false
           }
         ],
@@ -406,8 +538,7 @@
     "contracts/SDK": {
       "id": "contracts/SDK",
       "title": "SDK",
-      "description": "Certainly! Here's the full documentation content for integrating the Inverter Network SDK into your project, formatted as a single markdown section suitable for Docusaurus:",
-      "sidebar": "docs"
+      "description": "Certainly! Here's the full documentation content for integrating the Inverter Network SDK into your project, formatted as a single markdown section suitable for Docusaurus:"
     },
     "faq/general-faq": {
       "id": "faq/general-faq",
@@ -456,58 +587,136 @@
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes."
     },
-    "modules/bounty-manager": {
-      "id": "modules/bounty-manager",
-      "title": "Bounty Manager",
-      "description": "Module Category: Logic Module",
+    "modules/authorizer/overview": {
+      "id": "modules/authorizer/overview",
+      "title": "About Authorizer Modules",
+      "description": "This module defines and enforces the permission structure of the system. It specifies the different stakeholder roles within the protocol and the actions each stakeholder is allowed to execute. Stakeholders can be users or other modules.",
       "sidebar": "docs"
     },
-    "modules/kpi-rewarder": {
-      "id": "modules/kpi-rewarder",
-      "title": "KPI Rewarder",
-      "description": "Module Category: Logic Module",
-      "sidebar": "docs"
-    },
-    "modules/list-based-authorizer": {
-      "id": "modules/list-based-authorizer",
-      "title": "List-based Role Authorizer",
+    "modules/authorizer/role-authorizer": {
+      "id": "modules/authorizer/role-authorizer",
+      "title": "Role Authorizer",
       "description": "Module Category: Authorizer",
       "sidebar": "docs"
     },
-    "modules/rebasing-funding-manager": {
-      "id": "modules/rebasing-funding-manager",
+    "modules/authorizer/single-vote-governance-module": {
+      "id": "modules/authorizer/single-vote-governance-module",
+      "title": "Single Vote Governance Module",
+      "description": "Module Category: Authorizer",
+      "sidebar": "docs"
+    },
+    "modules/authorizer/token-gated-role-authorizer": {
+      "id": "modules/authorizer/token-gated-role-authorizer",
+      "title": "Token Gated Role Authorizer",
+      "description": "Module Category: Authorizer",
+      "sidebar": "docs"
+    },
+    "modules/funding-manager/bonding-curve": {
+      "id": "modules/funding-manager/bonding-curve",
+      "title": "Bonding Curve Bancor Funding Manager",
+      "description": "Module Category: Funding Manager",
+      "sidebar": "docs"
+    },
+    "modules/funding-manager/overview": {
+      "id": "modules/funding-manager/overview",
+      "title": "About Funding Manager Modules",
+      "description": "Funding Manager modules are primary issuance markets that process fund inflows into the workflow and dynamic token issuance against a collateral.",
+      "sidebar": "docs"
+    },
+    "modules/funding-manager/rebasing-funding-manager": {
+      "id": "modules/funding-manager/rebasing-funding-manager",
       "title": "Rebasing Funding Manager",
       "description": "Module Category: Funding Manager",
       "sidebar": "docs"
     },
-    "modules/recurring-payment-manager": {
-      "id": "modules/recurring-payment-manager",
+    "modules/funding-manager/staking-manager": {
+      "id": "modules/funding-manager/staking-manager",
+      "title": "Staking Manager",
+      "description": "Module category: Funding Manager",
+      "sidebar": "docs"
+    },
+    "modules/logic-module/bounty-manager": {
+      "id": "modules/logic-module/bounty-manager",
+      "title": "Bounty Manager",
+      "description": "Module Category: Logic Module",
+      "sidebar": "docs"
+    },
+    "modules/logic-module/kpi-rewarder": {
+      "id": "modules/logic-module/kpi-rewarder",
+      "title": "KPI Rewarder",
+      "description": "Module Category: Logic Module",
+      "sidebar": "docs"
+    },
+    "modules/logic-module/overview": {
+      "id": "modules/logic-module/overview",
+      "title": "About Logic Modules",
+      "description": "Logic modules implement the specific system logic or set the issuance conditions.",
+      "sidebar": "docs"
+    },
+    "modules/payment-processor/overview": {
+      "id": "modules/payment-processor/overview",
+      "title": "About Payment Processor Modules",
+      "description": "These modules allow for different ways for how the token distributions are processed. Projects can set up various vesting and unlock conditions that can be based on time or KPIs.",
+      "sidebar": "docs"
+    },
+    "modules/payment-processor/recurring-payment-manager": {
+      "id": "modules/payment-processor/recurring-payment-manager",
       "title": "Recurring Payment Manager",
       "description": "Module Category: Logic Module",
       "sidebar": "docs"
     },
-    "modules/simple-payment-processor": {
-      "id": "modules/simple-payment-processor",
+    "modules/payment-processor/simple-payment-processor": {
+      "id": "modules/payment-processor/simple-payment-processor",
       "title": "Simple Payment Processor",
       "description": "Module Category: Payment Processor",
       "sidebar": "docs"
     },
-    "modules/single-vote-governance-module": {
-      "id": "modules/single-vote-governance-module",
-      "title": "Single Vote Governance Module",
-      "description": "Module Category: Governance",
-      "sidebar": "docs"
-    },
-    "modules/streaming-payment-processor": {
-      "id": "modules/streaming-payment-processor",
+    "modules/payment-processor/streaming-payment-processor": {
+      "id": "modules/payment-processor/streaming-payment-processor",
       "title": "Streaming Payment Processor",
       "description": "Module Category: Payment Processor",
       "sidebar": "docs"
     },
-    "modules/token-gated-role-authorizer": {
-      "id": "modules/token-gated-role-authorizer",
-      "title": "Token Gated Role Authorizer",
-      "description": "Module Category: Authorizer",
+    "SDK/control-room": {
+      "id": "SDK/control-room",
+      "title": "Tutorial Intro",
+      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "docs"
+    },
+    "Security/access-control": {
+      "id": "Security/access-control",
+      "title": "Access Control and Permissions",
+      "description": "5.1 Governance and Protocol Upgrades",
+      "sidebar": "docs"
+    },
+    "Security/audits": {
+      "id": "Security/audits",
+      "title": "Audits",
+      "description": "Audits serve as a critical checkpoint for blockchain projects, providing external validation of the protocol's security and functionality. At Inverter Protocol, we view audits not as a mere formality but as an essential component of our commitment to transparency and security.",
+      "sidebar": "docs"
+    },
+    "Security/intervention": {
+      "id": "Security/intervention",
+      "title": "Intervention Mechanisms",
+      "description": "In the dynamic landscape of blockchain-based projects, the ability to swiftly respond to emerging threats is crucial. Our protocol is equipped with mechanisms that allow:",
+      "sidebar": "docs"
+    },
+    "Security/protocol-architecture": {
+      "id": "Security/protocol-architecture",
+      "title": "Protocol Architecture",
+      "description": "Simplicity and Straightforwardness",
+      "sidebar": "docs"
+    },
+    "Security/security-guideline": {
+      "id": "Security/security-guideline",
+      "title": "Inverter Security Guideline",
+      "description": "In the rapidly evolving world of Blockchain-based projects, security remains paramount. The Inverter Protocol, recognizing the significance of robust security measures, is committed to setting the gold standard in this domain. Our approach to security is not just about preventing vulnerabilities; it's about building a culture of continuous vigilance, learning, and improvement.",
+      "sidebar": "docs"
+    },
+    "Security/testing": {
+      "id": "Security/testing",
+      "title": "Testing",
+      "description": "We follow a rigorous testing standard for our code base and Module Library, including:",
       "sidebar": "docs"
     }
   }

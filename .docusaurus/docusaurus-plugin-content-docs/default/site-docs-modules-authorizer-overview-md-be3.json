@@ -1,0 +1,27 @@
+{
+  "id": "modules/authorizer/overview",
+  "title": "About Authorizer Modules",
+  "description": "This module defines and enforces the permission structure of the system. It specifies the different stakeholder roles within the protocol and the actions each stakeholder is allowed to execute. Stakeholders can be users or other modules.",
+  "source": "@site/docs/modules/authorizer/overview.md",
+  "sourceDirName": "modules/authorizer",
+  "slug": "/modules/authorizer/overview",
+  "permalink": "/docs/modules/authorizer/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/authorizer/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/docs/concepts/glossary"
+  },
+  "next": {
+    "title": "Role Authorizer",
+    "permalink": "/docs/modules/authorizer/role-authorizer"
+  }
+}

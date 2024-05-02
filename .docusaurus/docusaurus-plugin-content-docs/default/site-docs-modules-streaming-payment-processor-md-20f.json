@@ -21,7 +21,7 @@
     "permalink": "/docs/modules/single-vote-governance-module"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/contracts/overview"
+    "title": "Tutorial Intro",
+    "permalink": "/docs/SDK/control-room"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "Security/audits",
+  "title": "Audits",
+  "description": "Audits serve as a critical checkpoint for blockchain projects, providing external validation of the protocol's security and functionality. At Inverter Protocol, we view audits not as a mere formality but as an essential component of our commitment to transparency and security.",
+  "source": "@site/docs/Security/audits.md",
+  "sourceDirName": "Security",
+  "slug": "/Security/audits",
+  "permalink": "/docs/Security/audits",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/Security/audits.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Testing",
+    "permalink": "/docs/Security/testing"
+  },
+  "next": {
+    "title": "Intervention Mechanisms",
+    "permalink": "/docs/Security/intervention"
+  }
+}

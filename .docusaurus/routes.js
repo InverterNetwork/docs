@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '01b'),
+    component: ComponentCreator('/docs', '079'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'a0b'),
+        component: ComponentCreator('/docs', '8f9'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c2c'),
+            component: ComponentCreator('/docs', '77b'),
             routes: [
               {
                 path: '/docs/apps/control-room',
@@ -147,9 +147,8 @@ export default [
               },
               {
                 path: '/docs/contracts/SDK',
-                component: ComponentCreator('/docs/contracts/SDK', '9f8'),
-                exact: true,
-                sidebar: "docs"
+                component: ComponentCreator('/docs/contracts/SDK', 'c19'),
+                exact: true
               },
               {
                 path: '/docs/faq/general-faq',
@@ -199,56 +198,134 @@ export default [
                 exact: true
               },
               {
-                path: '/docs/modules/bounty-manager',
-                component: ComponentCreator('/docs/modules/bounty-manager', '55c'),
+                path: '/docs/modules/authorizer/overview',
+                component: ComponentCreator('/docs/modules/authorizer/overview', '689'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/modules/kpi-rewarder',
-                component: ComponentCreator('/docs/modules/kpi-rewarder', 'e99'),
+                path: '/docs/modules/authorizer/role-authorizer',
+                component: ComponentCreator('/docs/modules/authorizer/role-authorizer', 'ffe'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/modules/list-based-authorizer',
-                component: ComponentCreator('/docs/modules/list-based-authorizer', '107'),
+                path: '/docs/modules/authorizer/single-vote-governance-module',
+                component: ComponentCreator('/docs/modules/authorizer/single-vote-governance-module', '3e4'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/modules/rebasing-funding-manager',
-                component: ComponentCreator('/docs/modules/rebasing-funding-manager', 'aa3'),
+                path: '/docs/modules/authorizer/token-gated-role-authorizer',
+                component: ComponentCreator('/docs/modules/authorizer/token-gated-role-authorizer', '1df'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/modules/recurring-payment-manager',
-                component: ComponentCreator('/docs/modules/recurring-payment-manager', 'd62'),
+                path: '/docs/modules/funding-manager/bonding-curve',
+                component: ComponentCreator('/docs/modules/funding-manager/bonding-curve', '47a'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/modules/simple-payment-processor',
-                component: ComponentCreator('/docs/modules/simple-payment-processor', 'ed1'),
+                path: '/docs/modules/funding-manager/overview',
+                component: ComponentCreator('/docs/modules/funding-manager/overview', 'e1c'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/modules/single-vote-governance-module',
-                component: ComponentCreator('/docs/modules/single-vote-governance-module', '17a'),
+                path: '/docs/modules/funding-manager/rebasing-funding-manager',
+                component: ComponentCreator('/docs/modules/funding-manager/rebasing-funding-manager', 'eda'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/modules/streaming-payment-processor',
-                component: ComponentCreator('/docs/modules/streaming-payment-processor', 'd48'),
+                path: '/docs/modules/funding-manager/staking-manager',
+                component: ComponentCreator('/docs/modules/funding-manager/staking-manager', '726'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/docs/modules/token-gated-role-authorizer',
-                component: ComponentCreator('/docs/modules/token-gated-role-authorizer', 'b40'),
+                path: '/docs/modules/logic-module/bounty-manager',
+                component: ComponentCreator('/docs/modules/logic-module/bounty-manager', '680'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/modules/logic-module/kpi-rewarder',
+                component: ComponentCreator('/docs/modules/logic-module/kpi-rewarder', '52d'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/modules/logic-module/overview',
+                component: ComponentCreator('/docs/modules/logic-module/overview', 'ee6'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/modules/payment-processor/overview',
+                component: ComponentCreator('/docs/modules/payment-processor/overview', '2b3'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/modules/payment-processor/recurring-payment-manager',
+                component: ComponentCreator('/docs/modules/payment-processor/recurring-payment-manager', 'a4a'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/modules/payment-processor/simple-payment-processor',
+                component: ComponentCreator('/docs/modules/payment-processor/simple-payment-processor', 'afe'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/modules/payment-processor/streaming-payment-processor',
+                component: ComponentCreator('/docs/modules/payment-processor/streaming-payment-processor', '96f'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/SDK/control-room',
+                component: ComponentCreator('/docs/SDK/control-room', '250'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/Security/access-control',
+                component: ComponentCreator('/docs/Security/access-control', '46e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/Security/audits',
+                component: ComponentCreator('/docs/Security/audits', 'ff2'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/Security/intervention',
+                component: ComponentCreator('/docs/Security/intervention', 'af2'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/Security/protocol-architecture',
+                component: ComponentCreator('/docs/Security/protocol-architecture', '53a'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/Security/security-guideline',
+                component: ComponentCreator('/docs/Security/security-guideline', '81d'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/Security/testing',
+                component: ComponentCreator('/docs/Security/testing', '836'),
                 exact: true,
                 sidebar: "docs"
               }

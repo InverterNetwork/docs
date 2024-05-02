@@ -1,0 +1,27 @@
+{
+  "id": "modules/payment-processor/overview",
+  "title": "About Payment Processor Modules",
+  "description": "These modules allow for different ways for how the token distributions are processed. Projects can set up various vesting and unlock conditions that can be based on time or KPIs.",
+  "source": "@site/docs/modules/payment-processor/overview.md",
+  "sourceDirName": "modules/payment-processor",
+  "slug": "/modules/payment-processor/overview",
+  "permalink": "/docs/modules/payment-processor/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/payment-processor/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "KPI Rewarder",
+    "permalink": "/docs/modules/logic-module/kpi-rewarder"
+  },
+  "next": {
+    "title": "Simple Payment Processor",
+    "permalink": "/docs/modules/payment-processor/simple-payment-processor"
+  }
+}

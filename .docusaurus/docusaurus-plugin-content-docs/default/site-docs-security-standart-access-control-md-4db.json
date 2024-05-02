@@ -1,0 +1,18 @@
+{
+  "id": "Security Standart/access-control",
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/Security Standart/access-control.md",
+  "sourceDirName": "Security Standart",
+  "slug": "/Security Standart/access-control",
+  "permalink": "/docs/Security Standart/access-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/Security Standart/access-control.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

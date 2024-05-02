@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # KPI Rewarder 
@@ -8,7 +8,8 @@ sidebar_position: 2
 
 KPI Rewarder allows dynamic payments based on on/off-chain KPIs set by the project. It leverages UMA’s Optimistic Oracle to verify the KPI data. 
 
-It checks and validates KPIs, generates payment orders, and manages the distribution of staking rewards.It simplifies user interaction by allowing stakeholders to stake and withdraw tokens according to performance outcomes, directly linking reward mechanisms to achieved results. 
+KPI Rewarder checks and validates KPIs, generates payment orders, and manages the distribution of those payments. It enables the distribution of payments or rewards according to defined performance outcomes. 
+
 
 # Modules Functionalities
 ## Parameters to set: 
@@ -32,7 +33,7 @@ It checks and validates KPIs, generates payment orders, and manages the distribu
 **Maximum Payout:** Sets the maximum payout limit for each period, which helps control the disbursement of rewards.
 
 
-### Module Interactions:
+### Automated Module Interactions:
 
 **Oracle Queries:** Periodically queries the UMA Oracle to retrieve KPI data, which it then uses to determine the reward payout amount.
 

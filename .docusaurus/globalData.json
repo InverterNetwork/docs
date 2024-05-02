@@ -92,8 +92,7 @@
             },
             {
               "id": "contracts/SDK",
-              "path": "/docs/contracts/SDK",
-              "sidebar": "docs"
+              "path": "/docs/contracts/SDK"
             },
             {
               "id": "faq/general-faq",
@@ -135,48 +134,113 @@
               "path": "/docs/intro"
             },
             {
-              "id": "modules/bounty-manager",
-              "path": "/docs/modules/bounty-manager",
+              "id": "modules/authorizer/overview",
+              "path": "/docs/modules/authorizer/overview",
               "sidebar": "docs"
             },
             {
-              "id": "modules/kpi-rewarder",
-              "path": "/docs/modules/kpi-rewarder",
+              "id": "modules/authorizer/role-authorizer",
+              "path": "/docs/modules/authorizer/role-authorizer",
               "sidebar": "docs"
             },
             {
-              "id": "modules/list-based-authorizer",
-              "path": "/docs/modules/list-based-authorizer",
+              "id": "modules/authorizer/single-vote-governance-module",
+              "path": "/docs/modules/authorizer/single-vote-governance-module",
               "sidebar": "docs"
             },
             {
-              "id": "modules/rebasing-funding-manager",
-              "path": "/docs/modules/rebasing-funding-manager",
+              "id": "modules/authorizer/token-gated-role-authorizer",
+              "path": "/docs/modules/authorizer/token-gated-role-authorizer",
               "sidebar": "docs"
             },
             {
-              "id": "modules/recurring-payment-manager",
-              "path": "/docs/modules/recurring-payment-manager",
+              "id": "modules/funding-manager/bonding-curve",
+              "path": "/docs/modules/funding-manager/bonding-curve",
               "sidebar": "docs"
             },
             {
-              "id": "modules/simple-payment-processor",
-              "path": "/docs/modules/simple-payment-processor",
+              "id": "modules/funding-manager/overview",
+              "path": "/docs/modules/funding-manager/overview",
               "sidebar": "docs"
             },
             {
-              "id": "modules/single-vote-governance-module",
-              "path": "/docs/modules/single-vote-governance-module",
+              "id": "modules/funding-manager/rebasing-funding-manager",
+              "path": "/docs/modules/funding-manager/rebasing-funding-manager",
               "sidebar": "docs"
             },
             {
-              "id": "modules/streaming-payment-processor",
-              "path": "/docs/modules/streaming-payment-processor",
+              "id": "modules/funding-manager/staking-manager",
+              "path": "/docs/modules/funding-manager/staking-manager",
               "sidebar": "docs"
             },
             {
-              "id": "modules/token-gated-role-authorizer",
-              "path": "/docs/modules/token-gated-role-authorizer",
+              "id": "modules/logic-module/bounty-manager",
+              "path": "/docs/modules/logic-module/bounty-manager",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/logic-module/kpi-rewarder",
+              "path": "/docs/modules/logic-module/kpi-rewarder",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/logic-module/overview",
+              "path": "/docs/modules/logic-module/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/payment-processor/overview",
+              "path": "/docs/modules/payment-processor/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/payment-processor/recurring-payment-manager",
+              "path": "/docs/modules/payment-processor/recurring-payment-manager",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/payment-processor/simple-payment-processor",
+              "path": "/docs/modules/payment-processor/simple-payment-processor",
+              "sidebar": "docs"
+            },
+            {
+              "id": "modules/payment-processor/streaming-payment-processor",
+              "path": "/docs/modules/payment-processor/streaming-payment-processor",
+              "sidebar": "docs"
+            },
+            {
+              "id": "SDK/control-room",
+              "path": "/docs/SDK/control-room",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Security/access-control",
+              "path": "/docs/Security/access-control",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Security/audits",
+              "path": "/docs/Security/audits",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Security/intervention",
+              "path": "/docs/Security/intervention",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Security/protocol-architecture",
+              "path": "/docs/Security/protocol-architecture",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Security/security-guideline",
+              "path": "/docs/Security/security-guideline",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Security/testing",
+              "path": "/docs/Security/testing",
               "sidebar": "docs"
             }
           ],

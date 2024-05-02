@@ -1,0 +1,27 @@
+{
+  "id": "modules/payment-processor/simple-payment-processor",
+  "title": "Simple Payment Processor",
+  "description": "Module Category: Payment Processor",
+  "source": "@site/docs/modules/payment-processor/simple-payment-processor.md",
+  "sourceDirName": "modules/payment-processor",
+  "slug": "/modules/payment-processor/simple-payment-processor",
+  "permalink": "/docs/modules/payment-processor/simple-payment-processor",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/modules/payment-processor/simple-payment-processor.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "About Payment Processor Modules",
+    "permalink": "/docs/modules/payment-processor/overview"
+  },
+  "next": {
+    "title": "Recurring Payment Manager",
+    "permalink": "/docs/modules/payment-processor/recurring-payment-manager"
+  }
+}

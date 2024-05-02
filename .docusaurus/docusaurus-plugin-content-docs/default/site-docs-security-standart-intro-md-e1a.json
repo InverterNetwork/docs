@@ -1,0 +1,18 @@
+{
+  "id": "Security Standart/intro",
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/Security Standart/intro.md",
+  "sourceDirName": "Security Standart",
+  "slug": "/Security Standart/intro",
+  "permalink": "/docs/Security Standart/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://www.inverter.network/docs/Security Standart/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}
