@@ -5,10 +5,9 @@
   "source": "@site/docs/apps/control-room.md",
   "sourceDirName": "apps",
   "slug": "/apps/control-room",
-  "permalink": "/docs/apps/control-room",
+  "permalink": "/apps/control-room",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/apps/control-room.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Overview",
-    "permalink": "/docs/apps/overview"
+    "permalink": "/apps/overview"
   },
   "next": {
     "title": "Inverter Security Guideline",
-    "permalink": "/docs/Security/security-guideline"
+    "permalink": "/security/security-guideline"
   }
 }

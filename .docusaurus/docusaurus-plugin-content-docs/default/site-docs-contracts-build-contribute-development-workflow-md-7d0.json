@@ -5,10 +5,9 @@
   "source": "@site/docs/contracts/build-contribute/development-workflow.md",
   "sourceDirName": "contracts/build-contribute",
   "slug": "/contracts/build-contribute/development-workflow",
-  "permalink": "/docs/contracts/build-contribute/development-workflow",
+  "permalink": "/contracts/build-contribute/development-workflow",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/development-workflow.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Overview",
-    "permalink": "/docs/contracts/build-contribute/overview"
+    "permalink": "/contracts/build-contribute/overview"
   },
   "next": {
     "title": "Guides",
-    "permalink": "/docs/contracts/build-contribute/guides"
+    "permalink": "/contracts/build-contribute/guides"
   }
 }

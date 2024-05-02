@@ -5,10 +5,9 @@
   "source": "@site/docs/Security/security-guideline.md",
   "sourceDirName": "Security",
   "slug": "/Security/security-guideline",
-  "permalink": "/docs/Security/security-guideline",
+  "permalink": "/Security/security-guideline",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/Security/security-guideline.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Control Room",
-    "permalink": "/docs/apps/control-room"
+    "permalink": "/apps/control-room"
   },
   "next": {
     "title": "Protocol Architecture",
-    "permalink": "/docs/Security/protocol-architecture"
+    "permalink": "/Security/protocol-architecture"
   }
 }

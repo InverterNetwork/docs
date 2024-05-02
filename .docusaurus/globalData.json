@@ -1,246 +1,242 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/",
           "mainDocId": "getting-started/intro",
           "docs": [
             {
               "id": "apps/control-room",
-              "path": "/docs/apps/control-room",
+              "path": "/apps/control-room",
               "sidebar": "docs"
             },
             {
               "id": "apps/overview",
-              "path": "/docs/apps/overview",
+              "path": "/apps/overview",
               "sidebar": "docs"
             },
             {
               "id": "concepts/glossary",
-              "path": "/docs/concepts/glossary",
+              "path": "/concepts/glossary",
               "sidebar": "docs"
             },
             {
               "id": "concepts/governance",
-              "path": "/docs/concepts/governance",
+              "path": "/concepts/governance",
               "sidebar": "docs"
             },
             {
               "id": "concepts/protocol-concepts",
-              "path": "/docs/concepts/protocol-concepts",
+              "path": "/concepts/protocol-concepts",
               "sidebar": "docs"
             },
             {
               "id": "concepts/use-cases",
-              "path": "/docs/concepts/use-cases",
+              "path": "/concepts/use-cases",
               "sidebar": "docs"
             },
             {
               "id": "concepts/what-is-inverter-network",
-              "path": "/docs/concepts/what-is-inverter-network",
+              "path": "/concepts/what-is-inverter-network",
               "sidebar": "docs"
             },
             {
               "id": "contracts/build-contribute/development-workflow",
-              "path": "/docs/contracts/build-contribute/development-workflow",
+              "path": "/contracts/build-contribute/development-workflow",
               "sidebar": "docs"
             },
             {
               "id": "contracts/build-contribute/guides",
-              "path": "/docs/contracts/build-contribute/guides",
+              "path": "/contracts/build-contribute/guides",
               "sidebar": "docs"
             },
             {
               "id": "contracts/build-contribute/overview",
-              "path": "/docs/contracts/build-contribute/overview",
+              "path": "/contracts/build-contribute/overview",
               "sidebar": "docs"
             },
             {
               "id": "contracts/build-contribute/quick-start",
-              "path": "/docs/contracts/build-contribute/quick-start",
+              "path": "/contracts/build-contribute/quick-start",
               "sidebar": "docs"
             },
             {
               "id": "contracts/contracts/deployment-addresses",
-              "path": "/docs/contracts/contracts/deployment-addresses",
+              "path": "/contracts/contracts/deployment-addresses",
               "sidebar": "docs"
             },
             {
               "id": "contracts/contracts/overview",
-              "path": "/docs/contracts/contracts/overview",
+              "path": "/contracts/contracts/overview",
               "sidebar": "docs"
             },
             {
               "id": "contracts/contracts/security",
-              "path": "/docs/contracts/contracts/security",
+              "path": "/contracts/contracts/security",
               "sidebar": "docs"
             },
             {
               "id": "contracts/contracts/technical-reference",
-              "path": "/docs/contracts/contracts/technical-reference",
+              "path": "/contracts/contracts/technical-reference",
               "sidebar": "docs"
             },
             {
               "id": "contracts/overview",
-              "path": "/docs/contracts/overview",
+              "path": "/contracts/overview",
               "sidebar": "docs"
             },
             {
               "id": "contracts/SDK",
-              "path": "/docs/contracts/SDK"
+              "path": "/contracts/SDK"
             },
             {
               "id": "faq/general-faq",
-              "path": "/docs/faq/general-faq",
+              "path": "/faq/general-faq",
               "sidebar": "docs"
             },
             {
               "id": "faq/technical-faq",
-              "path": "/docs/faq/technical-faq",
+              "path": "/faq/technical-faq",
               "sidebar": "docs"
             },
             {
               "id": "getting-started/deploying-your-workflow",
-              "path": "/docs/getting-started/deploying-your-workflow",
+              "path": "/getting-started/deploying-your-workflow",
               "sidebar": "docs"
             },
             {
               "id": "getting-started/develop-a-module",
-              "path": "/docs/getting-started/develop-a-module",
+              "path": "/getting-started/develop-a-module",
               "sidebar": "docs"
             },
             {
               "id": "getting-started/intro",
-              "path": "/docs/getting-started/intro",
+              "path": "/",
               "sidebar": "docs"
             },
             {
               "id": "getting-started/start-learning",
-              "path": "/docs/getting-started/start-learning",
+              "path": "/getting-started/start-learning",
               "sidebar": "docs"
             },
             {
               "id": "getting-started/understanding-architecture",
-              "path": "/docs/getting-started/understanding-architecture",
+              "path": "/getting-started/understanding-architecture",
               "sidebar": "docs"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro"
-            },
-            {
               "id": "modules/authorizer/overview",
-              "path": "/docs/modules/authorizer/overview",
+              "path": "/modules/authorizer/overview",
               "sidebar": "docs"
             },
             {
               "id": "modules/authorizer/role-authorizer",
-              "path": "/docs/modules/authorizer/role-authorizer",
+              "path": "/modules/authorizer/role-authorizer",
               "sidebar": "docs"
             },
             {
               "id": "modules/authorizer/single-vote-governance-module",
-              "path": "/docs/modules/authorizer/single-vote-governance-module",
+              "path": "/modules/authorizer/single-vote-governance-module",
               "sidebar": "docs"
             },
             {
               "id": "modules/authorizer/token-gated-role-authorizer",
-              "path": "/docs/modules/authorizer/token-gated-role-authorizer",
+              "path": "/modules/authorizer/token-gated-role-authorizer",
               "sidebar": "docs"
             },
             {
               "id": "modules/funding-manager/bonding-curve",
-              "path": "/docs/modules/funding-manager/bonding-curve",
+              "path": "/modules/funding-manager/bonding-curve",
               "sidebar": "docs"
             },
             {
               "id": "modules/funding-manager/overview",
-              "path": "/docs/modules/funding-manager/overview",
+              "path": "/modules/funding-manager/overview",
               "sidebar": "docs"
             },
             {
               "id": "modules/funding-manager/rebasing-funding-manager",
-              "path": "/docs/modules/funding-manager/rebasing-funding-manager",
+              "path": "/modules/funding-manager/rebasing-funding-manager",
               "sidebar": "docs"
             },
             {
               "id": "modules/funding-manager/staking-manager",
-              "path": "/docs/modules/funding-manager/staking-manager",
+              "path": "/modules/funding-manager/staking-manager",
               "sidebar": "docs"
             },
             {
               "id": "modules/logic-module/bounty-manager",
-              "path": "/docs/modules/logic-module/bounty-manager",
+              "path": "/modules/logic-module/bounty-manager",
               "sidebar": "docs"
             },
             {
               "id": "modules/logic-module/kpi-rewarder",
-              "path": "/docs/modules/logic-module/kpi-rewarder",
+              "path": "/modules/logic-module/kpi-rewarder",
               "sidebar": "docs"
             },
             {
               "id": "modules/logic-module/overview",
-              "path": "/docs/modules/logic-module/overview",
+              "path": "/modules/logic-module/overview",
               "sidebar": "docs"
             },
             {
               "id": "modules/payment-processor/overview",
-              "path": "/docs/modules/payment-processor/overview",
+              "path": "/modules/payment-processor/overview",
               "sidebar": "docs"
             },
             {
               "id": "modules/payment-processor/recurring-payment-manager",
-              "path": "/docs/modules/payment-processor/recurring-payment-manager",
+              "path": "/modules/payment-processor/recurring-payment-manager",
               "sidebar": "docs"
             },
             {
               "id": "modules/payment-processor/simple-payment-processor",
-              "path": "/docs/modules/payment-processor/simple-payment-processor",
+              "path": "/modules/payment-processor/simple-payment-processor",
               "sidebar": "docs"
             },
             {
               "id": "modules/payment-processor/streaming-payment-processor",
-              "path": "/docs/modules/payment-processor/streaming-payment-processor",
+              "path": "/modules/payment-processor/streaming-payment-processor",
               "sidebar": "docs"
             },
             {
               "id": "SDK/control-room",
-              "path": "/docs/SDK/control-room",
+              "path": "/SDK/control-room",
               "sidebar": "docs"
             },
             {
-              "id": "Security/access-control",
-              "path": "/docs/Security/access-control",
+              "id": "security/access-control",
+              "path": "/security/access-control",
               "sidebar": "docs"
             },
             {
-              "id": "Security/audits",
-              "path": "/docs/Security/audits",
+              "id": "security/audits",
+              "path": "/security/audits",
               "sidebar": "docs"
             },
             {
-              "id": "Security/intervention",
-              "path": "/docs/Security/intervention",
+              "id": "security/intervention",
+              "path": "/security/intervention",
               "sidebar": "docs"
             },
             {
-              "id": "Security/protocol-architecture",
-              "path": "/docs/Security/protocol-architecture",
+              "id": "security/protocol-architecture",
+              "path": "/security/protocol-architecture",
               "sidebar": "docs"
             },
             {
-              "id": "Security/security-guideline",
-              "path": "/docs/Security/security-guideline",
+              "id": "security/security-guideline",
+              "path": "/security/security-guideline",
               "sidebar": "docs"
             },
             {
-              "id": "Security/testing",
-              "path": "/docs/Security/testing",
+              "id": "security/testing",
+              "path": "/security/testing",
               "sidebar": "docs"
             }
           ],
@@ -248,7 +244,7 @@
           "sidebars": {
             "docs": {
               "link": {
-                "path": "/docs/getting-started/intro",
+                "path": "/",
                 "label": "getting-started/intro"
               }
             }

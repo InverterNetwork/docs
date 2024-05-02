@@ -5,10 +5,9 @@
   "source": "@site/docs/getting-started/deploying-your-workflow.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/deploying-your-workflow",
-  "permalink": "/docs/getting-started/deploying-your-workflow",
+  "permalink": "/getting-started/deploying-your-workflow",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/getting-started/deploying-your-workflow.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -19,11 +18,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Getting Started",
-    "permalink": "/docs/getting-started/intro"
+    "title": "Intro",
+    "permalink": "/"
   },
   "next": {
     "title": "Develop a module",
-    "permalink": "/docs/getting-started/develop-a-module"
+    "permalink": "/getting-started/develop-a-module"
   }
 }

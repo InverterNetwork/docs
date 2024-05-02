@@ -5,10 +5,9 @@
   "source": "@site/docs/contracts/build-contribute/quick-start.md",
   "sourceDirName": "contracts/build-contribute",
   "slug": "/contracts/build-contribute/quick-start",
-  "permalink": "/docs/contracts/build-contribute/quick-start",
+  "permalink": "/contracts/build-contribute/quick-start",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/quick-start.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Overview",
-    "permalink": "/docs/contracts/overview"
+    "permalink": "/contracts/overview"
   },
   "next": {
     "title": "Overview",
-    "permalink": "/docs/contracts/build-contribute/overview"
+    "permalink": "/contracts/build-contribute/overview"
   }
 }

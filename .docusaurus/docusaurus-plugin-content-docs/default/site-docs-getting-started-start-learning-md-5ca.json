@@ -5,10 +5,9 @@
   "source": "@site/docs/getting-started/start-learning.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/start-learning",
-  "permalink": "/docs/getting-started/start-learning",
+  "permalink": "/getting-started/start-learning",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/getting-started/start-learning.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Develop a module",
-    "permalink": "/docs/getting-started/develop-a-module"
+    "permalink": "/getting-started/develop-a-module"
   },
   "next": {
     "title": "Understanding The Architecture",
-    "permalink": "/docs/getting-started/understanding-architecture"
+    "permalink": "/getting-started/understanding-architecture"
   }
 }

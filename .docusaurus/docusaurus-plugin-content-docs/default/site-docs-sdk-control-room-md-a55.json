@@ -5,10 +5,9 @@
   "source": "@site/docs/SDK/control-room.md",
   "sourceDirName": "SDK",
   "slug": "/SDK/control-room",
-  "permalink": "/docs/SDK/control-room",
+  "permalink": "/SDK/control-room",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/SDK/control-room.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Streaming Payment Processor",
-    "permalink": "/docs/modules/payment-processor/streaming-payment-processor"
+    "permalink": "/modules/payment-processor/streaming-payment-processor"
   },
   "next": {
     "title": "Overview",
-    "permalink": "/docs/contracts/overview"
+    "permalink": "/contracts/overview"
   }
 }

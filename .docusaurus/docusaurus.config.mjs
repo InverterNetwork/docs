@@ -7,10 +7,10 @@ export default {
   "title": "Inverter Documentation",
   "tagline": "The hub for all Inverter protocol documentation.",
   "favicon": "img/favicon.ico",
-  "url": "https://www.inverter.network",
+  "url": "https://inverternetwork.github.io",
   "baseUrl": "/",
-  "organizationName": "inverter-protocol",
-  "projectName": "inverter-documentation",
+  "organizationName": "InverterIetwork",
+  "projectName": "docs",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -26,8 +26,9 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://www.inverter.network/"
+          "path": "./docs",
+          "routeBasePath": "",
+          "sidebarPath": "./sidebars.mjs"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -49,12 +50,6 @@ export default {
         "src": "img/in-logo-blue.png"
       },
       "items": [
-        {
-          "type": "doc",
-          "docId": "getting-started/intro",
-          "position": "left",
-          "label": "Docs"
-        },
         {
           "href": "https://github.com/InverterNetwork",
           "label": "GitHub",

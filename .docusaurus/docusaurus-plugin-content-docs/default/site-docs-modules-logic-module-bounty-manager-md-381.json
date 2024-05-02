@@ -5,10 +5,9 @@
   "source": "@site/docs/modules/logic-module/bounty-manager.md",
   "sourceDirName": "modules/logic-module",
   "slug": "/modules/logic-module/bounty-manager",
-  "permalink": "/docs/modules/logic-module/bounty-manager",
+  "permalink": "/modules/logic-module/bounty-manager",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/modules/logic-module/bounty-manager.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "About Logic Modules",
-    "permalink": "/docs/modules/logic-module/overview"
+    "permalink": "/modules/logic-module/overview"
   },
   "next": {
     "title": "KPI Rewarder",
-    "permalink": "/docs/modules/logic-module/kpi-rewarder"
+    "permalink": "/modules/logic-module/kpi-rewarder"
   }
 }

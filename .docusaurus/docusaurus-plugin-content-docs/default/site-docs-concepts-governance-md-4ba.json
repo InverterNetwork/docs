@@ -5,10 +5,9 @@
   "source": "@site/docs/concepts/governance.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/governance",
-  "permalink": "/docs/concepts/governance",
+  "permalink": "/concepts/governance",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/concepts/governance.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Protocol Concepts",
-    "permalink": "/docs/concepts/protocol-concepts"
+    "permalink": "/concepts/protocol-concepts"
   },
   "next": {
     "title": "Glossary",
-    "permalink": "/docs/concepts/glossary"
+    "permalink": "/concepts/glossary"
   }
 }

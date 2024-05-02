@@ -5,10 +5,9 @@
   "source": "@site/docs/contracts/contracts/technical-reference.md",
   "sourceDirName": "contracts/contracts",
   "slug": "/contracts/contracts/technical-reference",
-  "permalink": "/docs/contracts/contracts/technical-reference",
+  "permalink": "/contracts/contracts/technical-reference",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/contracts/contracts/technical-reference.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Security",
-    "permalink": "/docs/contracts/contracts/security"
+    "permalink": "/contracts/contracts/security"
   },
   "next": {
     "title": "Overview",
-    "permalink": "/docs/apps/overview"
+    "permalink": "/apps/overview"
   }
 }

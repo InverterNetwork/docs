@@ -5,10 +5,9 @@
   "source": "@site/docs/modules/funding-manager/overview.md",
   "sourceDirName": "modules/funding-manager",
   "slug": "/modules/funding-manager/overview",
-  "permalink": "/docs/modules/funding-manager/overview",
+  "permalink": "/modules/funding-manager/overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/modules/funding-manager/overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Single Vote Governance Module",
-    "permalink": "/docs/modules/authorizer/single-vote-governance-module"
+    "permalink": "/modules/authorizer/single-vote-governance-module"
   },
   "next": {
     "title": "Bonding Curve Bancor Funding Manager",
-    "permalink": "/docs/modules/funding-manager/bonding-curve"
+    "permalink": "/modules/funding-manager/bonding-curve"
   }
 }

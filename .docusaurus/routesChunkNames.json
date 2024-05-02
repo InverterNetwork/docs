@@ -1,246 +1,242 @@
 {
-  "/__docusaurus/debug-850": {
+  "/__docusaurus/debug-0d8": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-07-5cd"
+      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
     }
   },
-  "/__docusaurus/debug/config-192": {
+  "/__docusaurus/debug/config-d91": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-07-5cd"
+      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
     }
   },
-  "/__docusaurus/debug/content-140": {
+  "/__docusaurus/debug/content-224": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-07-5cd"
+      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-68e": {
+  "/__docusaurus/debug/globalData-202": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-07-5cd"
+      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
     }
   },
-  "/__docusaurus/debug/metadata-c04": {
+  "/__docusaurus/debug/metadata-4a4": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-07-5cd"
+      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
     }
   },
-  "/__docusaurus/debug/registry-a7e": {
+  "/__docusaurus/debug/registry-b56": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-07-5cd"
+      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
     }
   },
-  "/__docusaurus/debug/routes-f74": {
+  "/__docusaurus/debug/routes-9f9": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-07-5cd"
+      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
     }
   },
-  "/docs-079": {
+  "/-21a": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---docsdf-0-ab2"
+      "plugin": "plugin---360-ec2"
     }
   },
-  "/docs-8f9": {
+  "/-6fc": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---docs-935-398"
+    "version": "version---935-fcf"
   },
-  "/docs-77b": {
+  "/-beb": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/apps/control-room-520": {
+  "/apps/control-room-fa6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apps-control-room-4-f-2-94f"
+    "content": "content---apps-control-room-4-f-2-bd4"
   },
-  "/docs/apps/overview-019": {
+  "/apps/overview-ff6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-apps-overviewb-39-80b"
+    "content": "content---apps-overviewb-39-97d"
   },
-  "/docs/concepts/glossary-424": {
+  "/concepts/glossary-c30": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-concepts-glossary-5-ee-6b5"
+    "content": "content---concepts-glossary-5-ee-783"
   },
-  "/docs/concepts/governance-8a1": {
+  "/concepts/governance-0e4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-concepts-governance-4-ba-d9e"
+    "content": "content---concepts-governance-4-ba-d32"
   },
-  "/docs/concepts/protocol-concepts-9b6": {
+  "/concepts/protocol-concepts-53f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-concepts-protocol-concepts-348-607"
+    "content": "content---concepts-protocol-concepts-348-c27"
   },
-  "/docs/concepts/use-cases-2f5": {
+  "/concepts/use-cases-2a9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-concepts-use-casesc-61-fdb"
+    "content": "content---concepts-use-casesc-61-62a"
   },
-  "/docs/concepts/what-is-inverter-network-f1e": {
+  "/concepts/what-is-inverter-network-f84": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-concepts-what-is-inverter-network-523-22e"
+    "content": "content---concepts-what-is-inverter-network-523-f48"
   },
-  "/docs/contracts/build-contribute/development-workflow-4e0": {
+  "/contracts/build-contribute/development-workflow-926": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-build-contribute-development-workflow-7-d-0-cd6"
+    "content": "content---contracts-build-contribute-development-workflow-7-d-0-135"
   },
-  "/docs/contracts/build-contribute/guides-8b5": {
+  "/contracts/build-contribute/guides-630": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-build-contribute-guidesac-1-856"
+    "content": "content---contracts-build-contribute-guidesac-1-34b"
   },
-  "/docs/contracts/build-contribute/overview-fb2": {
+  "/contracts/build-contribute/overview-4b6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-build-contribute-overview-694-f1c"
+    "content": "content---contracts-build-contribute-overview-694-997"
   },
-  "/docs/contracts/build-contribute/quick-start-259": {
+  "/contracts/build-contribute/quick-start-481": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-build-contribute-quick-start-753-17d"
+    "content": "content---contracts-build-contribute-quick-start-753-961"
   },
-  "/docs/contracts/contracts/deployment-addresses-91a": {
+  "/contracts/contracts/deployment-addresses-e42": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-contracts-deployment-addresses-0-d-3-66d"
+    "content": "content---contracts-contracts-deployment-addresses-0-d-3-8ab"
   },
-  "/docs/contracts/contracts/overview-f46": {
+  "/contracts/contracts/overview-376": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-contracts-overview-787-a60"
+    "content": "content---contracts-contracts-overview-787-59f"
   },
-  "/docs/contracts/contracts/security-64f": {
+  "/contracts/contracts/security-efe": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-contracts-security-8-d-5-ef7"
+    "content": "content---contracts-contracts-security-8-d-5-769"
   },
-  "/docs/contracts/contracts/technical-reference-69e": {
+  "/contracts/contracts/technical-reference-115": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-contracts-technical-referenced-4-b-5da"
+    "content": "content---contracts-contracts-technical-referenced-4-b-8d2"
   },
-  "/docs/contracts/overview-98f": {
+  "/contracts/overview-782": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-overview-08-f-71a"
+    "content": "content---contracts-overview-08-f-89d"
   },
-  "/docs/contracts/SDK-c19": {
+  "/contracts/SDK-d5d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contracts-sd-kbef-0f1"
+    "content": "content---contracts-sd-kbef-3aa"
   },
-  "/docs/faq/general-faq-aa5": {
+  "/faq/general-faq-223": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-faq-general-faq-804-ffa"
+    "content": "content---faq-general-faq-804-507"
   },
-  "/docs/faq/technical-faq-a7b": {
+  "/faq/technical-faq-9b9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-faq-technical-faq-41-e-c9d"
+    "content": "content---faq-technical-faq-41-e-4cc"
   },
-  "/docs/getting-started/deploying-your-workflow-733": {
+  "/getting-started/deploying-your-workflow-1a0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-deploying-your-workflow-67-f-ec8"
+    "content": "content---getting-started-deploying-your-workflow-67-f-e9c"
   },
-  "/docs/getting-started/develop-a-module-1cb": {
+  "/getting-started/develop-a-module-8e4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-develop-a-module-00-f-eab"
+    "content": "content---00-f-7fb"
   },
-  "/docs/getting-started/intro-d10": {
+  "/getting-started/start-learning-b3a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-intro-6-df-450"
+    "content": "content---getting-started-start-learning-5-ca-757"
   },
-  "/docs/getting-started/start-learning-546": {
+  "/getting-started/understanding-architecture-fdb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-start-learning-5-ca-2dc"
+    "content": "content---getting-started-understanding-architecturec-73-1be"
   },
-  "/docs/getting-started/understanding-architecture-b66": {
+  "/modules/authorizer/overview-e1d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-understanding-architecturec-73-507"
+    "content": "content---modules-authorizer-overviewbe-3-5ca"
   },
-  "/docs/intro-e84": {
+  "/modules/authorizer/role-authorizer-17b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "content": "content---modules-authorizer-role-authorizerd-97-564"
   },
-  "/docs/modules/authorizer/overview-689": {
+  "/modules/authorizer/single-vote-governance-module-e0b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-authorizer-overviewbe-3-3aa"
+    "content": "content---modules-authorizer-single-vote-governance-module-142-78a"
   },
-  "/docs/modules/authorizer/role-authorizer-ffe": {
+  "/modules/authorizer/token-gated-role-authorizer-f17": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-authorizer-role-authorizerd-97-2fc"
+    "content": "content---modules-authorizer-token-gated-role-authorizer-9-d-5-3b9"
   },
-  "/docs/modules/authorizer/single-vote-governance-module-3e4": {
+  "/modules/funding-manager/bonding-curve-a7c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-authorizer-single-vote-governance-module-142-e5e"
+    "content": "content---modules-funding-manager-bonding-curveaeb-b4a"
   },
-  "/docs/modules/authorizer/token-gated-role-authorizer-1df": {
+  "/modules/funding-manager/overview-701": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-authorizer-token-gated-role-authorizer-9-d-5-817"
+    "content": "content---modules-funding-manager-overview-19-b-b99"
   },
-  "/docs/modules/funding-manager/bonding-curve-47a": {
+  "/modules/funding-manager/rebasing-funding-manager-e40": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-funding-manager-bonding-curveaeb-fd7"
+    "content": "content---modules-funding-manager-rebasing-funding-manager-614-adc"
   },
-  "/docs/modules/funding-manager/overview-e1c": {
+  "/modules/funding-manager/staking-manager-fd7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-funding-manager-overview-19-b-59e"
+    "content": "content---modules-funding-manager-staking-managerf-4-c-f6c"
   },
-  "/docs/modules/funding-manager/rebasing-funding-manager-eda": {
+  "/modules/logic-module/bounty-manager-189": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-funding-manager-rebasing-funding-manager-614-9e6"
+    "content": "content---modules-logic-module-bounty-manager-381-211"
   },
-  "/docs/modules/funding-manager/staking-manager-726": {
+  "/modules/logic-module/kpi-rewarder-025": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-funding-manager-staking-managerf-4-c-e17"
+    "content": "content---modules-logic-module-kpi-rewarder-6-e-0-826"
   },
-  "/docs/modules/logic-module/bounty-manager-680": {
+  "/modules/logic-module/overview-6ae": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-logic-module-bounty-manager-381-c1d"
+    "content": "content---modules-logic-module-overviewca-2-0ac"
   },
-  "/docs/modules/logic-module/kpi-rewarder-52d": {
+  "/modules/payment-processor/overview-86b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-logic-module-kpi-rewarder-6-e-0-4a7"
+    "content": "content---modules-payment-processor-overviewea-9-a75"
   },
-  "/docs/modules/logic-module/overview-ee6": {
+  "/modules/payment-processor/recurring-payment-manager-2bd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-logic-module-overviewca-2-ac0"
+    "content": "content---modules-payment-processor-recurring-payment-manager-0-a-2-f44"
   },
-  "/docs/modules/payment-processor/overview-2b3": {
+  "/modules/payment-processor/simple-payment-processor-a71": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-payment-processor-overviewea-9-6e2"
+    "content": "content---modules-payment-processor-simple-payment-processore-71-bc1"
   },
-  "/docs/modules/payment-processor/recurring-payment-manager-a4a": {
+  "/modules/payment-processor/streaming-payment-processor-367": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-payment-processor-recurring-payment-manager-0-a-2-aab"
+    "content": "content---modules-payment-processor-streaming-payment-processor-107-b8d"
   },
-  "/docs/modules/payment-processor/simple-payment-processor-afe": {
+  "/SDK/control-room-dcd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-payment-processor-simple-payment-processore-71-e51"
+    "content": "content---sdk-control-rooma-55-472"
   },
-  "/docs/modules/payment-processor/streaming-payment-processor-96f": {
+  "/security/access-control-7c6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-payment-processor-streaming-payment-processor-107-d1a"
+    "content": "content---security-access-controlc-71-dd4"
   },
-  "/docs/SDK/control-room-250": {
+  "/security/audits-91a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-sdk-control-rooma-55-7ea"
+    "content": "content---security-audits-720-d50"
   },
-  "/docs/Security/access-control-46e": {
+  "/security/intervention-da5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-security-access-control-6-d-4-c19"
+    "content": "content---security-intervention-7-b-5-682"
   },
-  "/docs/Security/audits-ff2": {
+  "/security/protocol-architecture-959": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-security-audits-6-ff-b4d"
+    "content": "content---security-protocol-architecture-3-d-9-b03"
   },
-  "/docs/Security/intervention-af2": {
+  "/security/security-guideline-294": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-security-interventiona-01-d18"
+    "content": "content---security-security-guideline-1-e-8-79f"
   },
-  "/docs/Security/protocol-architecture-53a": {
+  "/security/testing-d06": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-security-protocol-architecture-9-ae-65c"
+    "content": "content---security-testing-5-e-9-017"
   },
-  "/docs/Security/security-guideline-81d": {
+  "/-a08": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-security-security-guideline-5-c-1-fa1"
-  },
-  "/docs/Security/testing-836": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-security-testing-015-24c"
+    "content": "content---6-df-1d8"
   }
 }

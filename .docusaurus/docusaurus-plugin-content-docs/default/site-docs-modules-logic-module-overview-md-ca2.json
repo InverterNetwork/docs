@@ -5,10 +5,9 @@
   "source": "@site/docs/modules/logic-module/overview.md",
   "sourceDirName": "modules/logic-module",
   "slug": "/modules/logic-module/overview",
-  "permalink": "/docs/modules/logic-module/overview",
+  "permalink": "/modules/logic-module/overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/modules/logic-module/overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Staking Manager",
-    "permalink": "/docs/modules/funding-manager/staking-manager"
+    "permalink": "/modules/funding-manager/staking-manager"
   },
   "next": {
     "title": "Bounty Manager",
-    "permalink": "/docs/modules/logic-module/bounty-manager"
+    "permalink": "/modules/logic-module/bounty-manager"
   }
 }

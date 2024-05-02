@@ -7,11 +7,11 @@ export default {
 
   // Adjusted to point to the GitHub pages domain you should use for Inverter
   url: 'https://inverternetwork.github.io',
-  baseUrl: '/inverter-documentation/',
+  baseUrl: '',
 
   // Adjusted organizationName to match your GitHub organization and projectName to your repository
-  organizationName: 'inverter-network',
-  projectName: 'inverter-documentation',
+  organizationName: 'InverterIetwork',
+  projectName: 'docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,9 +26,10 @@ export default {
       'classic',
       {
         docs: {
+          path: './docs',
+          routeBasePath: '',
           sidebarPath: './sidebars.mjs',
           // Adjusted to provide the correct link for editing documents
-          editUrl: 'https://github.com/InverterNetwork/docs/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -52,12 +53,12 @@ export default {
         src: 'img/in-logo-blue.png',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'getting-started/intro', // Ensure this ID matches your actual starting document ID in your docs
-          position: 'left',
-          label: 'Docs',
-        },
+        // {
+        //   type: 'doc',
+        //   docId: 'getting-started/intro', // Ensure this ID matches your actual starting document ID in your docs
+        //   position: 'left',
+        //   label: 'Docs',
+        // },
         {
           href: 'https://github.com/InverterNetwork',
           label: 'GitHub',

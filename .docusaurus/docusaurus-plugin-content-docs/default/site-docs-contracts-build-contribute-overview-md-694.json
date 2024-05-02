@@ -5,10 +5,9 @@
   "source": "@site/docs/contracts/build-contribute/overview.md",
   "sourceDirName": "contracts/build-contribute",
   "slug": "/contracts/build-contribute/overview",
-  "permalink": "/docs/contracts/build-contribute/overview",
+  "permalink": "/contracts/build-contribute/overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Quick Start",
-    "permalink": "/docs/contracts/build-contribute/quick-start"
+    "permalink": "/contracts/build-contribute/quick-start"
   },
   "next": {
     "title": "Development Workflow",
-    "permalink": "/docs/contracts/build-contribute/development-workflow"
+    "permalink": "/contracts/build-contribute/development-workflow"
   }
 }

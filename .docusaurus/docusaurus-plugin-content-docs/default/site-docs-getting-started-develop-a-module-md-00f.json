@@ -5,10 +5,9 @@
   "source": "@site/docs/getting-started/develop-a-module.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/develop-a-module",
-  "permalink": "/docs/getting-started/develop-a-module",
+  "permalink": "/getting-started/develop-a-module",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/getting-started/develop-a-module.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Deploying Your Workflow",
-    "permalink": "/docs/getting-started/deploying-your-workflow"
+    "permalink": "/getting-started/deploying-your-workflow"
   },
   "next": {
     "title": "Start Learning",
-    "permalink": "/docs/getting-started/start-learning"
+    "permalink": "/getting-started/start-learning"
   }
 }

@@ -5,10 +5,9 @@
   "source": "@site/docs/faq/technical-faq.md",
   "sourceDirName": "faq",
   "slug": "/faq/technical-faq",
-  "permalink": "/docs/faq/technical-faq",
+  "permalink": "/faq/technical-faq",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/faq/technical-faq.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -20,6 +19,6 @@
   "sidebar": "docs",
   "previous": {
     "title": "General FAQ",
-    "permalink": "/docs/faq/general-faq"
+    "permalink": "/faq/general-faq"
   }
 }

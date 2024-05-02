@@ -5,10 +5,9 @@
   "source": "@site/docs/modules/authorizer/overview.md",
   "sourceDirName": "modules/authorizer",
   "slug": "/modules/authorizer/overview",
-  "permalink": "/docs/modules/authorizer/overview",
+  "permalink": "/modules/authorizer/overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/modules/authorizer/overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Glossary",
-    "permalink": "/docs/concepts/glossary"
+    "permalink": "/concepts/glossary"
   },
   "next": {
     "title": "Role Authorizer",
-    "permalink": "/docs/modules/authorizer/role-authorizer"
+    "permalink": "/modules/authorizer/role-authorizer"
   }
 }

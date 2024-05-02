@@ -5,10 +5,9 @@
   "source": "@site/docs/modules/authorizer/token-gated-role-authorizer.md",
   "sourceDirName": "modules/authorizer",
   "slug": "/modules/authorizer/token-gated-role-authorizer",
-  "permalink": "/docs/modules/authorizer/token-gated-role-authorizer",
+  "permalink": "/modules/authorizer/token-gated-role-authorizer",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/modules/authorizer/token-gated-role-authorizer.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Role Authorizer",
-    "permalink": "/docs/modules/authorizer/role-authorizer"
+    "permalink": "/modules/authorizer/role-authorizer"
   },
   "next": {
     "title": "Single Vote Governance Module",
-    "permalink": "/docs/modules/authorizer/single-vote-governance-module"
+    "permalink": "/modules/authorizer/single-vote-governance-module"
   }
 }

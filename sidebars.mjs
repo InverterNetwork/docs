@@ -83,12 +83,12 @@ export default {
     Apps: ['apps/overview', 'apps/control-room'],
     'Security Standard': [
       // Corrected spelling from "Standart" to "Standard"
-      'Security/security-guideline',
-      'Security/protocol-architecture',
-      'Security/testing',
-      'Security/audits',
-      'Security/intervention',
-      'Security/access-control',
+      'security/security-guideline',
+      'security/protocol-architecture',
+      'security/testing',
+      'security/audits',
+      'security/intervention',
+      'security/access-control',
     ],
     FAQ: ['faq/general-faq', 'faq/technical-faq'],
   },

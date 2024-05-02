@@ -5,10 +5,9 @@
   "source": "@site/docs/contracts/contracts/deployment-addresses.md",
   "sourceDirName": "contracts/contracts",
   "slug": "/contracts/contracts/deployment-addresses",
-  "permalink": "/docs/contracts/contracts/deployment-addresses",
+  "permalink": "/contracts/contracts/deployment-addresses",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/contracts/contracts/deployment-addresses.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Overview",
-    "permalink": "/docs/contracts/contracts/overview"
+    "permalink": "/contracts/contracts/overview"
   },
   "next": {
     "title": "Security",
-    "permalink": "/docs/contracts/contracts/security"
+    "permalink": "/contracts/contracts/security"
   }
 }

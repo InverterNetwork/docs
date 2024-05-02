@@ -5,10 +5,9 @@
   "source": "@site/docs/Security/protocol-architecture.md",
   "sourceDirName": "Security",
   "slug": "/Security/protocol-architecture",
-  "permalink": "/docs/Security/protocol-architecture",
+  "permalink": "/Security/protocol-architecture",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/Security/protocol-architecture.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Inverter Security Guideline",
-    "permalink": "/docs/Security/security-guideline"
+    "permalink": "/Security/security-guideline"
   },
   "next": {
     "title": "Testing",
-    "permalink": "/docs/Security/testing"
+    "permalink": "/Security/testing"
   }
 }

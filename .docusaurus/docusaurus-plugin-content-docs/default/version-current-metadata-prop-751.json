@@ -15,36 +15,36 @@
         "items": [
           {
             "type": "link",
-            "label": "Getting Started",
-            "href": "/docs/getting-started/intro",
+            "label": "Intro",
+            "href": "/",
             "docId": "getting-started/intro",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Deploying Your Workflow",
-            "href": "/docs/getting-started/deploying-your-workflow",
+            "href": "/getting-started/deploying-your-workflow",
             "docId": "getting-started/deploying-your-workflow",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Develop a module",
-            "href": "/docs/getting-started/develop-a-module",
+            "href": "/getting-started/develop-a-module",
             "docId": "getting-started/develop-a-module",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Start Learning",
-            "href": "/docs/getting-started/start-learning",
+            "href": "/getting-started/start-learning",
             "docId": "getting-started/start-learning",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Understanding The Architecture",
-            "href": "/docs/getting-started/understanding-architecture",
+            "href": "/getting-started/understanding-architecture",
             "docId": "getting-started/understanding-architecture",
             "unlisted": false
           }
@@ -59,35 +59,35 @@
           {
             "type": "link",
             "label": "What is Inverter Network",
-            "href": "/docs/concepts/what-is-inverter-network",
+            "href": "/concepts/what-is-inverter-network",
             "docId": "concepts/what-is-inverter-network",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Use Cases",
-            "href": "/docs/concepts/use-cases",
+            "href": "/concepts/use-cases",
             "docId": "concepts/use-cases",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Protocol Concepts",
-            "href": "/docs/concepts/protocol-concepts",
+            "href": "/concepts/protocol-concepts",
             "docId": "concepts/protocol-concepts",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Governance",
-            "href": "/docs/concepts/governance",
+            "href": "/concepts/governance",
             "docId": "concepts/governance",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Glossary",
-            "href": "/docs/concepts/glossary",
+            "href": "/concepts/glossary",
             "docId": "concepts/glossary",
             "unlisted": false
           }
@@ -106,28 +106,28 @@
               {
                 "type": "link",
                 "label": "About Authorizer Modules",
-                "href": "/docs/modules/authorizer/overview",
+                "href": "/modules/authorizer/overview",
                 "docId": "modules/authorizer/overview",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Role Authorizer",
-                "href": "/docs/modules/authorizer/role-authorizer",
+                "href": "/modules/authorizer/role-authorizer",
                 "docId": "modules/authorizer/role-authorizer",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Token Gated Role Authorizer",
-                "href": "/docs/modules/authorizer/token-gated-role-authorizer",
+                "href": "/modules/authorizer/token-gated-role-authorizer",
                 "docId": "modules/authorizer/token-gated-role-authorizer",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Single Vote Governance Module",
-                "href": "/docs/modules/authorizer/single-vote-governance-module",
+                "href": "/modules/authorizer/single-vote-governance-module",
                 "docId": "modules/authorizer/single-vote-governance-module",
                 "unlisted": false
               }
@@ -142,28 +142,28 @@
               {
                 "type": "link",
                 "label": "About Funding Manager Modules",
-                "href": "/docs/modules/funding-manager/overview",
+                "href": "/modules/funding-manager/overview",
                 "docId": "modules/funding-manager/overview",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Bonding Curve Bancor Funding Manager",
-                "href": "/docs/modules/funding-manager/bonding-curve",
+                "href": "/modules/funding-manager/bonding-curve",
                 "docId": "modules/funding-manager/bonding-curve",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Rebasing Funding Manager",
-                "href": "/docs/modules/funding-manager/rebasing-funding-manager",
+                "href": "/modules/funding-manager/rebasing-funding-manager",
                 "docId": "modules/funding-manager/rebasing-funding-manager",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Staking Manager",
-                "href": "/docs/modules/funding-manager/staking-manager",
+                "href": "/modules/funding-manager/staking-manager",
                 "docId": "modules/funding-manager/staking-manager",
                 "unlisted": false
               }
@@ -178,21 +178,21 @@
               {
                 "type": "link",
                 "label": "About Logic Modules",
-                "href": "/docs/modules/logic-module/overview",
+                "href": "/modules/logic-module/overview",
                 "docId": "modules/logic-module/overview",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Bounty Manager",
-                "href": "/docs/modules/logic-module/bounty-manager",
+                "href": "/modules/logic-module/bounty-manager",
                 "docId": "modules/logic-module/bounty-manager",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "KPI Rewarder",
-                "href": "/docs/modules/logic-module/kpi-rewarder",
+                "href": "/modules/logic-module/kpi-rewarder",
                 "docId": "modules/logic-module/kpi-rewarder",
                 "unlisted": false
               }
@@ -207,28 +207,28 @@
               {
                 "type": "link",
                 "label": "About Payment Processor Modules",
-                "href": "/docs/modules/payment-processor/overview",
+                "href": "/modules/payment-processor/overview",
                 "docId": "modules/payment-processor/overview",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Simple Payment Processor",
-                "href": "/docs/modules/payment-processor/simple-payment-processor",
+                "href": "/modules/payment-processor/simple-payment-processor",
                 "docId": "modules/payment-processor/simple-payment-processor",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Recurring Payment Manager",
-                "href": "/docs/modules/payment-processor/recurring-payment-manager",
+                "href": "/modules/payment-processor/recurring-payment-manager",
                 "docId": "modules/payment-processor/recurring-payment-manager",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Streaming Payment Processor",
-                "href": "/docs/modules/payment-processor/streaming-payment-processor",
+                "href": "/modules/payment-processor/streaming-payment-processor",
                 "docId": "modules/payment-processor/streaming-payment-processor",
                 "unlisted": false
               }
@@ -247,7 +247,7 @@
           {
             "type": "link",
             "label": "Tutorial Intro",
-            "href": "/docs/SDK/control-room",
+            "href": "/SDK/control-room",
             "docId": "SDK/control-room",
             "unlisted": false
           }
@@ -262,7 +262,7 @@
           {
             "type": "link",
             "label": "Overview",
-            "href": "/docs/contracts/overview",
+            "href": "/contracts/overview",
             "docId": "contracts/overview",
             "unlisted": false
           },
@@ -273,28 +273,28 @@
               {
                 "type": "link",
                 "label": "Quick Start",
-                "href": "/docs/contracts/build-contribute/quick-start",
+                "href": "/contracts/build-contribute/quick-start",
                 "docId": "contracts/build-contribute/quick-start",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Overview",
-                "href": "/docs/contracts/build-contribute/overview",
+                "href": "/contracts/build-contribute/overview",
                 "docId": "contracts/build-contribute/overview",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Development Workflow",
-                "href": "/docs/contracts/build-contribute/development-workflow",
+                "href": "/contracts/build-contribute/development-workflow",
                 "docId": "contracts/build-contribute/development-workflow",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Guides",
-                "href": "/docs/contracts/build-contribute/guides",
+                "href": "/contracts/build-contribute/guides",
                 "docId": "contracts/build-contribute/guides",
                 "unlisted": false
               }
@@ -309,28 +309,28 @@
               {
                 "type": "link",
                 "label": "Overview",
-                "href": "/docs/contracts/contracts/overview",
+                "href": "/contracts/contracts/overview",
                 "docId": "contracts/contracts/overview",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Deployment Addresses",
-                "href": "/docs/contracts/contracts/deployment-addresses",
+                "href": "/contracts/contracts/deployment-addresses",
                 "docId": "contracts/contracts/deployment-addresses",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Security",
-                "href": "/docs/contracts/contracts/security",
+                "href": "/contracts/contracts/security",
                 "docId": "contracts/contracts/security",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Technical Reference",
-                "href": "/docs/contracts/contracts/technical-reference",
+                "href": "/contracts/contracts/technical-reference",
                 "docId": "contracts/contracts/technical-reference",
                 "unlisted": false
               }
@@ -349,14 +349,14 @@
           {
             "type": "link",
             "label": "Overview",
-            "href": "/docs/apps/overview",
+            "href": "/apps/overview",
             "docId": "apps/overview",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Control Room",
-            "href": "/docs/apps/control-room",
+            "href": "/apps/control-room",
             "docId": "apps/control-room",
             "unlisted": false
           }
@@ -371,43 +371,43 @@
           {
             "type": "link",
             "label": "Inverter Security Guideline",
-            "href": "/docs/Security/security-guideline",
-            "docId": "Security/security-guideline",
+            "href": "/security/security-guideline",
+            "docId": "security/security-guideline",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Protocol Architecture",
-            "href": "/docs/Security/protocol-architecture",
-            "docId": "Security/protocol-architecture",
+            "href": "/security/protocol-architecture",
+            "docId": "security/protocol-architecture",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Testing",
-            "href": "/docs/Security/testing",
-            "docId": "Security/testing",
+            "href": "/security/testing",
+            "docId": "security/testing",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Audits",
-            "href": "/docs/Security/audits",
-            "docId": "Security/audits",
+            "href": "/security/audits",
+            "docId": "security/audits",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Intervention Mechanisms",
-            "href": "/docs/Security/intervention",
-            "docId": "Security/intervention",
+            "href": "/security/intervention",
+            "docId": "security/intervention",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Access Control and Permissions",
-            "href": "/docs/Security/access-control",
-            "docId": "Security/access-control",
+            "href": "/security/access-control",
+            "docId": "security/access-control",
             "unlisted": false
           }
         ],
@@ -421,14 +421,14 @@
           {
             "type": "link",
             "label": "General FAQ",
-            "href": "/docs/faq/general-faq",
+            "href": "/faq/general-faq",
             "docId": "faq/general-faq",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Technical FAQ",
-            "href": "/docs/faq/technical-faq",
+            "href": "/faq/technical-faq",
             "docId": "faq/technical-faq",
             "unlisted": false
           }
@@ -566,7 +566,7 @@
     },
     "getting-started/intro": {
       "id": "getting-started/intro",
-      "title": "Getting Started",
+      "title": "Intro",
       "description": "Inverter is a modular infrastructure protocol that enables programmable smart contract workflows. Simply put, it offers the Inverter Open Library of Smart Contract Modules that can be customized and composed into automated workflows (in this context workflows refer to user journeys or use cases) that are executed on the Orchestrator Contract. Each module acts as a specialized tool like in a carpenter’s kit that can be combined with others to build more extensive and more complex structures.",
       "sidebar": "docs"
     },
@@ -581,11 +581,6 @@
       "title": "Understanding The Architecture",
       "description": "In this section, we describe the various smart contracts and their functionalities. Together with the general architecture and main interfaces, we also present the structure designed to accommodate future extensions of the overall architecture.",
       "sidebar": "docs"
-    },
-    "intro": {
-      "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes."
     },
     "modules/authorizer/overview": {
       "id": "modules/authorizer/overview",
@@ -683,38 +678,38 @@
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "docs"
     },
-    "Security/access-control": {
-      "id": "Security/access-control",
+    "security/access-control": {
+      "id": "security/access-control",
       "title": "Access Control and Permissions",
       "description": "5.1 Governance and Protocol Upgrades",
       "sidebar": "docs"
     },
-    "Security/audits": {
-      "id": "Security/audits",
+    "security/audits": {
+      "id": "security/audits",
       "title": "Audits",
       "description": "Audits serve as a critical checkpoint for blockchain projects, providing external validation of the protocol's security and functionality. At Inverter Protocol, we view audits not as a mere formality but as an essential component of our commitment to transparency and security.",
       "sidebar": "docs"
     },
-    "Security/intervention": {
-      "id": "Security/intervention",
+    "security/intervention": {
+      "id": "security/intervention",
       "title": "Intervention Mechanisms",
       "description": "In the dynamic landscape of blockchain-based projects, the ability to swiftly respond to emerging threats is crucial. Our protocol is equipped with mechanisms that allow:",
       "sidebar": "docs"
     },
-    "Security/protocol-architecture": {
-      "id": "Security/protocol-architecture",
+    "security/protocol-architecture": {
+      "id": "security/protocol-architecture",
       "title": "Protocol Architecture",
       "description": "Simplicity and Straightforwardness",
       "sidebar": "docs"
     },
-    "Security/security-guideline": {
-      "id": "Security/security-guideline",
+    "security/security-guideline": {
+      "id": "security/security-guideline",
       "title": "Inverter Security Guideline",
       "description": "In the rapidly evolving world of Blockchain-based projects, security remains paramount. The Inverter Protocol, recognizing the significance of robust security measures, is committed to setting the gold standard in this domain. Our approach to security is not just about preventing vulnerabilities; it's about building a culture of continuous vigilance, learning, and improvement.",
       "sidebar": "docs"
     },
-    "Security/testing": {
-      "id": "Security/testing",
+    "security/testing": {
+      "id": "security/testing",
       "title": "Testing",
       "description": "We follow a rigorous testing standard for our code base and Module Library, including:",
       "sidebar": "docs"

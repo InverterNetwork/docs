@@ -5,10 +5,9 @@
   "source": "@site/docs/concepts/what-is-inverter-network.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/what-is-inverter-network",
-  "permalink": "/docs/concepts/what-is-inverter-network",
+  "permalink": "/concepts/what-is-inverter-network",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/concepts/what-is-inverter-network.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Understanding The Architecture",
-    "permalink": "/docs/getting-started/understanding-architecture"
+    "permalink": "/getting-started/understanding-architecture"
   },
   "next": {
     "title": "Use Cases",
-    "permalink": "/docs/concepts/use-cases"
+    "permalink": "/concepts/use-cases"
   }
 }

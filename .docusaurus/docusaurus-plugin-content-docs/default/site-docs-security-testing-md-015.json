@@ -5,10 +5,9 @@
   "source": "@site/docs/Security/testing.md",
   "sourceDirName": "Security",
   "slug": "/Security/testing",
-  "permalink": "/docs/Security/testing",
+  "permalink": "/Security/testing",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/Security/testing.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Protocol Architecture",
-    "permalink": "/docs/Security/protocol-architecture"
+    "permalink": "/Security/protocol-architecture"
   },
   "next": {
     "title": "Audits",
-    "permalink": "/docs/Security/audits"
+    "permalink": "/Security/audits"
   }
 }

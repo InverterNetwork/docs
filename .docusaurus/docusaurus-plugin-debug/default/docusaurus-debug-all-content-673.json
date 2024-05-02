@@ -9,15 +9,13 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
-          "editUrl": "https://www.inverter.network/docs",
-          "editUrlLocalized": "https://www.inverter.network/i18n/en/docusaurus-plugin-content-docs/current",
+          "path": "/",
+          "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/bc/Inverter-Docs/sidebars.js",
-          "contentPath": "/Users/bc/Inverter-Docs/docs",
-          "contentPathLocalized": "/Users/bc/Inverter-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/anon/Desktop/inverter/docs/sidebars.mjs",
+          "contentPath": "/home/anon/Desktop/inverter/docs/docs",
+          "contentPathLocalized": "/home/anon/Desktop/inverter/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "id": "apps/control-room",
@@ -26,10 +24,9 @@
               "source": "@site/docs/apps/control-room.md",
               "sourceDirName": "apps",
               "slug": "/apps/control-room",
-              "permalink": "/docs/apps/control-room",
+              "permalink": "/apps/control-room",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/apps/control-room.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -41,11 +38,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Overview",
-                "permalink": "/docs/apps/overview"
+                "permalink": "/apps/overview"
               },
               "next": {
                 "title": "Inverter Security Guideline",
-                "permalink": "/docs/Security/security-guideline"
+                "permalink": "/security/security-guideline"
               }
             },
             {
@@ -55,10 +52,9 @@
               "source": "@site/docs/apps/overview.md",
               "sourceDirName": "apps",
               "slug": "/apps/overview",
-              "permalink": "/docs/apps/overview",
+              "permalink": "/apps/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/apps/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -70,11 +66,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Technical Reference",
-                "permalink": "/docs/contracts/contracts/technical-reference"
+                "permalink": "/contracts/contracts/technical-reference"
               },
               "next": {
                 "title": "Control Room",
-                "permalink": "/docs/apps/control-room"
+                "permalink": "/apps/control-room"
               }
             },
             {
@@ -84,10 +80,9 @@
               "source": "@site/docs/concepts/glossary.md",
               "sourceDirName": "concepts",
               "slug": "/concepts/glossary",
-              "permalink": "/docs/concepts/glossary",
+              "permalink": "/concepts/glossary",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/concepts/glossary.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -99,11 +94,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Governance",
-                "permalink": "/docs/concepts/governance"
+                "permalink": "/concepts/governance"
               },
               "next": {
                 "title": "About Authorizer Modules",
-                "permalink": "/docs/modules/authorizer/overview"
+                "permalink": "/modules/authorizer/overview"
               }
             },
             {
@@ -113,10 +108,9 @@
               "source": "@site/docs/concepts/governance.md",
               "sourceDirName": "concepts",
               "slug": "/concepts/governance",
-              "permalink": "/docs/concepts/governance",
+              "permalink": "/concepts/governance",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/concepts/governance.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -128,11 +122,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Protocol Concepts",
-                "permalink": "/docs/concepts/protocol-concepts"
+                "permalink": "/concepts/protocol-concepts"
               },
               "next": {
                 "title": "Glossary",
-                "permalink": "/docs/concepts/glossary"
+                "permalink": "/concepts/glossary"
               }
             },
             {
@@ -142,10 +136,9 @@
               "source": "@site/docs/concepts/protocol-concepts.md",
               "sourceDirName": "concepts",
               "slug": "/concepts/protocol-concepts",
-              "permalink": "/docs/concepts/protocol-concepts",
+              "permalink": "/concepts/protocol-concepts",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/concepts/protocol-concepts.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -157,11 +150,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Use Cases",
-                "permalink": "/docs/concepts/use-cases"
+                "permalink": "/concepts/use-cases"
               },
               "next": {
                 "title": "Governance",
-                "permalink": "/docs/concepts/governance"
+                "permalink": "/concepts/governance"
               }
             },
             {
@@ -171,10 +164,9 @@
               "source": "@site/docs/concepts/use-cases.md",
               "sourceDirName": "concepts",
               "slug": "/concepts/use-cases",
-              "permalink": "/docs/concepts/use-cases",
+              "permalink": "/concepts/use-cases",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/concepts/use-cases.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -186,11 +178,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "What is Inverter Network",
-                "permalink": "/docs/concepts/what-is-inverter-network"
+                "permalink": "/concepts/what-is-inverter-network"
               },
               "next": {
                 "title": "Protocol Concepts",
-                "permalink": "/docs/concepts/protocol-concepts"
+                "permalink": "/concepts/protocol-concepts"
               }
             },
             {
@@ -200,10 +192,9 @@
               "source": "@site/docs/concepts/what-is-inverter-network.md",
               "sourceDirName": "concepts",
               "slug": "/concepts/what-is-inverter-network",
-              "permalink": "/docs/concepts/what-is-inverter-network",
+              "permalink": "/concepts/what-is-inverter-network",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/concepts/what-is-inverter-network.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -215,11 +206,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Understanding The Architecture",
-                "permalink": "/docs/getting-started/understanding-architecture"
+                "permalink": "/getting-started/understanding-architecture"
               },
               "next": {
                 "title": "Use Cases",
-                "permalink": "/docs/concepts/use-cases"
+                "permalink": "/concepts/use-cases"
               }
             },
             {
@@ -229,10 +220,9 @@
               "source": "@site/docs/contracts/build-contribute/development-workflow.md",
               "sourceDirName": "contracts/build-contribute",
               "slug": "/contracts/build-contribute/development-workflow",
-              "permalink": "/docs/contracts/build-contribute/development-workflow",
+              "permalink": "/contracts/build-contribute/development-workflow",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/development-workflow.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -244,11 +234,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Overview",
-                "permalink": "/docs/contracts/build-contribute/overview"
+                "permalink": "/contracts/build-contribute/overview"
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/docs/contracts/build-contribute/guides"
+                "permalink": "/contracts/build-contribute/guides"
               }
             },
             {
@@ -258,10 +248,9 @@
               "source": "@site/docs/contracts/build-contribute/guides.md",
               "sourceDirName": "contracts/build-contribute",
               "slug": "/contracts/build-contribute/guides",
-              "permalink": "/docs/contracts/build-contribute/guides",
+              "permalink": "/contracts/build-contribute/guides",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/guides.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -273,11 +262,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Development Workflow",
-                "permalink": "/docs/contracts/build-contribute/development-workflow"
+                "permalink": "/contracts/build-contribute/development-workflow"
               },
               "next": {
                 "title": "Overview",
-                "permalink": "/docs/contracts/contracts/overview"
+                "permalink": "/contracts/contracts/overview"
               }
             },
             {
@@ -287,10 +276,9 @@
               "source": "@site/docs/contracts/build-contribute/overview.md",
               "sourceDirName": "contracts/build-contribute",
               "slug": "/contracts/build-contribute/overview",
-              "permalink": "/docs/contracts/build-contribute/overview",
+              "permalink": "/contracts/build-contribute/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -302,11 +290,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Quick Start",
-                "permalink": "/docs/contracts/build-contribute/quick-start"
+                "permalink": "/contracts/build-contribute/quick-start"
               },
               "next": {
                 "title": "Development Workflow",
-                "permalink": "/docs/contracts/build-contribute/development-workflow"
+                "permalink": "/contracts/build-contribute/development-workflow"
               }
             },
             {
@@ -316,10 +304,9 @@
               "source": "@site/docs/contracts/build-contribute/quick-start.md",
               "sourceDirName": "contracts/build-contribute",
               "slug": "/contracts/build-contribute/quick-start",
-              "permalink": "/docs/contracts/build-contribute/quick-start",
+              "permalink": "/contracts/build-contribute/quick-start",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/build-contribute/quick-start.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -331,11 +318,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Overview",
-                "permalink": "/docs/contracts/overview"
+                "permalink": "/contracts/overview"
               },
               "next": {
                 "title": "Overview",
-                "permalink": "/docs/contracts/build-contribute/overview"
+                "permalink": "/contracts/build-contribute/overview"
               }
             },
             {
@@ -345,10 +332,9 @@
               "source": "@site/docs/contracts/contracts/deployment-addresses.md",
               "sourceDirName": "contracts/contracts",
               "slug": "/contracts/contracts/deployment-addresses",
-              "permalink": "/docs/contracts/contracts/deployment-addresses",
+              "permalink": "/contracts/contracts/deployment-addresses",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/contracts/deployment-addresses.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -360,11 +346,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Overview",
-                "permalink": "/docs/contracts/contracts/overview"
+                "permalink": "/contracts/contracts/overview"
               },
               "next": {
                 "title": "Security",
-                "permalink": "/docs/contracts/contracts/security"
+                "permalink": "/contracts/contracts/security"
               }
             },
             {
@@ -374,10 +360,9 @@
               "source": "@site/docs/contracts/contracts/overview.md",
               "sourceDirName": "contracts/contracts",
               "slug": "/contracts/contracts/overview",
-              "permalink": "/docs/contracts/contracts/overview",
+              "permalink": "/contracts/contracts/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/contracts/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -389,11 +374,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Guides",
-                "permalink": "/docs/contracts/build-contribute/guides"
+                "permalink": "/contracts/build-contribute/guides"
               },
               "next": {
                 "title": "Deployment Addresses",
-                "permalink": "/docs/contracts/contracts/deployment-addresses"
+                "permalink": "/contracts/contracts/deployment-addresses"
               }
             },
             {
@@ -403,10 +388,9 @@
               "source": "@site/docs/contracts/contracts/security.md",
               "sourceDirName": "contracts/contracts",
               "slug": "/contracts/contracts/security",
-              "permalink": "/docs/contracts/contracts/security",
+              "permalink": "/contracts/contracts/security",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/contracts/security.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -418,11 +402,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Deployment Addresses",
-                "permalink": "/docs/contracts/contracts/deployment-addresses"
+                "permalink": "/contracts/contracts/deployment-addresses"
               },
               "next": {
                 "title": "Technical Reference",
-                "permalink": "/docs/contracts/contracts/technical-reference"
+                "permalink": "/contracts/contracts/technical-reference"
               }
             },
             {
@@ -432,10 +416,9 @@
               "source": "@site/docs/contracts/contracts/technical-reference.md",
               "sourceDirName": "contracts/contracts",
               "slug": "/contracts/contracts/technical-reference",
-              "permalink": "/docs/contracts/contracts/technical-reference",
+              "permalink": "/contracts/contracts/technical-reference",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/contracts/technical-reference.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -447,11 +430,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Security",
-                "permalink": "/docs/contracts/contracts/security"
+                "permalink": "/contracts/contracts/security"
               },
               "next": {
                 "title": "Overview",
-                "permalink": "/docs/apps/overview"
+                "permalink": "/apps/overview"
               }
             },
             {
@@ -461,10 +444,9 @@
               "source": "@site/docs/contracts/overview.md",
               "sourceDirName": "contracts",
               "slug": "/contracts/overview",
-              "permalink": "/docs/contracts/overview",
+              "permalink": "/contracts/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -476,11 +458,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Tutorial Intro",
-                "permalink": "/docs/SDK/control-room"
+                "permalink": "/SDK/control-room"
               },
               "next": {
                 "title": "Quick Start",
-                "permalink": "/docs/contracts/build-contribute/quick-start"
+                "permalink": "/contracts/build-contribute/quick-start"
               }
             },
             {
@@ -490,10 +472,9 @@
               "source": "@site/docs/contracts/SDK.md",
               "sourceDirName": "contracts",
               "slug": "/contracts/SDK",
-              "permalink": "/docs/contracts/SDK",
+              "permalink": "/contracts/SDK",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/contracts/SDK.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -508,10 +489,9 @@
               "source": "@site/docs/faq/general-faq.md",
               "sourceDirName": "faq",
               "slug": "/faq/general-faq",
-              "permalink": "/docs/faq/general-faq",
+              "permalink": "/faq/general-faq",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/faq/general-faq.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -523,11 +503,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Access Control and Permissions",
-                "permalink": "/docs/Security/access-control"
+                "permalink": "/security/access-control"
               },
               "next": {
                 "title": "Technical FAQ",
-                "permalink": "/docs/faq/technical-faq"
+                "permalink": "/faq/technical-faq"
               }
             },
             {
@@ -537,10 +517,9 @@
               "source": "@site/docs/faq/technical-faq.md",
               "sourceDirName": "faq",
               "slug": "/faq/technical-faq",
-              "permalink": "/docs/faq/technical-faq",
+              "permalink": "/faq/technical-faq",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/faq/technical-faq.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -552,7 +531,7 @@
               "sidebar": "docs",
               "previous": {
                 "title": "General FAQ",
-                "permalink": "/docs/faq/general-faq"
+                "permalink": "/faq/general-faq"
               }
             },
             {
@@ -562,10 +541,9 @@
               "source": "@site/docs/getting-started/deploying-your-workflow.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/deploying-your-workflow",
-              "permalink": "/docs/getting-started/deploying-your-workflow",
+              "permalink": "/getting-started/deploying-your-workflow",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/getting-started/deploying-your-workflow.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -576,12 +554,12 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/getting-started/intro"
+                "title": "Intro",
+                "permalink": "/"
               },
               "next": {
                 "title": "Develop a module",
-                "permalink": "/docs/getting-started/develop-a-module"
+                "permalink": "/getting-started/develop-a-module"
               }
             },
             {
@@ -591,10 +569,9 @@
               "source": "@site/docs/getting-started/develop-a-module.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/develop-a-module",
-              "permalink": "/docs/getting-started/develop-a-module",
+              "permalink": "/getting-started/develop-a-module",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/getting-started/develop-a-module.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -606,36 +583,36 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Deploying Your Workflow",
-                "permalink": "/docs/getting-started/deploying-your-workflow"
+                "permalink": "/getting-started/deploying-your-workflow"
               },
               "next": {
                 "title": "Start Learning",
-                "permalink": "/docs/getting-started/start-learning"
+                "permalink": "/getting-started/start-learning"
               }
             },
             {
               "id": "getting-started/intro",
-              "title": "Getting Started",
+              "title": "Intro",
               "description": "Inverter is a modular infrastructure protocol that enables programmable smart contract workflows. Simply put, it offers the Inverter Open Library of Smart Contract Modules that can be customized and composed into automated workflows (in this context workflows refer to user journeys or use cases) that are executed on the Orchestrator Contract. Each module acts as a specialized tool like in a carpenter’s kit that can be combined with others to build more extensive and more complex structures.",
               "source": "@site/docs/getting-started/intro.md",
               "sourceDirName": "getting-started",
-              "slug": "/getting-started/intro",
-              "permalink": "/docs/getting-started/intro",
+              "slug": "/",
+              "permalink": "/",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/getting-started/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1,
                 "id": "intro",
-                "title": "Getting Started"
+                "title": "Intro",
+                "slug": "/"
               },
               "sidebar": "docs",
               "next": {
                 "title": "Deploying Your Workflow",
-                "permalink": "/docs/getting-started/deploying-your-workflow"
+                "permalink": "/getting-started/deploying-your-workflow"
               }
             },
             {
@@ -645,10 +622,9 @@
               "source": "@site/docs/getting-started/start-learning.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/start-learning",
-              "permalink": "/docs/getting-started/start-learning",
+              "permalink": "/getting-started/start-learning",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/getting-started/start-learning.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -660,11 +636,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Develop a module",
-                "permalink": "/docs/getting-started/develop-a-module"
+                "permalink": "/getting-started/develop-a-module"
               },
               "next": {
                 "title": "Understanding The Architecture",
-                "permalink": "/docs/getting-started/understanding-architecture"
+                "permalink": "/getting-started/understanding-architecture"
               }
             },
             {
@@ -674,10 +650,9 @@
               "source": "@site/docs/getting-started/understanding-architecture.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/understanding-architecture",
-              "permalink": "/docs/getting-started/understanding-architecture",
+              "permalink": "/getting-started/understanding-architecture",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/getting-started/understanding-architecture.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -689,29 +664,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Start Learning",
-                "permalink": "/docs/getting-started/start-learning"
+                "permalink": "/getting-started/start-learning"
               },
               "next": {
                 "title": "What is Inverter Network",
-                "permalink": "/docs/concepts/what-is-inverter-network"
-              }
-            },
-            {
-              "id": "intro",
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/intro.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
+                "permalink": "/concepts/what-is-inverter-network"
               }
             },
             {
@@ -721,10 +678,9 @@
               "source": "@site/docs/modules/authorizer/overview.md",
               "sourceDirName": "modules/authorizer",
               "slug": "/modules/authorizer/overview",
-              "permalink": "/docs/modules/authorizer/overview",
+              "permalink": "/modules/authorizer/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/authorizer/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -734,11 +690,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Glossary",
-                "permalink": "/docs/concepts/glossary"
+                "permalink": "/concepts/glossary"
               },
               "next": {
                 "title": "Role Authorizer",
-                "permalink": "/docs/modules/authorizer/role-authorizer"
+                "permalink": "/modules/authorizer/role-authorizer"
               }
             },
             {
@@ -748,10 +704,9 @@
               "source": "@site/docs/modules/authorizer/role-authorizer.md",
               "sourceDirName": "modules/authorizer",
               "slug": "/modules/authorizer/role-authorizer",
-              "permalink": "/docs/modules/authorizer/role-authorizer",
+              "permalink": "/modules/authorizer/role-authorizer",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/authorizer/role-authorizer.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -761,11 +716,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "About Authorizer Modules",
-                "permalink": "/docs/modules/authorizer/overview"
+                "permalink": "/modules/authorizer/overview"
               },
               "next": {
                 "title": "Token Gated Role Authorizer",
-                "permalink": "/docs/modules/authorizer/token-gated-role-authorizer"
+                "permalink": "/modules/authorizer/token-gated-role-authorizer"
               }
             },
             {
@@ -775,10 +730,9 @@
               "source": "@site/docs/modules/authorizer/single-vote-governance-module.md",
               "sourceDirName": "modules/authorizer",
               "slug": "/modules/authorizer/single-vote-governance-module",
-              "permalink": "/docs/modules/authorizer/single-vote-governance-module",
+              "permalink": "/modules/authorizer/single-vote-governance-module",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/authorizer/single-vote-governance-module.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -788,11 +742,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Token Gated Role Authorizer",
-                "permalink": "/docs/modules/authorizer/token-gated-role-authorizer"
+                "permalink": "/modules/authorizer/token-gated-role-authorizer"
               },
               "next": {
                 "title": "About Funding Manager Modules",
-                "permalink": "/docs/modules/funding-manager/overview"
+                "permalink": "/modules/funding-manager/overview"
               }
             },
             {
@@ -802,10 +756,9 @@
               "source": "@site/docs/modules/authorizer/token-gated-role-authorizer.md",
               "sourceDirName": "modules/authorizer",
               "slug": "/modules/authorizer/token-gated-role-authorizer",
-              "permalink": "/docs/modules/authorizer/token-gated-role-authorizer",
+              "permalink": "/modules/authorizer/token-gated-role-authorizer",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/authorizer/token-gated-role-authorizer.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -815,11 +768,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Role Authorizer",
-                "permalink": "/docs/modules/authorizer/role-authorizer"
+                "permalink": "/modules/authorizer/role-authorizer"
               },
               "next": {
                 "title": "Single Vote Governance Module",
-                "permalink": "/docs/modules/authorizer/single-vote-governance-module"
+                "permalink": "/modules/authorizer/single-vote-governance-module"
               }
             },
             {
@@ -829,10 +782,9 @@
               "source": "@site/docs/modules/funding-manager/bonding-curve.md",
               "sourceDirName": "modules/funding-manager",
               "slug": "/modules/funding-manager/bonding-curve",
-              "permalink": "/docs/modules/funding-manager/bonding-curve",
+              "permalink": "/modules/funding-manager/bonding-curve",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/funding-manager/bonding-curve.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -842,11 +794,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "About Funding Manager Modules",
-                "permalink": "/docs/modules/funding-manager/overview"
+                "permalink": "/modules/funding-manager/overview"
               },
               "next": {
                 "title": "Rebasing Funding Manager",
-                "permalink": "/docs/modules/funding-manager/rebasing-funding-manager"
+                "permalink": "/modules/funding-manager/rebasing-funding-manager"
               }
             },
             {
@@ -856,10 +808,9 @@
               "source": "@site/docs/modules/funding-manager/overview.md",
               "sourceDirName": "modules/funding-manager",
               "slug": "/modules/funding-manager/overview",
-              "permalink": "/docs/modules/funding-manager/overview",
+              "permalink": "/modules/funding-manager/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/funding-manager/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -869,11 +820,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Single Vote Governance Module",
-                "permalink": "/docs/modules/authorizer/single-vote-governance-module"
+                "permalink": "/modules/authorizer/single-vote-governance-module"
               },
               "next": {
                 "title": "Bonding Curve Bancor Funding Manager",
-                "permalink": "/docs/modules/funding-manager/bonding-curve"
+                "permalink": "/modules/funding-manager/bonding-curve"
               }
             },
             {
@@ -883,10 +834,9 @@
               "source": "@site/docs/modules/funding-manager/rebasing-funding-manager.md",
               "sourceDirName": "modules/funding-manager",
               "slug": "/modules/funding-manager/rebasing-funding-manager",
-              "permalink": "/docs/modules/funding-manager/rebasing-funding-manager",
+              "permalink": "/modules/funding-manager/rebasing-funding-manager",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/funding-manager/rebasing-funding-manager.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -896,11 +846,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Bonding Curve Bancor Funding Manager",
-                "permalink": "/docs/modules/funding-manager/bonding-curve"
+                "permalink": "/modules/funding-manager/bonding-curve"
               },
               "next": {
                 "title": "Staking Manager",
-                "permalink": "/docs/modules/funding-manager/staking-manager"
+                "permalink": "/modules/funding-manager/staking-manager"
               }
             },
             {
@@ -910,10 +860,9 @@
               "source": "@site/docs/modules/funding-manager/staking-manager.md",
               "sourceDirName": "modules/funding-manager",
               "slug": "/modules/funding-manager/staking-manager",
-              "permalink": "/docs/modules/funding-manager/staking-manager",
+              "permalink": "/modules/funding-manager/staking-manager",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/funding-manager/staking-manager.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -923,11 +872,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Rebasing Funding Manager",
-                "permalink": "/docs/modules/funding-manager/rebasing-funding-manager"
+                "permalink": "/modules/funding-manager/rebasing-funding-manager"
               },
               "next": {
                 "title": "About Logic Modules",
-                "permalink": "/docs/modules/logic-module/overview"
+                "permalink": "/modules/logic-module/overview"
               }
             },
             {
@@ -937,10 +886,9 @@
               "source": "@site/docs/modules/logic-module/bounty-manager.md",
               "sourceDirName": "modules/logic-module",
               "slug": "/modules/logic-module/bounty-manager",
-              "permalink": "/docs/modules/logic-module/bounty-manager",
+              "permalink": "/modules/logic-module/bounty-manager",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/logic-module/bounty-manager.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -950,11 +898,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "About Logic Modules",
-                "permalink": "/docs/modules/logic-module/overview"
+                "permalink": "/modules/logic-module/overview"
               },
               "next": {
                 "title": "KPI Rewarder",
-                "permalink": "/docs/modules/logic-module/kpi-rewarder"
+                "permalink": "/modules/logic-module/kpi-rewarder"
               }
             },
             {
@@ -964,10 +912,9 @@
               "source": "@site/docs/modules/logic-module/kpi-rewarder.md",
               "sourceDirName": "modules/logic-module",
               "slug": "/modules/logic-module/kpi-rewarder",
-              "permalink": "/docs/modules/logic-module/kpi-rewarder",
+              "permalink": "/modules/logic-module/kpi-rewarder",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/logic-module/kpi-rewarder.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -977,11 +924,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Bounty Manager",
-                "permalink": "/docs/modules/logic-module/bounty-manager"
+                "permalink": "/modules/logic-module/bounty-manager"
               },
               "next": {
                 "title": "About Payment Processor Modules",
-                "permalink": "/docs/modules/payment-processor/overview"
+                "permalink": "/modules/payment-processor/overview"
               }
             },
             {
@@ -991,10 +938,9 @@
               "source": "@site/docs/modules/logic-module/overview.md",
               "sourceDirName": "modules/logic-module",
               "slug": "/modules/logic-module/overview",
-              "permalink": "/docs/modules/logic-module/overview",
+              "permalink": "/modules/logic-module/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/logic-module/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -1004,11 +950,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Staking Manager",
-                "permalink": "/docs/modules/funding-manager/staking-manager"
+                "permalink": "/modules/funding-manager/staking-manager"
               },
               "next": {
                 "title": "Bounty Manager",
-                "permalink": "/docs/modules/logic-module/bounty-manager"
+                "permalink": "/modules/logic-module/bounty-manager"
               }
             },
             {
@@ -1018,10 +964,9 @@
               "source": "@site/docs/modules/payment-processor/overview.md",
               "sourceDirName": "modules/payment-processor",
               "slug": "/modules/payment-processor/overview",
-              "permalink": "/docs/modules/payment-processor/overview",
+              "permalink": "/modules/payment-processor/overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/payment-processor/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -1031,11 +976,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "KPI Rewarder",
-                "permalink": "/docs/modules/logic-module/kpi-rewarder"
+                "permalink": "/modules/logic-module/kpi-rewarder"
               },
               "next": {
                 "title": "Simple Payment Processor",
-                "permalink": "/docs/modules/payment-processor/simple-payment-processor"
+                "permalink": "/modules/payment-processor/simple-payment-processor"
               }
             },
             {
@@ -1045,10 +990,9 @@
               "source": "@site/docs/modules/payment-processor/recurring-payment-manager.md",
               "sourceDirName": "modules/payment-processor",
               "slug": "/modules/payment-processor/recurring-payment-manager",
-              "permalink": "/docs/modules/payment-processor/recurring-payment-manager",
+              "permalink": "/modules/payment-processor/recurring-payment-manager",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/payment-processor/recurring-payment-manager.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -1058,11 +1002,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Simple Payment Processor",
-                "permalink": "/docs/modules/payment-processor/simple-payment-processor"
+                "permalink": "/modules/payment-processor/simple-payment-processor"
               },
               "next": {
                 "title": "Streaming Payment Processor",
-                "permalink": "/docs/modules/payment-processor/streaming-payment-processor"
+                "permalink": "/modules/payment-processor/streaming-payment-processor"
               }
             },
             {
@@ -1072,10 +1016,9 @@
               "source": "@site/docs/modules/payment-processor/simple-payment-processor.md",
               "sourceDirName": "modules/payment-processor",
               "slug": "/modules/payment-processor/simple-payment-processor",
-              "permalink": "/docs/modules/payment-processor/simple-payment-processor",
+              "permalink": "/modules/payment-processor/simple-payment-processor",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/payment-processor/simple-payment-processor.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -1085,11 +1028,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "About Payment Processor Modules",
-                "permalink": "/docs/modules/payment-processor/overview"
+                "permalink": "/modules/payment-processor/overview"
               },
               "next": {
                 "title": "Recurring Payment Manager",
-                "permalink": "/docs/modules/payment-processor/recurring-payment-manager"
+                "permalink": "/modules/payment-processor/recurring-payment-manager"
               }
             },
             {
@@ -1099,10 +1042,9 @@
               "source": "@site/docs/modules/payment-processor/streaming-payment-processor.md",
               "sourceDirName": "modules/payment-processor",
               "slug": "/modules/payment-processor/streaming-payment-processor",
-              "permalink": "/docs/modules/payment-processor/streaming-payment-processor",
+              "permalink": "/modules/payment-processor/streaming-payment-processor",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/modules/payment-processor/streaming-payment-processor.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -1112,11 +1054,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Recurring Payment Manager",
-                "permalink": "/docs/modules/payment-processor/recurring-payment-manager"
+                "permalink": "/modules/payment-processor/recurring-payment-manager"
               },
               "next": {
                 "title": "Tutorial Intro",
-                "permalink": "/docs/SDK/control-room"
+                "permalink": "/SDK/control-room"
               }
             },
             {
@@ -1126,10 +1068,9 @@
               "source": "@site/docs/SDK/control-room.md",
               "sourceDirName": "SDK",
               "slug": "/SDK/control-room",
-              "permalink": "/docs/SDK/control-room",
+              "permalink": "/SDK/control-room",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/SDK/control-room.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -1139,24 +1080,23 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Streaming Payment Processor",
-                "permalink": "/docs/modules/payment-processor/streaming-payment-processor"
+                "permalink": "/modules/payment-processor/streaming-payment-processor"
               },
               "next": {
                 "title": "Overview",
-                "permalink": "/docs/contracts/overview"
+                "permalink": "/contracts/overview"
               }
             },
             {
-              "id": "Security/access-control",
+              "id": "security/access-control",
               "title": "Access Control and Permissions",
               "description": "5.1 Governance and Protocol Upgrades",
-              "source": "@site/docs/Security/access-control.md",
-              "sourceDirName": "Security",
-              "slug": "/Security/access-control",
-              "permalink": "/docs/Security/access-control",
+              "source": "@site/docs/security/access-control.md",
+              "sourceDirName": "security",
+              "slug": "/security/access-control",
+              "permalink": "/security/access-control",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/Security/access-control.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -1166,24 +1106,23 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Intervention Mechanisms",
-                "permalink": "/docs/Security/intervention"
+                "permalink": "/security/intervention"
               },
               "next": {
                 "title": "General FAQ",
-                "permalink": "/docs/faq/general-faq"
+                "permalink": "/faq/general-faq"
               }
             },
             {
-              "id": "Security/audits",
+              "id": "security/audits",
               "title": "Audits",
               "description": "Audits serve as a critical checkpoint for blockchain projects, providing external validation of the protocol's security and functionality. At Inverter Protocol, we view audits not as a mere formality but as an essential component of our commitment to transparency and security.",
-              "source": "@site/docs/Security/audits.md",
-              "sourceDirName": "Security",
-              "slug": "/Security/audits",
-              "permalink": "/docs/Security/audits",
+              "source": "@site/docs/security/audits.md",
+              "sourceDirName": "security",
+              "slug": "/security/audits",
+              "permalink": "/security/audits",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/Security/audits.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -1193,24 +1132,23 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Testing",
-                "permalink": "/docs/Security/testing"
+                "permalink": "/security/testing"
               },
               "next": {
                 "title": "Intervention Mechanisms",
-                "permalink": "/docs/Security/intervention"
+                "permalink": "/security/intervention"
               }
             },
             {
-              "id": "Security/intervention",
+              "id": "security/intervention",
               "title": "Intervention Mechanisms",
               "description": "In the dynamic landscape of blockchain-based projects, the ability to swiftly respond to emerging threats is crucial. Our protocol is equipped with mechanisms that allow:",
-              "source": "@site/docs/Security/intervention.md",
-              "sourceDirName": "Security",
-              "slug": "/Security/intervention",
-              "permalink": "/docs/Security/intervention",
+              "source": "@site/docs/security/intervention.md",
+              "sourceDirName": "security",
+              "slug": "/security/intervention",
+              "permalink": "/security/intervention",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/Security/intervention.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -1220,24 +1158,23 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Audits",
-                "permalink": "/docs/Security/audits"
+                "permalink": "/security/audits"
               },
               "next": {
                 "title": "Access Control and Permissions",
-                "permalink": "/docs/Security/access-control"
+                "permalink": "/security/access-control"
               }
             },
             {
-              "id": "Security/protocol-architecture",
+              "id": "security/protocol-architecture",
               "title": "Protocol Architecture",
               "description": "Simplicity and Straightforwardness",
-              "source": "@site/docs/Security/protocol-architecture.md",
-              "sourceDirName": "Security",
-              "slug": "/Security/protocol-architecture",
-              "permalink": "/docs/Security/protocol-architecture",
+              "source": "@site/docs/security/protocol-architecture.md",
+              "sourceDirName": "security",
+              "slug": "/security/protocol-architecture",
+              "permalink": "/security/protocol-architecture",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/Security/protocol-architecture.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -1247,24 +1184,23 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Inverter Security Guideline",
-                "permalink": "/docs/Security/security-guideline"
+                "permalink": "/security/security-guideline"
               },
               "next": {
                 "title": "Testing",
-                "permalink": "/docs/Security/testing"
+                "permalink": "/security/testing"
               }
             },
             {
-              "id": "Security/security-guideline",
+              "id": "security/security-guideline",
               "title": "Inverter Security Guideline",
               "description": "In the rapidly evolving world of Blockchain-based projects, security remains paramount. The Inverter Protocol, recognizing the significance of robust security measures, is committed to setting the gold standard in this domain. Our approach to security is not just about preventing vulnerabilities; it's about building a culture of continuous vigilance, learning, and improvement.",
-              "source": "@site/docs/Security/security-guideline.md",
-              "sourceDirName": "Security",
-              "slug": "/Security/security-guideline",
-              "permalink": "/docs/Security/security-guideline",
+              "source": "@site/docs/security/security-guideline.md",
+              "sourceDirName": "security",
+              "slug": "/security/security-guideline",
+              "permalink": "/security/security-guideline",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/Security/security-guideline.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -1274,24 +1210,23 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Control Room",
-                "permalink": "/docs/apps/control-room"
+                "permalink": "/apps/control-room"
               },
               "next": {
                 "title": "Protocol Architecture",
-                "permalink": "/docs/Security/protocol-architecture"
+                "permalink": "/security/protocol-architecture"
               }
             },
             {
-              "id": "Security/testing",
+              "id": "security/testing",
               "title": "Testing",
               "description": "We follow a rigorous testing standard for our code base and Module Library, including:",
-              "source": "@site/docs/Security/testing.md",
-              "sourceDirName": "Security",
-              "slug": "/Security/testing",
-              "permalink": "/docs/Security/testing",
+              "source": "@site/docs/security/testing.md",
+              "sourceDirName": "security",
+              "slug": "/security/testing",
+              "permalink": "/security/testing",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://www.inverter.network/docs/Security/testing.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -1301,11 +1236,11 @@
               "sidebar": "docs",
               "previous": {
                 "title": "Protocol Architecture",
-                "permalink": "/docs/Security/protocol-architecture"
+                "permalink": "/security/protocol-architecture"
               },
               "next": {
                 "title": "Audits",
-                "permalink": "/docs/Security/audits"
+                "permalink": "/security/audits"
               }
             }
           ],
@@ -1562,27 +1497,27 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Security/security-guideline"
+                    "id": "security/security-guideline"
                   },
                   {
                     "type": "doc",
-                    "id": "Security/protocol-architecture"
+                    "id": "security/protocol-architecture"
                   },
                   {
                     "type": "doc",
-                    "id": "Security/testing"
+                    "id": "security/testing"
                   },
                   {
                     "type": "doc",
-                    "id": "Security/audits"
+                    "id": "security/audits"
                   },
                   {
                     "type": "doc",
-                    "id": "Security/intervention"
+                    "id": "security/intervention"
                   },
                   {
                     "type": "doc",
-                    "id": "Security/access-control"
+                    "id": "security/access-control"
                   }
                 ],
                 "collapsed": true,
@@ -1616,8 +1551,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": "/blog/tags",
-      "blogTagsPaginated": []
+      "blogTagsListPath": "/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {

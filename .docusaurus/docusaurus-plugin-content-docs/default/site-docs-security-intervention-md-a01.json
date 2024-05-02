@@ -5,10 +5,9 @@
   "source": "@site/docs/Security/intervention.md",
   "sourceDirName": "Security",
   "slug": "/Security/intervention",
-  "permalink": "/docs/Security/intervention",
+  "permalink": "/Security/intervention",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/Security/intervention.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Audits",
-    "permalink": "/docs/Security/audits"
+    "permalink": "/Security/audits"
   },
   "next": {
     "title": "Access Control and Permissions",
-    "permalink": "/docs/Security/access-control"
+    "permalink": "/Security/access-control"
   }
 }

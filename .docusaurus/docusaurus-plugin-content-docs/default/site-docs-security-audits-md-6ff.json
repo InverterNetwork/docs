@@ -5,10 +5,9 @@
   "source": "@site/docs/Security/audits.md",
   "sourceDirName": "Security",
   "slug": "/Security/audits",
-  "permalink": "/docs/Security/audits",
+  "permalink": "/Security/audits",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/Security/audits.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Testing",
-    "permalink": "/docs/Security/testing"
+    "permalink": "/Security/testing"
   },
   "next": {
     "title": "Intervention Mechanisms",
-    "permalink": "/docs/Security/intervention"
+    "permalink": "/Security/intervention"
   }
 }

@@ -5,10 +5,9 @@
   "source": "@site/docs/getting-started/understanding-architecture.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/understanding-architecture",
-  "permalink": "/docs/getting-started/understanding-architecture",
+  "permalink": "/getting-started/understanding-architecture",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://www.inverter.network/docs/getting-started/understanding-architecture.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -20,10 +19,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Start Learning",
-    "permalink": "/docs/getting-started/start-learning"
+    "permalink": "/getting-started/start-learning"
   },
   "next": {
     "title": "What is Inverter Network",
-    "permalink": "/docs/concepts/what-is-inverter-network"
+    "permalink": "/concepts/what-is-inverter-network"
   }
 }
