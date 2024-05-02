@@ -1,17 +1,36 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
+
+## Configuration
+
+**Install Bun**:
+
+```bash
+# Supported on macOS, Linux, and WSL
+
+curl -fsSL https://bun.sh/install | bash
+
+# Upgrade Bun every once in a while
+
+bun upgrage
+
+```
+
+**Recommended Editor**: VsCode. For the best experience, install the Eslint and Prettier extensions.
+
+Start by setting up your environment:
 
 ### Installation
 
 ```
-$ yarn
+$ bun i
 ```
 
 ### Local Development
 
 ```
-$ yarn start
+$ bun start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -19,7 +38,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-$ yarn build
+$ bun run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
