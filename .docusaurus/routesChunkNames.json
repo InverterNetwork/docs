@@ -1,58 +1,58 @@
 {
-  "/__docusaurus/debug-0d8": {
+  "/__docusaurus/debug-e40": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
+      "plugin": "plugin---docusaurus-debuge-73-32f"
     }
   },
-  "/__docusaurus/debug/config-d91": {
+  "/__docusaurus/debug/config-b0b": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
+      "plugin": "plugin---docusaurus-debuge-73-32f"
     }
   },
-  "/__docusaurus/debug/content-224": {
+  "/__docusaurus/debug/content-211": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
+      "plugin": "plugin---docusaurus-debuge-73-32f"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-202": {
+  "/__docusaurus/debug/globalData-c0e": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
+      "plugin": "plugin---docusaurus-debuge-73-32f"
     }
   },
-  "/__docusaurus/debug/metadata-4a4": {
+  "/__docusaurus/debug/metadata-996": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
+      "plugin": "plugin---docusaurus-debuge-73-32f"
     }
   },
-  "/__docusaurus/debug/registry-b56": {
+  "/__docusaurus/debug/registry-1e2": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
+      "plugin": "plugin---docusaurus-debuge-73-32f"
     }
   },
-  "/__docusaurus/debug/routes-9f9": {
+  "/__docusaurus/debug/routes-d04": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-c-7-32d"
+      "plugin": "plugin---docusaurus-debuge-73-32f"
     }
   },
-  "/-21a": {
+  "/-86d": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---360-ec2"
+      "plugin": "plugin---03-e-87f"
     }
   },
-  "/-6fc": {
+  "/-c66": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---935-fcf"
   },
-  "/-beb": {
+  "/-ab9": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/apps/control-room-fa6": {
@@ -137,7 +137,7 @@
   },
   "/getting-started/develop-a-module-8e4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---00-f-7fb"
+    "content": "content---getting-started-develop-a-module-00-f-2c7"
   },
   "/getting-started/start-learning-b3a": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -191,13 +191,13 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---modules-logic-module-overviewca-2-0ac"
   },
+  "/modules/logic-module/recurring-payment-manager-9d5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---modules-logic-module-recurring-payment-manager-917-65a"
+  },
   "/modules/payment-processor/overview-86b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---modules-payment-processor-overviewea-9-a75"
-  },
-  "/modules/payment-processor/recurring-payment-manager-2bd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-payment-processor-recurring-payment-manager-0-a-2-f44"
   },
   "/modules/payment-processor/simple-payment-processor-a71": {
     "__comp": "__comp---theme-doc-item-178-a40",

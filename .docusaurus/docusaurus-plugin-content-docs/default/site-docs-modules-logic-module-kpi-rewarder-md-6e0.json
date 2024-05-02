@@ -20,7 +20,7 @@
     "permalink": "/modules/logic-module/bounty-manager"
   },
   "next": {
-    "title": "About Payment Processor Modules",
-    "permalink": "/modules/payment-processor/overview"
+    "title": "Recurring Payment Manager",
+    "permalink": "/modules/logic-module/recurring-payment-manager"
   }
 }

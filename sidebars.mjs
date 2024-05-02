@@ -42,6 +42,7 @@ export default {
           'modules/logic-module/overview',
           'modules/logic-module/bounty-manager',
           'modules/logic-module/kpi-rewarder',
+          'modules/logic-module/recurring-payment-manager',
         ],
       },
 
@@ -51,7 +52,6 @@ export default {
         items: [
           'modules/payment-processor/overview',
           'modules/payment-processor/simple-payment-processor',
-          'modules/payment-processor/recurring-payment-manager',
           'modules/payment-processor/streaming-payment-processor',
         ],
       },

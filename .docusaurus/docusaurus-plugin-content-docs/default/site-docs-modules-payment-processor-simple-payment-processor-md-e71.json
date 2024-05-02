@@ -20,7 +20,7 @@
     "permalink": "/modules/payment-processor/overview"
   },
   "next": {
-    "title": "Recurring Payment Manager",
-    "permalink": "/modules/payment-processor/recurring-payment-manager"
+    "title": "Streaming Payment Processor",
+    "permalink": "/modules/payment-processor/streaming-payment-processor"
   }
 }

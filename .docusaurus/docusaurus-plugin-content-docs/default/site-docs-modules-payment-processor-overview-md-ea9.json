@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "KPI Rewarder",
-    "permalink": "/modules/logic-module/kpi-rewarder"
+    "title": "Recurring Payment Manager",
+    "permalink": "/modules/logic-module/recurring-payment-manager"
   },
   "next": {
     "title": "Simple Payment Processor",

@@ -185,13 +185,13 @@
               "sidebar": "docs"
             },
             {
-              "id": "modules/payment-processor/overview",
-              "path": "/modules/payment-processor/overview",
+              "id": "modules/logic-module/recurring-payment-manager",
+              "path": "/modules/logic-module/recurring-payment-manager",
               "sidebar": "docs"
             },
             {
-              "id": "modules/payment-processor/recurring-payment-manager",
-              "path": "/modules/payment-processor/recurring-payment-manager",
+              "id": "modules/payment-processor/overview",
+              "path": "/modules/payment-processor/overview",
               "sidebar": "docs"
             },
             {

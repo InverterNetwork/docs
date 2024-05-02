@@ -195,6 +195,13 @@
                 "href": "/modules/logic-module/kpi-rewarder",
                 "docId": "modules/logic-module/kpi-rewarder",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Recurring Payment Manager",
+                "href": "/modules/logic-module/recurring-payment-manager",
+                "docId": "modules/logic-module/recurring-payment-manager",
+                "unlisted": false
               }
             ],
             "collapsed": true,
@@ -216,13 +223,6 @@
                 "label": "Simple Payment Processor",
                 "href": "/modules/payment-processor/simple-payment-processor",
                 "docId": "modules/payment-processor/simple-payment-processor",
-                "unlisted": false
-              },
-              {
-                "type": "link",
-                "label": "Recurring Payment Manager",
-                "href": "/modules/payment-processor/recurring-payment-manager",
-                "docId": "modules/payment-processor/recurring-payment-manager",
                 "unlisted": false
               },
               {
@@ -648,16 +648,16 @@
       "description": "Logic modules implement the specific system logic or set the issuance conditions.",
       "sidebar": "docs"
     },
+    "modules/logic-module/recurring-payment-manager": {
+      "id": "modules/logic-module/recurring-payment-manager",
+      "title": "Recurring Payment Manager",
+      "description": "Module Category: Logic Module",
+      "sidebar": "docs"
+    },
     "modules/payment-processor/overview": {
       "id": "modules/payment-processor/overview",
       "title": "About Payment Processor Modules",
       "description": "These modules allow for different ways for how the token distributions are processed. Projects can set up various vesting and unlock conditions that can be based on time or KPIs.",
-      "sidebar": "docs"
-    },
-    "modules/payment-processor/recurring-payment-manager": {
-      "id": "modules/payment-processor/recurring-payment-manager",
-      "title": "Recurring Payment Manager",
-      "description": "Module Category: Logic Module",
       "sidebar": "docs"
     },
     "modules/payment-processor/simple-payment-processor": {

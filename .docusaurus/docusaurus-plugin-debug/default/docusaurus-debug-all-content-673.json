@@ -13,9 +13,9 @@
           "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/anon/Desktop/inverter/docs/sidebars.mjs",
-          "contentPath": "/home/anon/Desktop/inverter/docs/docs",
-          "contentPathLocalized": "/home/anon/Desktop/inverter/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/bc/docs/sidebars.mjs",
+          "contentPath": "/Users/bc/docs/docs",
+          "contentPathLocalized": "/Users/bc/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "id": "apps/control-room",
@@ -927,8 +927,8 @@
                 "permalink": "/modules/logic-module/bounty-manager"
               },
               "next": {
-                "title": "About Payment Processor Modules",
-                "permalink": "/modules/payment-processor/overview"
+                "title": "Recurring Payment Manager",
+                "permalink": "/modules/logic-module/recurring-payment-manager"
               }
             },
             {
@@ -958,6 +958,32 @@
               }
             },
             {
+              "id": "modules/logic-module/recurring-payment-manager",
+              "title": "Recurring Payment Manager",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/modules/logic-module/recurring-payment-manager.md",
+              "sourceDirName": "modules/logic-module",
+              "slug": "/modules/logic-module/recurring-payment-manager",
+              "permalink": "/modules/logic-module/recurring-payment-manager",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "KPI Rewarder",
+                "permalink": "/modules/logic-module/kpi-rewarder"
+              },
+              "next": {
+                "title": "About Payment Processor Modules",
+                "permalink": "/modules/payment-processor/overview"
+              }
+            },
+            {
               "id": "modules/payment-processor/overview",
               "title": "About Payment Processor Modules",
               "description": "These modules allow for different ways for how the token distributions are processed. Projects can set up various vesting and unlock conditions that can be based on time or KPIs.",
@@ -975,38 +1001,12 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "KPI Rewarder",
-                "permalink": "/modules/logic-module/kpi-rewarder"
+                "title": "Recurring Payment Manager",
+                "permalink": "/modules/logic-module/recurring-payment-manager"
               },
               "next": {
                 "title": "Simple Payment Processor",
                 "permalink": "/modules/payment-processor/simple-payment-processor"
-              }
-            },
-            {
-              "id": "modules/payment-processor/recurring-payment-manager",
-              "title": "Recurring Payment Manager",
-              "description": "Module Category: Logic Module",
-              "source": "@site/docs/modules/payment-processor/recurring-payment-manager.md",
-              "sourceDirName": "modules/payment-processor",
-              "slug": "/modules/payment-processor/recurring-payment-manager",
-              "permalink": "/modules/payment-processor/recurring-payment-manager",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Simple Payment Processor",
-                "permalink": "/modules/payment-processor/simple-payment-processor"
-              },
-              "next": {
-                "title": "Streaming Payment Processor",
-                "permalink": "/modules/payment-processor/streaming-payment-processor"
               }
             },
             {
@@ -1031,8 +1031,8 @@
                 "permalink": "/modules/payment-processor/overview"
               },
               "next": {
-                "title": "Recurring Payment Manager",
-                "permalink": "/modules/payment-processor/recurring-payment-manager"
+                "title": "Streaming Payment Processor",
+                "permalink": "/modules/payment-processor/streaming-payment-processor"
               }
             },
             {
@@ -1053,8 +1053,8 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Recurring Payment Manager",
-                "permalink": "/modules/payment-processor/recurring-payment-manager"
+                "title": "Simple Payment Processor",
+                "permalink": "/modules/payment-processor/simple-payment-processor"
               },
               "next": {
                 "title": "Tutorial Intro",
@@ -1370,6 +1370,10 @@
                       {
                         "type": "doc",
                         "id": "modules/logic-module/kpi-rewarder"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "modules/logic-module/recurring-payment-manager"
                       }
                     ],
                     "collapsed": true,
@@ -1386,10 +1390,6 @@
                       {
                         "type": "doc",
                         "id": "modules/payment-processor/simple-payment-processor"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "modules/payment-processor/recurring-payment-manager"
                       },
                       {
                         "type": "doc",

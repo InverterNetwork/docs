@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Recurring Payment Manager",
-    "permalink": "/modules/payment-processor/recurring-payment-manager"
+    "title": "Simple Payment Processor",
+    "permalink": "/modules/payment-processor/simple-payment-processor"
   },
   "next": {
     "title": "Tutorial Intro",
