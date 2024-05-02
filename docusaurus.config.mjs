@@ -1,7 +1,6 @@
-// @ts-check
-import { themes as prismThemes } from 'prism-react-renderer';
+// import { themes as prismThemes } from 'prism-react-renderer'
 
-const config = {
+export default {
   title: 'Inverter Documentation',
   tagline: 'The hub for all Inverter protocol documentation.',
   favicon: 'img/favicon.ico',
@@ -25,16 +24,17 @@ const config = {
   presets: [
     [
       'classic',
-      ({
+      {
         docs: {
           sidebarPath: './sidebars.js',
           // Adjusted to provide the correct link for editing documents
-          editUrl: 'https://github.com/inverternetwork/inverter-documentation/edit/main/',
+          editUrl:
+            'https://github.com/inverternetwork/inverter-documentation/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
         },
-      }),
+      },
     ],
   ],
 
@@ -67,6 +67,4 @@ const config = {
       ],
     },
   },
-};
-
-export default config;
+}

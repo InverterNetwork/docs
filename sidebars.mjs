@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   docs: {
     'Getting Started': [
       'getting-started/intro',
@@ -7,14 +7,14 @@ module.exports = {
       'getting-started/start-learning',
       'getting-started/understanding-architecture',
     ],
-    'Concepts': [
+    Concepts: [
       'concepts/what-is-inverter-network',
       'concepts/use-cases',
       'concepts/protocol-concepts',
       'concepts/governance',
       'concepts/glossary',
     ],
-    'Modules': [
+    Modules: [
       {
         type: 'category',
         label: 'Authorizer',
@@ -44,7 +44,7 @@ module.exports = {
           'modules/logic-module/kpi-rewarder',
         ],
       },
-      
+
       {
         type: 'category',
         label: 'Payment Processor',
@@ -56,10 +56,8 @@ module.exports = {
         ],
       },
     ],
-    'SDK': [
-      'SDK/control-room',
-    ],
-    'Contracts': [
+    SDK: ['SDK/control-room'],
+    Contracts: [
       'contracts/overview',
       {
         type: 'category',
@@ -82,11 +80,9 @@ module.exports = {
         ],
       },
     ],
-    'Apps': [
-      'apps/overview',
-      'apps/control-room',
-    ],
-    'Security Standard': [  // Corrected spelling from "Standart" to "Standard"
+    Apps: ['apps/overview', 'apps/control-room'],
+    'Security Standard': [
+      // Corrected spelling from "Standart" to "Standard"
       'Security/security-guideline',
       'Security/protocol-architecture',
       'Security/testing',
@@ -94,9 +90,6 @@ module.exports = {
       'Security/intervention',
       'Security/access-control',
     ],
-    'FAQ': [
-      'faq/general-faq',
-      'faq/technical-faq',
-    ],
+    FAQ: ['faq/general-faq', 'faq/technical-faq'],
   },
-};
+}
