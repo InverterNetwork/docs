@@ -50,7 +50,7 @@ export default {
       title: 'Inverter',
       logo: {
         alt: 'Inverter Logo',
-        src: 'img/in-logo-blue.png',
+        src: 'img/in_logo_light.png',
       },
       items: [
         // {

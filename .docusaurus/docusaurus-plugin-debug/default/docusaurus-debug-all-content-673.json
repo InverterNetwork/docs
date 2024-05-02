@@ -13,9 +13,9 @@
           "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/bc/docs/sidebars.mjs",
-          "contentPath": "/Users/bc/docs/docs",
-          "contentPathLocalized": "/Users/bc/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/anon/Desktop/inverter/docs/sidebars.mjs",
+          "contentPath": "/home/anon/Desktop/inverter/docs/docs",
+          "contentPathLocalized": "/home/anon/Desktop/inverter/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "id": "apps/control-room",

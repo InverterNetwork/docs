@@ -4,42 +4,42 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'e40'),
+    component: ComponentCreator('/__docusaurus/debug', '0d8'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'b0b'),
+    component: ComponentCreator('/__docusaurus/debug/config', 'd91'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '211'),
+    component: ComponentCreator('/__docusaurus/debug/content', '224'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c0e'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '202'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '996'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '4a4'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '1e2'),
+    component: ComponentCreator('/__docusaurus/debug/registry', 'b56'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'd04'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '9f9'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/', '86d'),
+    component: ComponentCreator('/', '281'),
     routes: [
       {
         path: '/',
