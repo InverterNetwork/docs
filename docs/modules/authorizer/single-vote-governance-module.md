@@ -14,7 +14,7 @@ Each address is allowed only one vote, and votes cannot be modified. If a vote d
 
 ### Parameters to Set:
 
-** Starting Quorum:** Defines the minimum percentage of eligible voters required to participate in a vote for it to be valid.
+**Starting Quorum:** Defines the minimum percentage of eligible voters required to participate in a vote for it to be valid.
 
 **Voting Duration:** Specifies the duration for which a vote remains open, allowing voters to cast their decisions. 
 
