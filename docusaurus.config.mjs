@@ -26,10 +26,9 @@ export default {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: './sidebars.mjs',
           // Adjusted to provide the correct link for editing documents
-          editUrl:
-            'https://github.com/inverternetwork/inverter-documentation/edit/main/',
+          editUrl: 'https://github.com/InverterNetwork/docs/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
