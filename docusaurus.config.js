@@ -6,9 +6,11 @@ const config = {
   tagline: 'The hub for all Inverter protocol documentation.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://www.inverter.network/',
-  baseUrl: '/',
+  // Adjusted to point to the GitHub pages domain you should use for Inverter
+  url: 'https://inverter-protocol.github.io',
+  baseUrl: '/inverter-documentation/',
 
+  // Adjusted organizationName to match your GitHub organization and projectName to your repository
   organizationName: 'inverter-protocol',
   projectName: 'inverter-documentation',
 
@@ -20,16 +22,15 @@ const config = {
     locales: ['en'],
   },
 
-
   presets: [
     [
       'classic',
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://www.inverter.network/',
+          // Adjusted to provide the correct link for editing documents
+          editUrl: 'https://github.com/inverter-protocol/inverter-documentation/edit/main/',
         },
-
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -44,7 +45,6 @@ const config = {
       respectPrefersColorScheme: true,
     },
 
-
     image: 'img/in-logo-blue.png',
     navbar: {
       title: 'Inverter',
@@ -55,7 +55,7 @@ const config = {
       items: [
         {
           type: 'doc',
-          docId: 'getting-started/intro', // Adjust the docId to point to the first document of your documentation.
+          docId: 'getting-started/intro', // Ensure this ID matches your actual starting document ID in your docs
           position: 'left',
           label: 'Docs',
         },
@@ -66,8 +66,6 @@ const config = {
         },
       ],
     },
-
-  
   },
 };
 

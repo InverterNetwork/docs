@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Bonding Curve Bancor Funding Manager
-### Module Category: Funding Manager
+### Module Category: Funding Manager
 
 The Bonding Curve Bancor Funding Manager provides algorithmic pricing for minting & redeeming tokens. It enables dynamic pricing of tokens in response to their supply by utilizing the Bancor Formula. 
 
