@@ -42,38 +42,130 @@
       "plugin": "plugin---docusaurus-debuge-73-32f"
     }
   },
-  "/-86d": {
+  "/-c10": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---03-e-87f"
     }
   },
-  "/-c66": {
+  "/-c2e": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---935-fcf"
   },
-  "/-ab9": {
+  "/-146": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/apps/control-room-fa6": {
+  "/apps/control-room-1b7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---apps-control-room-4-f-2-bd4"
   },
-  "/apps/overview-ff6": {
+  "/apps/overview-535": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---apps-overviewb-39-97d"
   },
-  "/concepts/glossary-c30": {
+  "/concepts/protocol-concepts/fees-1e4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---concepts-glossary-5-ee-783"
+    "content": "content---concepts-protocol-concepts-fees-952-53b"
   },
-  "/concepts/governance-0e4": {
+  "/concepts/protocol-concepts/governance-cb3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---concepts-governance-4-ba-d32"
+    "content": "content---concepts-protocol-concepts-governance-700-f7d"
   },
-  "/concepts/protocol-concepts-53f": {
+  "/concepts/protocol-concepts/module-library-718": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---concepts-protocol-concepts-348-c27"
+    "content": "content---concepts-protocol-concepts-module-librarye-8-f-f0d"
+  },
+  "/concepts/protocol-concepts/primary-issuance-markets-ed5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-primary-issuance-markets-9-d-7-6d7"
+  },
+  "/concepts/protocol-concepts/security/access-control-54b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-security-access-control-8-bc-e34"
+  },
+  "/concepts/protocol-concepts/security/audits-145": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-security-audits-932-091"
+  },
+  "/concepts/protocol-concepts/security/intervention-790": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-security-intervention-571-23b"
+  },
+  "/concepts/protocol-concepts/security/protocol-architecture-816": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-security-protocol-architectureae-6-e5e"
+  },
+  "/concepts/protocol-concepts/security/security-guideline-ec2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-security-security-guideline-696-6f4"
+  },
+  "/concepts/protocol-concepts/security/testing-014": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-security-testing-9-e-7-716"
+  },
+  "/concepts/protocol-concepts/workflow-model/authorizer/overview-cd6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-authorizer-overviewef-7-145"
+  },
+  "/concepts/protocol-concepts/workflow-model/authorizer/role-authorizer-701": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-authorizer-role-authorizer-2-db-d28"
+  },
+  "/concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module-64c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-authorizer-single-vote-governance-module-14-a-4b2"
+  },
+  "/concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer-a97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-authorizer-token-gated-role-authorizerdf-6-791"
+  },
+  "/concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve-991": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-funding-manager-bonding-curve-005-806"
+  },
+  "/concepts/protocol-concepts/workflow-model/funding-manager/overview-077": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-funding-manager-overviewadc-ab7"
+  },
+  "/concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager-720": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-funding-manager-rebasing-funding-manager-5-cc-439"
+  },
+  "/concepts/protocol-concepts/workflow-model/funding-manager/staking-manager-31f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-funding-manager-staking-manager-60-c-221"
+  },
+  "/concepts/protocol-concepts/workflow-model/logic-module/bounty-manager-609": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-logic-module-bounty-manager-4-fd-f5e"
+  },
+  "/concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder-3b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-logic-module-kpi-rewarderfa-8-862"
+  },
+  "/concepts/protocol-concepts/workflow-model/logic-module/overview-b25": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-logic-module-overviewe-37-3d2"
+  },
+  "/concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager-e6d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-logic-module-recurring-payment-manager-5-e-2-db1"
+  },
+  "/concepts/protocol-concepts/workflow-model/payment-processor/overview-e75": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-payment-processor-overview-6-bc-562"
+  },
+  "/concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor-ed6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-payment-processor-simple-payment-processor-786-4b6"
+  },
+  "/concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor-8b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-protocol-concepts-workflow-model-payment-processor-streaming-payment-processor-53-f-162"
+  },
+  "/concepts/the-inverter-network-protocol-1bc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---concepts-the-inverter-network-protocol-523-d11"
   },
   "/concepts/use-cases-2a9": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -83,160 +175,40 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---concepts-what-is-inverter-network-523-f48"
   },
-  "/contracts/build-contribute/development-workflow-926": {
+  "/contracts/deployment-addresses-242": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-build-contribute-development-workflow-7-d-0-135"
+    "content": "content---contracts-deployment-addressesa-2-e-915"
   },
-  "/contracts/build-contribute/guides-630": {
+  "/contracts/security-guidelines-ee0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-build-contribute-guidesac-1-34b"
+    "content": "content---contracts-security-guidelines-660-48c"
   },
-  "/contracts/build-contribute/overview-4b6": {
+  "/contracts/technical-paper-7d5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-build-contribute-overview-694-997"
+    "content": "content---contracts-technical-paper-865-c99"
   },
-  "/contracts/build-contribute/quick-start-481": {
+  "/contracts/technical-reference-f47": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-build-contribute-quick-start-753-961"
+    "content": "content---contracts-technical-referenceb-5-b-bc0"
   },
-  "/contracts/contracts/deployment-addresses-e42": {
+  "/SDK/api-adc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-contracts-deployment-addresses-0-d-3-8ab"
+    "content": "content---sdk-apib-4-f-634"
   },
-  "/contracts/contracts/overview-376": {
+  "/SDK/guides-32a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-contracts-overview-787-59f"
+    "content": "content---sdk-guides-44-e-e7c"
   },
-  "/contracts/contracts/security-efe": {
+  "/SDK/quick-start-64f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-contracts-security-8-d-5-769"
+    "content": "content---sdk-quick-startfa-4-5df"
   },
-  "/contracts/contracts/technical-reference-115": {
+  "/support/general-faq-b02": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-contracts-technical-referenced-4-b-8d2"
+    "content": "content---support-general-faq-8-ad-df8"
   },
-  "/contracts/overview-782": {
+  "/-e4a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-overview-08-f-89d"
-  },
-  "/contracts/SDK-d5d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contracts-sd-kbef-3aa"
-  },
-  "/faq/general-faq-223": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---faq-general-faq-804-507"
-  },
-  "/faq/technical-faq-9b9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---faq-technical-faq-41-e-4cc"
-  },
-  "/getting-started/deploying-your-workflow-1a0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---getting-started-deploying-your-workflow-67-f-e9c"
-  },
-  "/getting-started/develop-a-module-8e4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---getting-started-develop-a-module-00-f-2c7"
-  },
-  "/getting-started/start-learning-b3a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---getting-started-start-learning-5-ca-757"
-  },
-  "/getting-started/understanding-architecture-fdb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---getting-started-understanding-architecturec-73-1be"
-  },
-  "/modules/authorizer/overview-e1d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-authorizer-overviewbe-3-5ca"
-  },
-  "/modules/authorizer/role-authorizer-17b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-authorizer-role-authorizerd-97-564"
-  },
-  "/modules/authorizer/single-vote-governance-module-e0b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-authorizer-single-vote-governance-module-142-78a"
-  },
-  "/modules/authorizer/token-gated-role-authorizer-f17": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-authorizer-token-gated-role-authorizer-9-d-5-3b9"
-  },
-  "/modules/funding-manager/bonding-curve-a7c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-funding-manager-bonding-curveaeb-b4a"
-  },
-  "/modules/funding-manager/overview-701": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-funding-manager-overview-19-b-b99"
-  },
-  "/modules/funding-manager/rebasing-funding-manager-e40": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-funding-manager-rebasing-funding-manager-614-adc"
-  },
-  "/modules/funding-manager/staking-manager-fd7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-funding-manager-staking-managerf-4-c-f6c"
-  },
-  "/modules/logic-module/bounty-manager-189": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-logic-module-bounty-manager-381-211"
-  },
-  "/modules/logic-module/kpi-rewarder-025": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-logic-module-kpi-rewarder-6-e-0-826"
-  },
-  "/modules/logic-module/overview-6ae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-logic-module-overviewca-2-0ac"
-  },
-  "/modules/logic-module/recurring-payment-manager-9d5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-logic-module-recurring-payment-manager-917-65a"
-  },
-  "/modules/payment-processor/overview-86b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-payment-processor-overviewea-9-a75"
-  },
-  "/modules/payment-processor/simple-payment-processor-a71": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-payment-processor-simple-payment-processore-71-bc1"
-  },
-  "/modules/payment-processor/streaming-payment-processor-367": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---modules-payment-processor-streaming-payment-processor-107-b8d"
-  },
-  "/SDK/control-room-dcd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-control-rooma-55-472"
-  },
-  "/security/access-control-7c6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---security-access-controlc-71-dd4"
-  },
-  "/security/audits-91a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---security-audits-720-d50"
-  },
-  "/security/intervention-da5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---security-intervention-7-b-5-682"
-  },
-  "/security/protocol-architecture-959": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---security-protocol-architecture-3-d-9-b03"
-  },
-  "/security/security-guideline-294": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---security-security-guideline-1-e-8-79f"
-  },
-  "/security/testing-d06": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---security-testing-5-e-9-017"
-  },
-  "/-a08": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---6-df-1d8"
+    "content": "content---302-e3e"
   }
 }

@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.header {
+  margin: 0;
+  color: #333;
+}
+
+.text {
+  color: #666;
+}
+
+.link {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}

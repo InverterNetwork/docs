@@ -15,14 +15,5 @@
     "sidebar_position": 1,
     "Id": "overview",
     "Title": "Overview"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "Technical Reference",
-    "permalink": "/contracts/contracts/technical-reference"
-  },
-  "next": {
-    "title": "Control Room",
-    "permalink": "/apps/control-room"
   }
 }

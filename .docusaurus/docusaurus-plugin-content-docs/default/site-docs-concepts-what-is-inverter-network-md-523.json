@@ -18,11 +18,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Understanding The Architecture",
-    "permalink": "/getting-started/understanding-architecture"
+    "title": "Getting Started",
+    "permalink": "/"
   },
   "next": {
-    "title": "Use Cases",
-    "permalink": "/concepts/use-cases"
+    "title": "The Inverter Network Protocol",
+    "permalink": "/concepts/the-inverter-network-protocol"
   }
 }

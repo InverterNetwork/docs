@@ -19,8 +19,8 @@
           "docs": [
             {
               "id": "apps/control-room",
-              "title": "Control Room",
-              "description": "",
+              "title": "Control Room Manual",
+              "description": "Introduction",
               "source": "@site/docs/apps/control-room.md",
               "sourceDirName": "apps",
               "slug": "/apps/control-room",
@@ -33,16 +33,7 @@
               "frontMatter": {
                 "sidebar_position": 2,
                 "Id": "control-room",
-                "title": "Control Room"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/apps/overview"
-              },
-              "next": {
-                "title": "Inverter Security Guideline",
-                "permalink": "/security/security-guideline"
+                "title": "Control Room Manual"
               }
             },
             {
@@ -62,53 +53,44 @@
                 "sidebar_position": 1,
                 "Id": "overview",
                 "Title": "Overview"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Technical Reference",
-                "permalink": "/contracts/contracts/technical-reference"
-              },
-              "next": {
-                "title": "Control Room",
-                "permalink": "/apps/control-room"
               }
             },
             {
-              "id": "concepts/glossary",
-              "title": "Glossary",
+              "id": "concepts/protocol-concepts/fees",
+              "title": "Fees",
               "description": "",
-              "source": "@site/docs/concepts/glossary.md",
-              "sourceDirName": "concepts",
-              "slug": "/concepts/glossary",
-              "permalink": "/concepts/glossary",
+              "source": "@site/docs/concepts/protocol-concepts/fees.md",
+              "sourceDirName": "concepts/protocol-concepts",
+              "slug": "/concepts/protocol-concepts/fees",
+              "permalink": "/concepts/protocol-concepts/fees",
               "draft": false,
               "unlisted": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 5,
-                "id": "glossary",
-                "title": "Glossary"
+                "sidebar_position": 4,
+                "id": "fees",
+                "title": "Fees"
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Governance",
-                "permalink": "/concepts/governance"
+                "title": "Access Control and Permissions",
+                "permalink": "/concepts/protocol-concepts/security/access-control"
               },
               "next": {
-                "title": "About Authorizer Modules",
-                "permalink": "/modules/authorizer/overview"
+                "title": "API",
+                "permalink": "/SDK/api"
               }
             },
             {
-              "id": "concepts/governance",
+              "id": "concepts/protocol-concepts/governance",
               "title": "Governance",
               "description": "",
-              "source": "@site/docs/concepts/governance.md",
-              "sourceDirName": "concepts",
-              "slug": "/concepts/governance",
-              "permalink": "/concepts/governance",
+              "source": "@site/docs/concepts/protocol-concepts/governance.md",
+              "sourceDirName": "concepts/protocol-concepts",
+              "slug": "/concepts/protocol-concepts/governance",
+              "permalink": "/concepts/protocol-concepts/governance",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -121,31 +103,241 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Protocol Concepts",
-                "permalink": "/concepts/protocol-concepts"
+                "title": "Primary Issuance Markets",
+                "permalink": "/concepts/protocol-concepts/primary-issuance-markets"
               },
               "next": {
-                "title": "Glossary",
-                "permalink": "/concepts/glossary"
+                "title": "Inverter Security Guideline",
+                "permalink": "/concepts/protocol-concepts/security/security-guideline"
               }
             },
             {
-              "id": "concepts/protocol-concepts",
-              "title": "Protocol Concepts",
+              "id": "concepts/protocol-concepts/module-library",
+              "title": "Module Library",
               "description": "",
-              "source": "@site/docs/concepts/protocol-concepts.md",
-              "sourceDirName": "concepts",
-              "slug": "/concepts/protocol-concepts",
-              "permalink": "/concepts/protocol-concepts",
+              "source": "@site/docs/concepts/protocol-concepts/module-library.md",
+              "sourceDirName": "concepts/protocol-concepts",
+              "slug": "/concepts/protocol-concepts/module-library",
+              "permalink": "/concepts/protocol-concepts/module-library",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "module-library",
+                "title": "Module Library"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Streaming Payment Processor",
+                "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor"
+              },
+              "next": {
+                "title": "Primary Issuance Markets",
+                "permalink": "/concepts/protocol-concepts/primary-issuance-markets"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/primary-issuance-markets",
+              "title": "Primary Issuance Markets",
+              "description": "",
+              "source": "@site/docs/concepts/protocol-concepts/primary-issuance-markets.md",
+              "sourceDirName": "concepts/protocol-concepts",
+              "slug": "/concepts/protocol-concepts/primary-issuance-markets",
+              "permalink": "/concepts/protocol-concepts/primary-issuance-markets",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "primary-issuance-markets",
+                "title": "Primary Issuance Markets"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Module Library",
+                "permalink": "/concepts/protocol-concepts/module-library"
+              },
+              "next": {
+                "title": "Governance",
+                "permalink": "/concepts/protocol-concepts/governance"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/security/access-control",
+              "title": "Access Control and Permissions",
+              "description": "Governance and Protocol Upgrades",
+              "source": "@site/docs/concepts/protocol-concepts/security/access-control.md",
+              "sourceDirName": "concepts/protocol-concepts/security",
+              "slug": "/concepts/protocol-concepts/security/access-control",
+              "permalink": "/concepts/protocol-concepts/security/access-control",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Intervention Mechanisms",
+                "permalink": "/concepts/protocol-concepts/security/intervention"
+              },
+              "next": {
+                "title": "Fees",
+                "permalink": "/concepts/protocol-concepts/fees"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/security/audits",
+              "title": "Audits",
+              "description": "Audits serve as a critical checkpoint for blockchain projects, providing external validation of the protocol's security and functionality. At Inverter Protocol, we view audits not as a mere formality but as an essential component of our commitment to transparency and security.",
+              "source": "@site/docs/concepts/protocol-concepts/security/audits.md",
+              "sourceDirName": "concepts/protocol-concepts/security",
+              "slug": "/concepts/protocol-concepts/security/audits",
+              "permalink": "/concepts/protocol-concepts/security/audits",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Testing",
+                "permalink": "/concepts/protocol-concepts/security/testing"
+              },
+              "next": {
+                "title": "Intervention Mechanisms",
+                "permalink": "/concepts/protocol-concepts/security/intervention"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/security/intervention",
+              "title": "Intervention Mechanisms",
+              "description": "In the dynamic landscape of blockchain-based projects, the ability to swiftly respond to emerging threats is crucial. Our protocol is equipped with mechanisms that allow:",
+              "source": "@site/docs/concepts/protocol-concepts/security/intervention.md",
+              "sourceDirName": "concepts/protocol-concepts/security",
+              "slug": "/concepts/protocol-concepts/security/intervention",
+              "permalink": "/concepts/protocol-concepts/security/intervention",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Audits",
+                "permalink": "/concepts/protocol-concepts/security/audits"
+              },
+              "next": {
+                "title": "Access Control and Permissions",
+                "permalink": "/concepts/protocol-concepts/security/access-control"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/security/protocol-architecture",
+              "title": "Protocol Architecture",
+              "description": "Simplicity and Straightforwardness",
+              "source": "@site/docs/concepts/protocol-concepts/security/protocol-architecture.md",
+              "sourceDirName": "concepts/protocol-concepts/security",
+              "slug": "/concepts/protocol-concepts/security/protocol-architecture",
+              "permalink": "/concepts/protocol-concepts/security/protocol-architecture",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Inverter Security Guideline",
+                "permalink": "/concepts/protocol-concepts/security/security-guideline"
+              },
+              "next": {
+                "title": "Testing",
+                "permalink": "/concepts/protocol-concepts/security/testing"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/security/security-guideline",
+              "title": "Inverter Security Guideline",
+              "description": "In the rapidly evolving world of Blockchain-based projects, security remains paramount. The Inverter Protocol, recognizing the significance of robust security measures, is committed to setting the gold standard in this domain. Our approach to security is not just about preventing vulnerabilities; it's about building a culture of continuous vigilance, learning, and improvement.",
+              "source": "@site/docs/concepts/protocol-concepts/security/security-guideline.md",
+              "sourceDirName": "concepts/protocol-concepts/security",
+              "slug": "/concepts/protocol-concepts/security/security-guideline",
+              "permalink": "/concepts/protocol-concepts/security/security-guideline",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Governance",
+                "permalink": "/concepts/protocol-concepts/governance"
+              },
+              "next": {
+                "title": "Protocol Architecture",
+                "permalink": "/concepts/protocol-concepts/security/protocol-architecture"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/security/testing",
+              "title": "Testing",
+              "description": "We follow a rigorous testing standard for our code base and Module Library, including:",
+              "source": "@site/docs/concepts/protocol-concepts/security/testing.md",
+              "sourceDirName": "concepts/protocol-concepts/security",
+              "slug": "/concepts/protocol-concepts/security/testing",
+              "permalink": "/concepts/protocol-concepts/security/testing",
               "draft": false,
               "unlisted": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 3,
-                "id": "protocol-concepts",
-                "title": "Protocol Concepts"
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Protocol Architecture",
+                "permalink": "/concepts/protocol-concepts/security/protocol-architecture"
+              },
+              "next": {
+                "title": "Audits",
+                "permalink": "/concepts/protocol-concepts/security/audits"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/authorizer/overview",
+              "title": "About Authorizer Modules",
+              "description": "This module defines and enforces the permission structure of the system. It specifies the different stakeholder roles within the protocol and the actions each stakeholder is allowed to execute. Stakeholders can be users or other modules.",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/authorizer/overview.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/authorizer",
+              "slug": "/concepts/protocol-concepts/workflow-model/authorizer/overview",
+              "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/overview",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
               },
               "sidebar": "docs",
               "previous": {
@@ -153,8 +345,400 @@
                 "permalink": "/concepts/use-cases"
               },
               "next": {
-                "title": "Governance",
-                "permalink": "/concepts/governance"
+                "title": "Role Authorizer",
+                "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/role-authorizer"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/authorizer/role-authorizer",
+              "title": "Role Authorizer",
+              "description": "Module Category: Authorizer",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/authorizer/role-authorizer.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/authorizer",
+              "slug": "/concepts/protocol-concepts/workflow-model/authorizer/role-authorizer",
+              "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/role-authorizer",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "About Authorizer Modules",
+                "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/overview"
+              },
+              "next": {
+                "title": "Token Gated Role Authorizer",
+                "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module",
+              "title": "Single Vote Governance Module",
+              "description": "Module Category: Authorizer",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/authorizer",
+              "slug": "/concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module",
+              "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Token Gated Role Authorizer",
+                "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer"
+              },
+              "next": {
+                "title": "About Funding Manager Modules",
+                "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/overview"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer",
+              "title": "Token Gated Role Authorizer",
+              "description": "Module Category: Authorizer",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/authorizer",
+              "slug": "/concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer",
+              "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Role Authorizer",
+                "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/role-authorizer"
+              },
+              "next": {
+                "title": "Single Vote Governance Module",
+                "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve",
+              "title": "Bonding Curve Bancor Funding Manager",
+              "description": "Module Category: Funding Manager",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/funding-manager",
+              "slug": "/concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve",
+              "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "About Funding Manager Modules",
+                "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/overview"
+              },
+              "next": {
+                "title": "Rebasing Funding Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/funding-manager/overview",
+              "title": "About Funding Manager Modules",
+              "description": "Funding Manager modules are primary issuance markets that process fund inflows into the workflow and dynamic token issuance against a collateral.",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/funding-manager/overview.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/funding-manager",
+              "slug": "/concepts/protocol-concepts/workflow-model/funding-manager/overview",
+              "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/overview",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Single Vote Governance Module",
+                "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module"
+              },
+              "next": {
+                "title": "Bonding Curve Bancor Funding Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager",
+              "title": "Rebasing Funding Manager",
+              "description": "Module Category: Funding Manager",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/funding-manager",
+              "slug": "/concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager",
+              "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bonding Curve Bancor Funding Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve"
+              },
+              "next": {
+                "title": "Staking Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/staking-manager"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/funding-manager/staking-manager",
+              "title": "Staking Manager",
+              "description": "Module category: Funding Manager",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/funding-manager/staking-manager.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/funding-manager",
+              "slug": "/concepts/protocol-concepts/workflow-model/funding-manager/staking-manager",
+              "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/staking-manager",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Rebasing Funding Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager"
+              },
+              "next": {
+                "title": "About Logic Modules",
+                "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/overview"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/logic-module/bounty-manager",
+              "title": "Bounty Manager",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/logic-module/bounty-manager.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/logic-module",
+              "slug": "/concepts/protocol-concepts/workflow-model/logic-module/bounty-manager",
+              "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/bounty-manager",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "About Logic Modules",
+                "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/overview"
+              },
+              "next": {
+                "title": "KPI Rewarder",
+                "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder",
+              "title": "KPI Rewarder",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/logic-module",
+              "slug": "/concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder",
+              "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bounty Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/bounty-manager"
+              },
+              "next": {
+                "title": "Recurring Payment Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/logic-module/overview",
+              "title": "About Logic Modules",
+              "description": "Logic modules implement the specific system logic or set the issuance conditions.",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/logic-module/overview.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/logic-module",
+              "slug": "/concepts/protocol-concepts/workflow-model/logic-module/overview",
+              "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/overview",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Staking Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/funding-manager/staking-manager"
+              },
+              "next": {
+                "title": "Bounty Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/bounty-manager"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager",
+              "title": "Recurring Payment Manager",
+              "description": "Module Category: Logic Module",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/logic-module",
+              "slug": "/concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager",
+              "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "KPI Rewarder",
+                "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder"
+              },
+              "next": {
+                "title": "About Payment Processor Modules",
+                "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/overview"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/payment-processor/overview",
+              "title": "About Payment Processor Modules",
+              "description": "These modules allow for different ways for how the token distributions are processed. Projects can set up various vesting and unlock conditions that can be based on time or KPIs.",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/payment-processor/overview.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/payment-processor",
+              "slug": "/concepts/protocol-concepts/workflow-model/payment-processor/overview",
+              "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/overview",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Recurring Payment Manager",
+                "permalink": "/concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager"
+              },
+              "next": {
+                "title": "Simple Payment Processor",
+                "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor",
+              "title": "Simple Payment Processor",
+              "description": "Module Category: Payment Processor",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/payment-processor",
+              "slug": "/concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor",
+              "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "About Payment Processor Modules",
+                "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/overview"
+              },
+              "next": {
+                "title": "Streaming Payment Processor",
+                "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor"
+              }
+            },
+            {
+              "id": "concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor",
+              "title": "Streaming Payment Processor",
+              "description": "Module Category: Payment Processor",
+              "source": "@site/docs/concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor.md",
+              "sourceDirName": "concepts/protocol-concepts/workflow-model/payment-processor",
+              "slug": "/concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor",
+              "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Simple Payment Processor",
+                "permalink": "/concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor"
+              },
+              "next": {
+                "title": "Module Library",
+                "permalink": "/concepts/protocol-concepts/module-library"
+              }
+            },
+            {
+              "id": "concepts/the-inverter-network-protocol",
+              "title": "The Inverter Network Protocol",
+              "description": "",
+              "source": "@site/docs/concepts/the-inverter-network-protocol.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/the-inverter-network-protocol",
+              "permalink": "/concepts/the-inverter-network-protocol",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "the-inverter-network-protocol",
+                "title": "The Inverter Network Protocol"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "What is Inverter Network",
+                "permalink": "/concepts/what-is-inverter-network"
+              },
+              "next": {
+                "title": "Use Cases",
+                "permalink": "/concepts/use-cases"
               }
             },
             {
@@ -169,20 +753,20 @@
               "unlisted": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 2,
+                "sidebar_position": 3,
                 "id": "use-cases",
                 "title": "Use Cases"
               },
               "sidebar": "docs",
               "previous": {
-                "title": "What is Inverter Network",
-                "permalink": "/concepts/what-is-inverter-network"
+                "title": "The Inverter Network Protocol",
+                "permalink": "/concepts/the-inverter-network-protocol"
               },
               "next": {
-                "title": "Protocol Concepts",
-                "permalink": "/concepts/protocol-concepts"
+                "title": "About Authorizer Modules",
+                "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/overview"
               }
             },
             {
@@ -205,50 +789,22 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Understanding The Architecture",
-                "permalink": "/getting-started/understanding-architecture"
+                "title": "Getting Started",
+                "permalink": "/"
               },
               "next": {
-                "title": "Use Cases",
-                "permalink": "/concepts/use-cases"
+                "title": "The Inverter Network Protocol",
+                "permalink": "/concepts/the-inverter-network-protocol"
               }
             },
             {
-              "id": "contracts/build-contribute/development-workflow",
-              "title": "Development Workflow",
+              "id": "contracts/deployment-addresses",
+              "title": "Deployment Addresses",
               "description": "",
-              "source": "@site/docs/contracts/build-contribute/development-workflow.md",
-              "sourceDirName": "contracts/build-contribute",
-              "slug": "/contracts/build-contribute/development-workflow",
-              "permalink": "/contracts/build-contribute/development-workflow",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2,
-                "id": "development-workflow",
-                "title": "Development Workflow"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/contracts/build-contribute/overview"
-              },
-              "next": {
-                "title": "Guides",
-                "permalink": "/contracts/build-contribute/guides"
-              }
-            },
-            {
-              "id": "contracts/build-contribute/guides",
-              "title": "Guides",
-              "description": "",
-              "source": "@site/docs/contracts/build-contribute/guides.md",
-              "sourceDirName": "contracts/build-contribute",
-              "slug": "/contracts/build-contribute/guides",
-              "permalink": "/contracts/build-contribute/guides",
+              "source": "@site/docs/contracts/deployment-addresses.md",
+              "sourceDirName": "contracts",
+              "slug": "/contracts/deployment-addresses",
+              "permalink": "/contracts/deployment-addresses",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -256,27 +812,27 @@
               "sidebarPosition": 4,
               "frontMatter": {
                 "sidebar_position": 4,
-                "id": "guides",
-                "title": "Guides"
+                "id": "deployment-addresses",
+                "title": "Deployment Addresses"
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Development Workflow",
-                "permalink": "/contracts/build-contribute/development-workflow"
+                "title": "Quick Start",
+                "permalink": "/SDK/quick-start"
               },
               "next": {
-                "title": "Overview",
-                "permalink": "/contracts/contracts/overview"
+                "title": "Security Guidelines",
+                "permalink": "/contracts/security-guidelines"
               }
             },
             {
-              "id": "contracts/build-contribute/overview",
-              "title": "Overview",
+              "id": "contracts/security-guidelines",
+              "title": "Security Guidelines",
               "description": "",
-              "source": "@site/docs/contracts/build-contribute/overview.md",
-              "sourceDirName": "contracts/build-contribute",
-              "slug": "/contracts/build-contribute/overview",
-              "permalink": "/contracts/build-contribute/overview",
+              "source": "@site/docs/contracts/security-guidelines.md",
+              "sourceDirName": "contracts",
+              "slug": "/contracts/security-guidelines",
+              "permalink": "/contracts/security-guidelines",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -284,27 +840,164 @@
               "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_position": 3,
-                "id": "overview",
-                "title": "Overview"
+                "id": "security-guidelines",
+                "title": "Security Guidelines"
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Quick Start",
-                "permalink": "/contracts/build-contribute/quick-start"
+                "title": "Deployment Addresses",
+                "permalink": "/contracts/deployment-addresses"
               },
               "next": {
-                "title": "Development Workflow",
-                "permalink": "/contracts/build-contribute/development-workflow"
+                "title": "Technical Paper",
+                "permalink": "/contracts/technical-paper"
               }
             },
             {
-              "id": "contracts/build-contribute/quick-start",
+              "id": "contracts/technical-paper",
+              "title": "Technical Paper",
+              "description": "",
+              "source": "@site/docs/contracts/technical-paper.md",
+              "sourceDirName": "contracts",
+              "slug": "/contracts/technical-paper",
+              "permalink": "/contracts/technical-paper",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "technical-paper",
+                "title": "Technical Paper"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Security Guidelines",
+                "permalink": "/contracts/security-guidelines"
+              },
+              "next": {
+                "title": "Technical Reference",
+                "permalink": "/contracts/technical-reference"
+              }
+            },
+            {
+              "id": "contracts/technical-reference",
+              "title": "Technical Reference",
+              "description": "",
+              "source": "@site/docs/contracts/technical-reference.md",
+              "sourceDirName": "contracts",
+              "slug": "/contracts/technical-reference",
+              "permalink": "/contracts/technical-reference",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "technical-reference",
+                "title": "Technical Reference"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Technical Paper",
+                "permalink": "/contracts/technical-paper"
+              },
+              "next": {
+                "title": "General FAQ",
+                "permalink": "/support/general-faq"
+              }
+            },
+            {
+              "id": "getting-started",
+              "title": "Getting Started",
+              "description": "Inverter is a modular infrastructure protocol that enables programmable smart contract workflows. Simply put, it offers the Inverter Open Library of Smart Contract Modules that can be customized and composed into automated workflows (in this context workflows refer to user journeys or use cases) that are executed on the Orchestrator Contract. Each module acts as a specialized tool like in a carpenter’s kit that can be combined with others to build more extensive and more complex structures.",
+              "source": "@site/docs/getting-started.mdx",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "getting-started",
+                "title": "Getting Started",
+                "slug": "/"
+              },
+              "sidebar": "docs",
+              "next": {
+                "title": "What is Inverter Network",
+                "permalink": "/concepts/what-is-inverter-network"
+              }
+            },
+            {
+              "id": "SDK/api",
+              "title": "API",
+              "description": "",
+              "source": "@site/docs/SDK/api.md",
+              "sourceDirName": "SDK",
+              "slug": "/SDK/api",
+              "permalink": "/SDK/api",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "api",
+                "title": "API"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Fees",
+                "permalink": "/concepts/protocol-concepts/fees"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/SDK/guides"
+              }
+            },
+            {
+              "id": "SDK/guides",
+              "title": "Guides",
+              "description": "Our SDK simplifies the integration of Inverter Network's functionalities into applications by abstracting direct interactions, allowing developers to focus on building robust features.",
+              "source": "@site/docs/SDK/guides.md",
+              "sourceDirName": "SDK",
+              "slug": "/SDK/guides",
+              "permalink": "/SDK/guides",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "guides",
+                "title": "Guides"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "API",
+                "permalink": "/SDK/api"
+              },
+              "next": {
+                "title": "Quick Start",
+                "permalink": "/SDK/quick-start"
+              }
+            },
+            {
+              "id": "SDK/quick-start",
               "title": "Quick Start",
               "description": "",
-              "source": "@site/docs/contracts/build-contribute/quick-start.md",
-              "sourceDirName": "contracts/build-contribute",
-              "slug": "/contracts/build-contribute/quick-start",
-              "permalink": "/contracts/build-contribute/quick-start",
+              "source": "@site/docs/SDK/quick-start.md",
+              "sourceDirName": "SDK",
+              "slug": "/SDK/quick-start",
+              "permalink": "/SDK/quick-start",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -317,179 +1010,22 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Overview",
-                "permalink": "/contracts/overview"
-              },
-              "next": {
-                "title": "Overview",
-                "permalink": "/contracts/build-contribute/overview"
-              }
-            },
-            {
-              "id": "contracts/contracts/deployment-addresses",
-              "title": "Deployment Addresses",
-              "description": "",
-              "source": "@site/docs/contracts/contracts/deployment-addresses.md",
-              "sourceDirName": "contracts/contracts",
-              "slug": "/contracts/contracts/deployment-addresses",
-              "permalink": "/contracts/contracts/deployment-addresses",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2,
-                "id": "deployment-addresses",
-                "title": "Deployment Addresses"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/contracts/contracts/overview"
-              },
-              "next": {
-                "title": "Security",
-                "permalink": "/contracts/contracts/security"
-              }
-            },
-            {
-              "id": "contracts/contracts/overview",
-              "title": "Overview",
-              "description": "- Summary of sections:",
-              "source": "@site/docs/contracts/contracts/overview.md",
-              "sourceDirName": "contracts/contracts",
-              "slug": "/contracts/contracts/overview",
-              "permalink": "/contracts/contracts/overview",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "id": "overview",
-                "title": "Overview"
-              },
-              "sidebar": "docs",
-              "previous": {
                 "title": "Guides",
-                "permalink": "/contracts/build-contribute/guides"
+                "permalink": "/SDK/guides"
               },
               "next": {
                 "title": "Deployment Addresses",
-                "permalink": "/contracts/contracts/deployment-addresses"
+                "permalink": "/contracts/deployment-addresses"
               }
             },
             {
-              "id": "contracts/contracts/security",
-              "title": "Security",
-              "description": "",
-              "source": "@site/docs/contracts/contracts/security.md",
-              "sourceDirName": "contracts/contracts",
-              "slug": "/contracts/contracts/security",
-              "permalink": "/contracts/contracts/security",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "id": "security",
-                "title": "Security"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Deployment Addresses",
-                "permalink": "/contracts/contracts/deployment-addresses"
-              },
-              "next": {
-                "title": "Technical Reference",
-                "permalink": "/contracts/contracts/technical-reference"
-              }
-            },
-            {
-              "id": "contracts/contracts/technical-reference",
-              "title": "Technical Reference",
-              "description": "",
-              "source": "@site/docs/contracts/contracts/technical-reference.md",
-              "sourceDirName": "contracts/contracts",
-              "slug": "/contracts/contracts/technical-reference",
-              "permalink": "/contracts/contracts/technical-reference",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "id": "technical-reference",
-                "title": "Technical Reference"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Security",
-                "permalink": "/contracts/contracts/security"
-              },
-              "next": {
-                "title": "Overview",
-                "permalink": "/apps/overview"
-              }
-            },
-            {
-              "id": "contracts/overview",
-              "title": "Overview",
-              "description": "- Summary of sections:",
-              "source": "@site/docs/contracts/overview.md",
-              "sourceDirName": "contracts",
-              "slug": "/contracts/overview",
-              "permalink": "/contracts/overview",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "id": "overview",
-                "title": "Overview"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/SDK/control-room"
-              },
-              "next": {
-                "title": "Quick Start",
-                "permalink": "/contracts/build-contribute/quick-start"
-              }
-            },
-            {
-              "id": "contracts/SDK",
-              "title": "SDK",
-              "description": "Certainly! Here's the full documentation content for integrating the Inverter Network SDK into your project, formatted as a single markdown section suitable for Docusaurus:",
-              "source": "@site/docs/contracts/SDK.md",
-              "sourceDirName": "contracts",
-              "slug": "/contracts/SDK",
-              "permalink": "/contracts/SDK",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              }
-            },
-            {
-              "id": "faq/general-faq",
+              "id": "support/general-faq",
               "title": "General FAQ",
               "description": "",
-              "source": "@site/docs/faq/general-faq.md",
-              "sourceDirName": "faq",
-              "slug": "/faq/general-faq",
-              "permalink": "/faq/general-faq",
+              "source": "@site/docs/support/general-faq.md",
+              "sourceDirName": "support",
+              "slug": "/support/general-faq",
+              "permalink": "/support/general-faq",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -502,745 +1038,8 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Access Control and Permissions",
-                "permalink": "/security/access-control"
-              },
-              "next": {
-                "title": "Technical FAQ",
-                "permalink": "/faq/technical-faq"
-              }
-            },
-            {
-              "id": "faq/technical-faq",
-              "title": "Technical FAQ",
-              "description": "",
-              "source": "@site/docs/faq/technical-faq.md",
-              "sourceDirName": "faq",
-              "slug": "/faq/technical-faq",
-              "permalink": "/faq/technical-faq",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2,
-                "id": "technical-faq",
-                "title": "Technical FAQ"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "General FAQ",
-                "permalink": "/faq/general-faq"
-              }
-            },
-            {
-              "id": "getting-started/deploying-your-workflow",
-              "title": "Deploying Your Workflow",
-              "description": "",
-              "source": "@site/docs/getting-started/deploying-your-workflow.md",
-              "sourceDirName": "getting-started",
-              "slug": "/getting-started/deploying-your-workflow",
-              "permalink": "/getting-started/deploying-your-workflow",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2,
-                "id": "deploying-your-workflow",
-                "title": "Deploying Your Workflow"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Intro",
-                "permalink": "/"
-              },
-              "next": {
-                "title": "Develop a module",
-                "permalink": "/getting-started/develop-a-module"
-              }
-            },
-            {
-              "id": "getting-started/develop-a-module",
-              "title": "Develop a module",
-              "description": "",
-              "source": "@site/docs/getting-started/develop-a-module.md",
-              "sourceDirName": "getting-started",
-              "slug": "/getting-started/develop-a-module",
-              "permalink": "/getting-started/develop-a-module",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3,
-                "id": "develop-a-module",
-                "title": "Develop a module"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Deploying Your Workflow",
-                "permalink": "/getting-started/deploying-your-workflow"
-              },
-              "next": {
-                "title": "Start Learning",
-                "permalink": "/getting-started/start-learning"
-              }
-            },
-            {
-              "id": "getting-started/intro",
-              "title": "Intro",
-              "description": "Inverter is a modular infrastructure protocol that enables programmable smart contract workflows. Simply put, it offers the Inverter Open Library of Smart Contract Modules that can be customized and composed into automated workflows (in this context workflows refer to user journeys or use cases) that are executed on the Orchestrator Contract. Each module acts as a specialized tool like in a carpenter’s kit that can be combined with others to build more extensive and more complex structures.",
-              "source": "@site/docs/getting-started/intro.md",
-              "sourceDirName": "getting-started",
-              "slug": "/",
-              "permalink": "/",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "id": "intro",
-                "title": "Intro",
-                "slug": "/"
-              },
-              "sidebar": "docs",
-              "next": {
-                "title": "Deploying Your Workflow",
-                "permalink": "/getting-started/deploying-your-workflow"
-              }
-            },
-            {
-              "id": "getting-started/start-learning",
-              "title": "Start Learning",
-              "description": "Inverter’s protocol architecture subdivides a smart contract into smaller modules, allowing you to design full-fledged protocols seamlessly by assembling modules, switch in and out custom logics, and operate your business without manual development.",
-              "source": "@site/docs/getting-started/start-learning.md",
-              "sourceDirName": "getting-started",
-              "slug": "/getting-started/start-learning",
-              "permalink": "/getting-started/start-learning",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4,
-                "id": "start-learning",
-                "title": "Start Learning"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Develop a module",
-                "permalink": "/getting-started/develop-a-module"
-              },
-              "next": {
-                "title": "Understanding The Architecture",
-                "permalink": "/getting-started/understanding-architecture"
-              }
-            },
-            {
-              "id": "getting-started/understanding-architecture",
-              "title": "Understanding The Architecture",
-              "description": "In this section, we describe the various smart contracts and their functionalities. Together with the general architecture and main interfaces, we also present the structure designed to accommodate future extensions of the overall architecture.",
-              "source": "@site/docs/getting-started/understanding-architecture.md",
-              "sourceDirName": "getting-started",
-              "slug": "/getting-started/understanding-architecture",
-              "permalink": "/getting-started/understanding-architecture",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5,
-                "id": "understanding-architecture",
-                "title": "Understanding The Architecture"
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Start Learning",
-                "permalink": "/getting-started/start-learning"
-              },
-              "next": {
-                "title": "What is Inverter Network",
-                "permalink": "/concepts/what-is-inverter-network"
-              }
-            },
-            {
-              "id": "modules/authorizer/overview",
-              "title": "About Authorizer Modules",
-              "description": "This module defines and enforces the permission structure of the system. It specifies the different stakeholder roles within the protocol and the actions each stakeholder is allowed to execute. Stakeholders can be users or other modules.",
-              "source": "@site/docs/modules/authorizer/overview.md",
-              "sourceDirName": "modules/authorizer",
-              "slug": "/modules/authorizer/overview",
-              "permalink": "/modules/authorizer/overview",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Glossary",
-                "permalink": "/concepts/glossary"
-              },
-              "next": {
-                "title": "Role Authorizer",
-                "permalink": "/modules/authorizer/role-authorizer"
-              }
-            },
-            {
-              "id": "modules/authorizer/role-authorizer",
-              "title": "Role Authorizer",
-              "description": "Module Category: Authorizer",
-              "source": "@site/docs/modules/authorizer/role-authorizer.md",
-              "sourceDirName": "modules/authorizer",
-              "slug": "/modules/authorizer/role-authorizer",
-              "permalink": "/modules/authorizer/role-authorizer",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "About Authorizer Modules",
-                "permalink": "/modules/authorizer/overview"
-              },
-              "next": {
-                "title": "Token Gated Role Authorizer",
-                "permalink": "/modules/authorizer/token-gated-role-authorizer"
-              }
-            },
-            {
-              "id": "modules/authorizer/single-vote-governance-module",
-              "title": "Single Vote Governance Module",
-              "description": "Module Category: Authorizer",
-              "source": "@site/docs/modules/authorizer/single-vote-governance-module.md",
-              "sourceDirName": "modules/authorizer",
-              "slug": "/modules/authorizer/single-vote-governance-module",
-              "permalink": "/modules/authorizer/single-vote-governance-module",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Token Gated Role Authorizer",
-                "permalink": "/modules/authorizer/token-gated-role-authorizer"
-              },
-              "next": {
-                "title": "About Funding Manager Modules",
-                "permalink": "/modules/funding-manager/overview"
-              }
-            },
-            {
-              "id": "modules/authorizer/token-gated-role-authorizer",
-              "title": "Token Gated Role Authorizer",
-              "description": "Module Category: Authorizer",
-              "source": "@site/docs/modules/authorizer/token-gated-role-authorizer.md",
-              "sourceDirName": "modules/authorizer",
-              "slug": "/modules/authorizer/token-gated-role-authorizer",
-              "permalink": "/modules/authorizer/token-gated-role-authorizer",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Role Authorizer",
-                "permalink": "/modules/authorizer/role-authorizer"
-              },
-              "next": {
-                "title": "Single Vote Governance Module",
-                "permalink": "/modules/authorizer/single-vote-governance-module"
-              }
-            },
-            {
-              "id": "modules/funding-manager/bonding-curve",
-              "title": "Bonding Curve Bancor Funding Manager",
-              "description": "Module Category: Funding Manager",
-              "source": "@site/docs/modules/funding-manager/bonding-curve.md",
-              "sourceDirName": "modules/funding-manager",
-              "slug": "/modules/funding-manager/bonding-curve",
-              "permalink": "/modules/funding-manager/bonding-curve",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "About Funding Manager Modules",
-                "permalink": "/modules/funding-manager/overview"
-              },
-              "next": {
-                "title": "Rebasing Funding Manager",
-                "permalink": "/modules/funding-manager/rebasing-funding-manager"
-              }
-            },
-            {
-              "id": "modules/funding-manager/overview",
-              "title": "About Funding Manager Modules",
-              "description": "Funding Manager modules are primary issuance markets that process fund inflows into the workflow and dynamic token issuance against a collateral.",
-              "source": "@site/docs/modules/funding-manager/overview.md",
-              "sourceDirName": "modules/funding-manager",
-              "slug": "/modules/funding-manager/overview",
-              "permalink": "/modules/funding-manager/overview",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Single Vote Governance Module",
-                "permalink": "/modules/authorizer/single-vote-governance-module"
-              },
-              "next": {
-                "title": "Bonding Curve Bancor Funding Manager",
-                "permalink": "/modules/funding-manager/bonding-curve"
-              }
-            },
-            {
-              "id": "modules/funding-manager/rebasing-funding-manager",
-              "title": "Rebasing Funding Manager",
-              "description": "Module Category: Funding Manager",
-              "source": "@site/docs/modules/funding-manager/rebasing-funding-manager.md",
-              "sourceDirName": "modules/funding-manager",
-              "slug": "/modules/funding-manager/rebasing-funding-manager",
-              "permalink": "/modules/funding-manager/rebasing-funding-manager",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Bonding Curve Bancor Funding Manager",
-                "permalink": "/modules/funding-manager/bonding-curve"
-              },
-              "next": {
-                "title": "Staking Manager",
-                "permalink": "/modules/funding-manager/staking-manager"
-              }
-            },
-            {
-              "id": "modules/funding-manager/staking-manager",
-              "title": "Staking Manager",
-              "description": "Module category: Funding Manager",
-              "source": "@site/docs/modules/funding-manager/staking-manager.md",
-              "sourceDirName": "modules/funding-manager",
-              "slug": "/modules/funding-manager/staking-manager",
-              "permalink": "/modules/funding-manager/staking-manager",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Rebasing Funding Manager",
-                "permalink": "/modules/funding-manager/rebasing-funding-manager"
-              },
-              "next": {
-                "title": "About Logic Modules",
-                "permalink": "/modules/logic-module/overview"
-              }
-            },
-            {
-              "id": "modules/logic-module/bounty-manager",
-              "title": "Bounty Manager",
-              "description": "Module Category: Logic Module",
-              "source": "@site/docs/modules/logic-module/bounty-manager.md",
-              "sourceDirName": "modules/logic-module",
-              "slug": "/modules/logic-module/bounty-manager",
-              "permalink": "/modules/logic-module/bounty-manager",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "About Logic Modules",
-                "permalink": "/modules/logic-module/overview"
-              },
-              "next": {
-                "title": "KPI Rewarder",
-                "permalink": "/modules/logic-module/kpi-rewarder"
-              }
-            },
-            {
-              "id": "modules/logic-module/kpi-rewarder",
-              "title": "KPI Rewarder",
-              "description": "Module Category: Logic Module",
-              "source": "@site/docs/modules/logic-module/kpi-rewarder.md",
-              "sourceDirName": "modules/logic-module",
-              "slug": "/modules/logic-module/kpi-rewarder",
-              "permalink": "/modules/logic-module/kpi-rewarder",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Bounty Manager",
-                "permalink": "/modules/logic-module/bounty-manager"
-              },
-              "next": {
-                "title": "Recurring Payment Manager",
-                "permalink": "/modules/logic-module/recurring-payment-manager"
-              }
-            },
-            {
-              "id": "modules/logic-module/overview",
-              "title": "About Logic Modules",
-              "description": "Logic modules implement the specific system logic or set the issuance conditions.",
-              "source": "@site/docs/modules/logic-module/overview.md",
-              "sourceDirName": "modules/logic-module",
-              "slug": "/modules/logic-module/overview",
-              "permalink": "/modules/logic-module/overview",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Staking Manager",
-                "permalink": "/modules/funding-manager/staking-manager"
-              },
-              "next": {
-                "title": "Bounty Manager",
-                "permalink": "/modules/logic-module/bounty-manager"
-              }
-            },
-            {
-              "id": "modules/logic-module/recurring-payment-manager",
-              "title": "Recurring Payment Manager",
-              "description": "Module Category: Logic Module",
-              "source": "@site/docs/modules/logic-module/recurring-payment-manager.md",
-              "sourceDirName": "modules/logic-module",
-              "slug": "/modules/logic-module/recurring-payment-manager",
-              "permalink": "/modules/logic-module/recurring-payment-manager",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "KPI Rewarder",
-                "permalink": "/modules/logic-module/kpi-rewarder"
-              },
-              "next": {
-                "title": "About Payment Processor Modules",
-                "permalink": "/modules/payment-processor/overview"
-              }
-            },
-            {
-              "id": "modules/payment-processor/overview",
-              "title": "About Payment Processor Modules",
-              "description": "These modules allow for different ways for how the token distributions are processed. Projects can set up various vesting and unlock conditions that can be based on time or KPIs.",
-              "source": "@site/docs/modules/payment-processor/overview.md",
-              "sourceDirName": "modules/payment-processor",
-              "slug": "/modules/payment-processor/overview",
-              "permalink": "/modules/payment-processor/overview",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Recurring Payment Manager",
-                "permalink": "/modules/logic-module/recurring-payment-manager"
-              },
-              "next": {
-                "title": "Simple Payment Processor",
-                "permalink": "/modules/payment-processor/simple-payment-processor"
-              }
-            },
-            {
-              "id": "modules/payment-processor/simple-payment-processor",
-              "title": "Simple Payment Processor",
-              "description": "Module Category: Payment Processor",
-              "source": "@site/docs/modules/payment-processor/simple-payment-processor.md",
-              "sourceDirName": "modules/payment-processor",
-              "slug": "/modules/payment-processor/simple-payment-processor",
-              "permalink": "/modules/payment-processor/simple-payment-processor",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "About Payment Processor Modules",
-                "permalink": "/modules/payment-processor/overview"
-              },
-              "next": {
-                "title": "Streaming Payment Processor",
-                "permalink": "/modules/payment-processor/streaming-payment-processor"
-              }
-            },
-            {
-              "id": "modules/payment-processor/streaming-payment-processor",
-              "title": "Streaming Payment Processor",
-              "description": "Module Category: Payment Processor",
-              "source": "@site/docs/modules/payment-processor/streaming-payment-processor.md",
-              "sourceDirName": "modules/payment-processor",
-              "slug": "/modules/payment-processor/streaming-payment-processor",
-              "permalink": "/modules/payment-processor/streaming-payment-processor",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Simple Payment Processor",
-                "permalink": "/modules/payment-processor/simple-payment-processor"
-              },
-              "next": {
-                "title": "Tutorial Intro",
-                "permalink": "/SDK/control-room"
-              }
-            },
-            {
-              "id": "SDK/control-room",
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/SDK/control-room.md",
-              "sourceDirName": "SDK",
-              "slug": "/SDK/control-room",
-              "permalink": "/SDK/control-room",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Streaming Payment Processor",
-                "permalink": "/modules/payment-processor/streaming-payment-processor"
-              },
-              "next": {
-                "title": "Overview",
-                "permalink": "/contracts/overview"
-              }
-            },
-            {
-              "id": "security/access-control",
-              "title": "Access Control and Permissions",
-              "description": "5.1 Governance and Protocol Upgrades",
-              "source": "@site/docs/security/access-control.md",
-              "sourceDirName": "security",
-              "slug": "/security/access-control",
-              "permalink": "/security/access-control",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Intervention Mechanisms",
-                "permalink": "/security/intervention"
-              },
-              "next": {
-                "title": "General FAQ",
-                "permalink": "/faq/general-faq"
-              }
-            },
-            {
-              "id": "security/audits",
-              "title": "Audits",
-              "description": "Audits serve as a critical checkpoint for blockchain projects, providing external validation of the protocol's security and functionality. At Inverter Protocol, we view audits not as a mere formality but as an essential component of our commitment to transparency and security.",
-              "source": "@site/docs/security/audits.md",
-              "sourceDirName": "security",
-              "slug": "/security/audits",
-              "permalink": "/security/audits",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Testing",
-                "permalink": "/security/testing"
-              },
-              "next": {
-                "title": "Intervention Mechanisms",
-                "permalink": "/security/intervention"
-              }
-            },
-            {
-              "id": "security/intervention",
-              "title": "Intervention Mechanisms",
-              "description": "In the dynamic landscape of blockchain-based projects, the ability to swiftly respond to emerging threats is crucial. Our protocol is equipped with mechanisms that allow:",
-              "source": "@site/docs/security/intervention.md",
-              "sourceDirName": "security",
-              "slug": "/security/intervention",
-              "permalink": "/security/intervention",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Audits",
-                "permalink": "/security/audits"
-              },
-              "next": {
-                "title": "Access Control and Permissions",
-                "permalink": "/security/access-control"
-              }
-            },
-            {
-              "id": "security/protocol-architecture",
-              "title": "Protocol Architecture",
-              "description": "Simplicity and Straightforwardness",
-              "source": "@site/docs/security/protocol-architecture.md",
-              "sourceDirName": "security",
-              "slug": "/security/protocol-architecture",
-              "permalink": "/security/protocol-architecture",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Inverter Security Guideline",
-                "permalink": "/security/security-guideline"
-              },
-              "next": {
-                "title": "Testing",
-                "permalink": "/security/testing"
-              }
-            },
-            {
-              "id": "security/security-guideline",
-              "title": "Inverter Security Guideline",
-              "description": "In the rapidly evolving world of Blockchain-based projects, security remains paramount. The Inverter Protocol, recognizing the significance of robust security measures, is committed to setting the gold standard in this domain. Our approach to security is not just about preventing vulnerabilities; it's about building a culture of continuous vigilance, learning, and improvement.",
-              "source": "@site/docs/security/security-guideline.md",
-              "sourceDirName": "security",
-              "slug": "/security/security-guideline",
-              "permalink": "/security/security-guideline",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Control Room",
-                "permalink": "/apps/control-room"
-              },
-              "next": {
-                "title": "Protocol Architecture",
-                "permalink": "/security/protocol-architecture"
-              }
-            },
-            {
-              "id": "security/testing",
-              "title": "Testing",
-              "description": "We follow a rigorous testing standard for our code base and Module Library, including:",
-              "source": "@site/docs/security/testing.md",
-              "sourceDirName": "security",
-              "slug": "/security/testing",
-              "permalink": "/security/testing",
-              "draft": false,
-              "unlisted": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "docs",
-              "previous": {
-                "title": "Protocol Architecture",
-                "permalink": "/security/protocol-architecture"
-              },
-              "next": {
-                "title": "Audits",
-                "permalink": "/security/audits"
+                "title": "Technical Reference",
+                "permalink": "/contracts/technical-reference"
               }
             }
           ],
@@ -1248,32 +1047,8 @@
           "sidebars": {
             "docs": [
               {
-                "type": "category",
-                "label": "Getting Started",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "getting-started/intro"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "getting-started/deploying-your-workflow"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "getting-started/develop-a-module"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "getting-started/start-learning"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "getting-started/understanding-architecture"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
+                "type": "doc",
+                "id": "getting-started"
               },
               {
                 "type": "category",
@@ -1285,115 +1060,163 @@
                   },
                   {
                     "type": "doc",
+                    "id": "concepts/the-inverter-network-protocol"
+                  },
+                  {
+                    "type": "doc",
                     "id": "concepts/use-cases"
                   },
                   {
-                    "type": "doc",
-                    "id": "concepts/protocol-concepts"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "concepts/governance"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "concepts/glossary"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Modules",
-                "items": [
-                  {
                     "type": "category",
-                    "label": "Authorizer",
+                    "label": "Protocol Concepts",
                     "items": [
                       {
-                        "type": "doc",
-                        "id": "modules/authorizer/overview"
+                        "type": "category",
+                        "label": "Workflow Model",
+                        "items": [
+                          {
+                            "type": "category",
+                            "label": "Authorizer",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/authorizer/overview"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/authorizer/role-authorizer"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module"
+                              }
+                            ],
+                            "collapsed": true,
+                            "collapsible": true
+                          },
+                          {
+                            "type": "category",
+                            "label": "Funding Manager",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/funding-manager/overview"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/funding-manager/staking-manager"
+                              }
+                            ],
+                            "collapsed": true,
+                            "collapsible": true
+                          },
+                          {
+                            "type": "category",
+                            "label": "Logic Module",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/logic-module/overview"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/logic-module/bounty-manager"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager"
+                              }
+                            ],
+                            "collapsed": true,
+                            "collapsible": true
+                          },
+                          {
+                            "type": "category",
+                            "label": "Payment Processor",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/payment-processor/overview"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor"
+                              }
+                            ],
+                            "collapsed": true,
+                            "collapsible": true
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
                       },
                       {
                         "type": "doc",
-                        "id": "modules/authorizer/role-authorizer"
+                        "id": "concepts/protocol-concepts/module-library"
                       },
                       {
                         "type": "doc",
-                        "id": "modules/authorizer/token-gated-role-authorizer"
+                        "id": "concepts/protocol-concepts/primary-issuance-markets"
                       },
                       {
                         "type": "doc",
-                        "id": "modules/authorizer/single-vote-governance-module"
-                      }
-                    ],
-                    "collapsed": true,
-                    "collapsible": true
-                  },
-                  {
-                    "type": "category",
-                    "label": "Funding Manager",
-                    "items": [
+                        "id": "concepts/protocol-concepts/governance"
+                      },
                       {
-                        "type": "doc",
-                        "id": "modules/funding-manager/overview"
+                        "type": "category",
+                        "label": "Security",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "concepts/protocol-concepts/security/security-guideline"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "concepts/protocol-concepts/security/protocol-architecture"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "concepts/protocol-concepts/security/testing"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "concepts/protocol-concepts/security/audits"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "concepts/protocol-concepts/security/intervention"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "concepts/protocol-concepts/security/access-control"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
                       },
                       {
                         "type": "doc",
-                        "id": "modules/funding-manager/bonding-curve"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "modules/funding-manager/rebasing-funding-manager"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "modules/funding-manager/staking-manager"
-                      }
-                    ],
-                    "collapsed": true,
-                    "collapsible": true
-                  },
-                  {
-                    "type": "category",
-                    "label": "Logic Module",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "modules/logic-module/overview"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "modules/logic-module/bounty-manager"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "modules/logic-module/kpi-rewarder"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "modules/logic-module/recurring-payment-manager"
-                      }
-                    ],
-                    "collapsed": true,
-                    "collapsible": true
-                  },
-                  {
-                    "type": "category",
-                    "label": "Payment Processor",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "modules/payment-processor/overview"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "modules/payment-processor/simple-payment-processor"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "modules/payment-processor/streaming-payment-processor"
+                        "id": "concepts/protocol-concepts/fees"
                       }
                     ],
                     "collapsed": true,
@@ -1409,7 +1232,15 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "SDK/control-room"
+                    "id": "SDK/api"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "SDK/guides"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "SDK/quick-start"
                   }
                 ],
                 "collapsed": true,
@@ -1421,55 +1252,19 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "contracts/overview"
+                    "id": "contracts/deployment-addresses"
                   },
                   {
-                    "type": "category",
-                    "label": "Build/Contribute",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "contracts/build-contribute/quick-start"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "contracts/build-contribute/overview"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "contracts/build-contribute/development-workflow"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "contracts/build-contribute/guides"
-                      }
-                    ],
-                    "collapsed": true,
-                    "collapsible": true
+                    "type": "doc",
+                    "id": "contracts/security-guidelines"
                   },
                   {
-                    "type": "category",
-                    "label": "Contracts",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "contracts/contracts/overview"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "contracts/contracts/deployment-addresses"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "contracts/contracts/security"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "contracts/contracts/technical-reference"
-                      }
-                    ],
-                    "collapsed": true,
-                    "collapsible": true
+                    "type": "doc",
+                    "id": "contracts/technical-paper"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "contracts/technical-reference"
                   }
                 ],
                 "collapsed": true,
@@ -1477,63 +1272,11 @@
               },
               {
                 "type": "category",
-                "label": "Apps",
+                "label": "Support",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "apps/overview"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "apps/control-room"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Security Standard",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "security/security-guideline"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "security/protocol-architecture"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "security/testing"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "security/audits"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "security/intervention"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "security/access-control"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "FAQ",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "faq/general-faq"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "faq/technical-faq"
+                    "id": "support/general-faq"
                   }
                 ],
                 "collapsed": true,

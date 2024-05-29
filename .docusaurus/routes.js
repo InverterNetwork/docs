@@ -39,43 +39,179 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '86d'),
+    component: ComponentCreator('/', 'c10'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'c66'),
+        component: ComponentCreator('/', 'c2e'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'ab9'),
+            component: ComponentCreator('/', '146'),
             routes: [
               {
                 path: '/apps/control-room',
-                component: ComponentCreator('/apps/control-room', 'fa6'),
-                exact: true,
-                sidebar: "docs"
+                component: ComponentCreator('/apps/control-room', '1b7'),
+                exact: true
               },
               {
                 path: '/apps/overview',
-                component: ComponentCreator('/apps/overview', 'ff6'),
+                component: ComponentCreator('/apps/overview', '535'),
+                exact: true
+              },
+              {
+                path: '/concepts/protocol-concepts/fees',
+                component: ComponentCreator('/concepts/protocol-concepts/fees', '1e4'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/concepts/glossary',
-                component: ComponentCreator('/concepts/glossary', 'c30'),
+                path: '/concepts/protocol-concepts/governance',
+                component: ComponentCreator('/concepts/protocol-concepts/governance', 'cb3'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/concepts/governance',
-                component: ComponentCreator('/concepts/governance', '0e4'),
+                path: '/concepts/protocol-concepts/module-library',
+                component: ComponentCreator('/concepts/protocol-concepts/module-library', '718'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/concepts/protocol-concepts',
-                component: ComponentCreator('/concepts/protocol-concepts', '53f'),
+                path: '/concepts/protocol-concepts/primary-issuance-markets',
+                component: ComponentCreator('/concepts/protocol-concepts/primary-issuance-markets', 'ed5'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/security/access-control',
+                component: ComponentCreator('/concepts/protocol-concepts/security/access-control', '54b'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/security/audits',
+                component: ComponentCreator('/concepts/protocol-concepts/security/audits', '145'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/security/intervention',
+                component: ComponentCreator('/concepts/protocol-concepts/security/intervention', '790'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/security/protocol-architecture',
+                component: ComponentCreator('/concepts/protocol-concepts/security/protocol-architecture', '816'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/security/security-guideline',
+                component: ComponentCreator('/concepts/protocol-concepts/security/security-guideline', 'ec2'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/security/testing',
+                component: ComponentCreator('/concepts/protocol-concepts/security/testing', '014'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/authorizer/overview',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/authorizer/overview', 'cd6'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/authorizer/role-authorizer',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/authorizer/role-authorizer', '701'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module', '64c'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer', 'a97'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve', '991'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/funding-manager/overview',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/funding-manager/overview', '077'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager', '720'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/funding-manager/staking-manager',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/funding-manager/staking-manager', '31f'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/logic-module/bounty-manager',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/logic-module/bounty-manager', '609'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder', '3b0'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/logic-module/overview',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/logic-module/overview', 'b25'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager', 'e6d'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/payment-processor/overview',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/payment-processor/overview', 'e75'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor', 'ed6'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor',
+                component: ComponentCreator('/concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor', '8b1'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/concepts/the-inverter-network-protocol',
+                component: ComponentCreator('/concepts/the-inverter-network-protocol', '1bc'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -92,235 +228,56 @@ export default [
                 sidebar: "docs"
               },
               {
-                path: '/contracts/build-contribute/development-workflow',
-                component: ComponentCreator('/contracts/build-contribute/development-workflow', '926'),
+                path: '/contracts/deployment-addresses',
+                component: ComponentCreator('/contracts/deployment-addresses', '242'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/contracts/build-contribute/guides',
-                component: ComponentCreator('/contracts/build-contribute/guides', '630'),
+                path: '/contracts/security-guidelines',
+                component: ComponentCreator('/contracts/security-guidelines', 'ee0'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/contracts/build-contribute/overview',
-                component: ComponentCreator('/contracts/build-contribute/overview', '4b6'),
+                path: '/contracts/technical-paper',
+                component: ComponentCreator('/contracts/technical-paper', '7d5'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/contracts/build-contribute/quick-start',
-                component: ComponentCreator('/contracts/build-contribute/quick-start', '481'),
+                path: '/contracts/technical-reference',
+                component: ComponentCreator('/contracts/technical-reference', 'f47'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/contracts/contracts/deployment-addresses',
-                component: ComponentCreator('/contracts/contracts/deployment-addresses', 'e42'),
+                path: '/SDK/api',
+                component: ComponentCreator('/SDK/api', 'adc'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/contracts/contracts/overview',
-                component: ComponentCreator('/contracts/contracts/overview', '376'),
+                path: '/SDK/guides',
+                component: ComponentCreator('/SDK/guides', '32a'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/contracts/contracts/security',
-                component: ComponentCreator('/contracts/contracts/security', 'efe'),
+                path: '/SDK/quick-start',
+                component: ComponentCreator('/SDK/quick-start', '64f'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/contracts/contracts/technical-reference',
-                component: ComponentCreator('/contracts/contracts/technical-reference', '115'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/contracts/overview',
-                component: ComponentCreator('/contracts/overview', '782'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/contracts/SDK',
-                component: ComponentCreator('/contracts/SDK', 'd5d'),
-                exact: true
-              },
-              {
-                path: '/faq/general-faq',
-                component: ComponentCreator('/faq/general-faq', '223'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/faq/technical-faq',
-                component: ComponentCreator('/faq/technical-faq', '9b9'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/getting-started/deploying-your-workflow',
-                component: ComponentCreator('/getting-started/deploying-your-workflow', '1a0'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/getting-started/develop-a-module',
-                component: ComponentCreator('/getting-started/develop-a-module', '8e4'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/getting-started/start-learning',
-                component: ComponentCreator('/getting-started/start-learning', 'b3a'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/getting-started/understanding-architecture',
-                component: ComponentCreator('/getting-started/understanding-architecture', 'fdb'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/authorizer/overview',
-                component: ComponentCreator('/modules/authorizer/overview', 'e1d'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/authorizer/role-authorizer',
-                component: ComponentCreator('/modules/authorizer/role-authorizer', '17b'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/authorizer/single-vote-governance-module',
-                component: ComponentCreator('/modules/authorizer/single-vote-governance-module', 'e0b'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/authorizer/token-gated-role-authorizer',
-                component: ComponentCreator('/modules/authorizer/token-gated-role-authorizer', 'f17'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/funding-manager/bonding-curve',
-                component: ComponentCreator('/modules/funding-manager/bonding-curve', 'a7c'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/funding-manager/overview',
-                component: ComponentCreator('/modules/funding-manager/overview', '701'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/funding-manager/rebasing-funding-manager',
-                component: ComponentCreator('/modules/funding-manager/rebasing-funding-manager', 'e40'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/funding-manager/staking-manager',
-                component: ComponentCreator('/modules/funding-manager/staking-manager', 'fd7'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/logic-module/bounty-manager',
-                component: ComponentCreator('/modules/logic-module/bounty-manager', '189'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/logic-module/kpi-rewarder',
-                component: ComponentCreator('/modules/logic-module/kpi-rewarder', '025'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/logic-module/overview',
-                component: ComponentCreator('/modules/logic-module/overview', '6ae'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/logic-module/recurring-payment-manager',
-                component: ComponentCreator('/modules/logic-module/recurring-payment-manager', '9d5'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/payment-processor/overview',
-                component: ComponentCreator('/modules/payment-processor/overview', '86b'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/payment-processor/simple-payment-processor',
-                component: ComponentCreator('/modules/payment-processor/simple-payment-processor', 'a71'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/modules/payment-processor/streaming-payment-processor',
-                component: ComponentCreator('/modules/payment-processor/streaming-payment-processor', '367'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/SDK/control-room',
-                component: ComponentCreator('/SDK/control-room', 'dcd'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/security/access-control',
-                component: ComponentCreator('/security/access-control', '7c6'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/security/audits',
-                component: ComponentCreator('/security/audits', '91a'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/security/intervention',
-                component: ComponentCreator('/security/intervention', 'da5'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/security/protocol-architecture',
-                component: ComponentCreator('/security/protocol-architecture', '959'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/security/security-guideline',
-                component: ComponentCreator('/security/security-guideline', '294'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/security/testing',
-                component: ComponentCreator('/security/testing', 'd06'),
+                path: '/support/general-faq',
+                component: ComponentCreator('/support/general-faq', 'b02'),
                 exact: true,
                 sidebar: "docs"
               },
               {
                 path: '/',
-                component: ComponentCreator('/', 'a08'),
+                component: ComponentCreator('/', 'e4a'),
                 exact: true,
                 sidebar: "docs"
               }

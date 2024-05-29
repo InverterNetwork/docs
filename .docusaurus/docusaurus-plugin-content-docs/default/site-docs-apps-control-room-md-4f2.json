@@ -1,7 +1,7 @@
 {
   "id": "apps/control-room",
-  "title": "Control Room",
-  "description": "",
+  "title": "Control Room Manual",
+  "description": "Introduction",
   "source": "@site/docs/apps/control-room.md",
   "sourceDirName": "apps",
   "slug": "/apps/control-room",
@@ -14,15 +14,6 @@
   "frontMatter": {
     "sidebar_position": 2,
     "Id": "control-room",
-    "title": "Control Room"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "Overview",
-    "permalink": "/apps/overview"
-  },
-  "next": {
-    "title": "Inverter Security Guideline",
-    "permalink": "/security/security-guideline"
+    "title": "Control Room Manual"
   }
 }

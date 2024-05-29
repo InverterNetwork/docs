@@ -10,19 +10,19 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 2,
+    "sidebar_position": 3,
     "id": "use-cases",
     "title": "Use Cases"
   },
   "sidebar": "docs",
   "previous": {
-    "title": "What is Inverter Network",
-    "permalink": "/concepts/what-is-inverter-network"
+    "title": "The Inverter Network Protocol",
+    "permalink": "/concepts/the-inverter-network-protocol"
   },
   "next": {
-    "title": "Protocol Concepts",
-    "permalink": "/concepts/protocol-concepts"
+    "title": "About Authorizer Modules",
+    "permalink": "/concepts/protocol-concepts/workflow-model/authorizer/overview"
   }
 }

@@ -1,95 +1,107 @@
 export default {
-  docs: {
-    'Getting Started': [
-      'getting-started/intro',
-      'getting-started/deploying-your-workflow',
-      'getting-started/develop-a-module',
-      'getting-started/start-learning',
-      'getting-started/understanding-architecture',
-    ],
-    Concepts: [
-      'concepts/what-is-inverter-network',
-      'concepts/use-cases',
-      'concepts/protocol-concepts',
-      'concepts/governance',
-      'concepts/glossary',
-    ],
-    Modules: [
-      {
-        type: 'category',
-        label: 'Authorizer',
-        items: [
-          'modules/authorizer/overview',
-          'modules/authorizer/role-authorizer',
-          'modules/authorizer/token-gated-role-authorizer',
-          'modules/authorizer/single-vote-governance-module',
-        ],
-      },
-      {
-        type: 'category',
-        label: 'Funding Manager',
-        items: [
-          'modules/funding-manager/overview',
-          'modules/funding-manager/bonding-curve',
-          'modules/funding-manager/rebasing-funding-manager',
-          'modules/funding-manager/staking-manager',
-        ],
-      },
-      {
-        type: 'category',
-        label: 'Logic Module',
-        items: [
-          'modules/logic-module/overview',
-          'modules/logic-module/bounty-manager',
-          'modules/logic-module/kpi-rewarder',
-          'modules/logic-module/recurring-payment-manager',
-        ],
-      },
-
-      {
-        type: 'category',
-        label: 'Payment Processor',
-        items: [
-          'modules/payment-processor/overview',
-          'modules/payment-processor/simple-payment-processor',
-          'modules/payment-processor/streaming-payment-processor',
-        ],
-      },
-    ],
-    SDK: ['SDK/control-room'],
-    Contracts: [
-      'contracts/overview',
-      {
-        type: 'category',
-        label: 'Build/Contribute',
-        items: [
-          'contracts/build-contribute/quick-start',
-          'contracts/build-contribute/overview',
-          'contracts/build-contribute/development-workflow',
-          'contracts/build-contribute/guides',
-        ],
-      },
-      {
-        type: 'category',
-        label: 'Contracts',
-        items: [
-          'contracts/contracts/overview',
-          'contracts/contracts/deployment-addresses',
-          'contracts/contracts/security',
-          'contracts/contracts/technical-reference',
-        ],
-      },
-    ],
-    Apps: ['apps/overview', 'apps/control-room'],
-    'Security Standard': [
-      // Corrected spelling from "Standart" to "Standard"
-      'security/security-guideline',
-      'security/protocol-architecture',
-      'security/testing',
-      'security/audits',
-      'security/intervention',
-      'security/access-control',
-    ],
-    FAQ: ['faq/general-faq', 'faq/technical-faq'],
-  },
-}
+  docs: [
+    'getting-started',
+    {
+      type: 'category',
+      label: 'Concepts',
+      items: [
+        'concepts/what-is-inverter-network',
+        'concepts/the-inverter-network-protocol',
+        'concepts/use-cases',
+        {
+          type: 'category',
+          label: 'Protocol Concepts',
+          items: [
+            {
+              type: 'category',
+              label: 'Workflow Model',
+              items: [
+                {
+                  type: 'category',
+                  label: 'Authorizer',
+                  items: [
+                    'concepts/protocol-concepts/workflow-model/authorizer/overview',
+                    'concepts/protocol-concepts/workflow-model/authorizer/role-authorizer',
+                    'concepts/protocol-concepts/workflow-model/authorizer/token-gated-role-authorizer',
+                    'concepts/protocol-concepts/workflow-model/authorizer/single-vote-governance-module',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Funding Manager',
+                  items: [
+                    'concepts/protocol-concepts/workflow-model/funding-manager/overview',
+                    'concepts/protocol-concepts/workflow-model/funding-manager/bonding-curve',
+                    'concepts/protocol-concepts/workflow-model/funding-manager/rebasing-funding-manager',
+                    'concepts/protocol-concepts/workflow-model/funding-manager/staking-manager',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Logic Module',
+                  items: [
+                    'concepts/protocol-concepts/workflow-model/logic-module/overview',
+                    'concepts/protocol-concepts/workflow-model/logic-module/bounty-manager',
+                    'concepts/protocol-concepts/workflow-model/logic-module/kpi-rewarder',
+                    'concepts/protocol-concepts/workflow-model/logic-module/recurring-payment-manager',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Payment Processor',
+                  items: [
+                    'concepts/protocol-concepts/workflow-model/payment-processor/overview',
+                    'concepts/protocol-concepts/workflow-model/payment-processor/simple-payment-processor',
+                    'concepts/protocol-concepts/workflow-model/payment-processor/streaming-payment-processor',
+                  ],
+                },
+              ],
+            },
+            'concepts/protocol-concepts/module-library',
+            'concepts/protocol-concepts/primary-issuance-markets',
+            'concepts/protocol-concepts/governance',
+            {
+              type: 'category',
+              label: 'Security',
+              items: [
+                'concepts/protocol-concepts/security/security-guideline',
+                'concepts/protocol-concepts/security/protocol-architecture',
+                'concepts/protocol-concepts/security/testing',
+                'concepts/protocol-concepts/security/audits',
+                'concepts/protocol-concepts/security/intervention',
+                'concepts/protocol-concepts/security/access-control',
+              ],
+            },
+            'concepts/protocol-concepts/fees',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'SDK',
+      items: [
+        'SDK/api',
+        'SDK/guides',
+        'SDK/quick-start',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Contracts',
+      items: [
+        'contracts/deployment-addresses',
+        'contracts/security-guidelines',
+        'contracts/technical-paper',
+        'contracts/technical-reference',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Support',
+      items: [
+        'support/general-faq',
+      ],
+    },
+  ],
+};
